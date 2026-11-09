@@ -1,4 +1,5 @@
 node_modules/
 Material Bruto/*
 Videos Prontos/*
+planos/.*.props.json
 !**/.gitkeep

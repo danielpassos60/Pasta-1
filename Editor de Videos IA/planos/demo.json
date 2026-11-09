@@ -1,0 +1,16 @@
+{
+  "video": "demo.mp4", "durationSec": 14, "coverAt": 1,
+  "title": {"tag": "(tour pelo meu)", "text": "guia de marca", "images": ["midia/teste1.jpg","midia/teste2.jpg","midia/teste3.jpg"], "until": 3},
+  "captions": [
+    {"text": "pra que serve um guia de marca", "start": 0.2, "end": 2.8},
+    {"text": "ele é como um mapa", "start": 3.2, "end": 5},
+    {"text": "da sua marca inteira", "start": 5, "end": 6.5},
+    {"text": "três pilares", "start": 9, "end": 10.5},
+    {"text": "e é só isso", "start": 12, "end": 13.8}
+  ],
+  "emphasis": [{"text": "mapa da marca", "start": 3.4, "end": 5, "x": 50, "y": 20, "rot": -3}],
+  "inserts": [
+    {"type": "card", "start": 6.5, "end": 8.5, "src": "midia/teste1.jpg", "label": "[o guia]", "caption": "exemplo de guia"},
+    {"type": "explain", "start": 9, "end": 12, "explain": {"kind": "checklist", "tag": "01 / pilares", "items": [{"text": "Logo", "at": 0.6}, {"text": "Cores", "at": 1.3}, {"text": "Tipografia", "at": 2.0}]}}
+  ]
+}

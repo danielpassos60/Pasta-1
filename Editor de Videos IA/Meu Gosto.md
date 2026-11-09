@@ -10,3 +10,6 @@ Estude os vídeos da pasta `Referencias/`: ritmo, legendas, cor e movimento.
 - Legendas: grandes, centralizadas, palavra por palavra, destaque na palavra-chave
 - Formato: 9:16, 1080x1920
 - Gancho: primeiros 3 segundos devem prender
+
+## Estilo travado (ver MODELO.md)
+Verde #CAFC00 · Inter Tight · legenda pequena com marca-texto · inserts em cartão verde · explicações animadas em fundo escuro · estalos/pops a cada inserto.
