@@ -53,8 +53,8 @@ export const TitleBlock: React.FC<{title: NonNullable<Plan['title']>}> = ({title
   const frame = useCurrentFrame(); const {fps} = useVideoConfig(); const t = frame / fps;
   const until = title.until ?? 3.5;
   if (t > until) return null;
-  const s = pop(frame, fps);
-  const out = interpolate(t, [until - 0.25, until], [1, 0], {extrapolateLeft: 'clamp'});
+  const s = until >= 999 ? 1 : pop(frame, fps);
+  const out = until >= 999 ? 1 : interpolate(t, [until - 0.25, until], [1, 0], {extrapolateLeft: 'clamp'});
   const imgs = title.images ?? [];
   return (
     <AbsoluteFill style={{opacity: out}}>

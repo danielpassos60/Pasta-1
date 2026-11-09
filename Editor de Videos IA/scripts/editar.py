@@ -24,9 +24,17 @@ def cortar_silencios(src, dst, db=-32, minsil=0.4, pad=0.08):
     sh(['ffmpeg','-y','-i',src,'-filter_complex',f + ';[v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30[vo]','-map','[vo]','-map','[a]','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',dst], stderr=subprocess.DEVNULL)
 
 def transcrever(path, modelo='small'):
+    """Usa faster-whisper se WHISPER_MODEL_DIR existir (modelo local, sem internet); senão openai-whisper."""
+    d = os.environ.get('WHISPER_MODEL_DIR')
+    if d and os.path.isdir(d):
+        import wave, numpy as np
+        from faster_whisper import WhisperModel
+        subprocess.run(['ffmpeg','-y','-v','error','-i',path,'-vn','-ac','1','-ar','16000','/tmp/_t.wav'], check=True)
+        w = wave.open('/tmp/_t.wav'); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+        seg, _ = WhisperModel(d, device='cpu', compute_type='int8').transcribe(a, language='pt', word_timestamps=True)
+        return {'segments': [{'words': [{'word': x.word, 'start': x.start, 'end': x.end} for x in s.words]} for s in seg]}
     import whisper
-    m = whisper.load_model(modelo)
-    return m.transcribe(path, language='pt', word_timestamps=True)
+    return whisper.load_model(modelo).transcribe(path, language='pt', word_timestamps=True)
 
 def legendas(res, max_palavras=4, max_gap=0.45):
     words = [w for s in res['segments'] for w in s['words']]

@@ -1,0 +1,415 @@
+{
+  "video": "teste_financas.mp4",
+  "durationSec": 43.8,
+  "coverAt": 1.0,
+  "title": {
+    "tag": "(decisões financeiras)",
+    "text": "pós-eleição",
+    "images": [
+      "midia/t_real.png",
+      "midia/t_graf.png",
+      "midia/t_poupar.png",
+      "midia/t_eleicao.png"
+    ],
+    "until": 3.2
+  },
+  "captions": [
+    {
+      "text": "decisões financeiras de vida",
+      "start": 0.0,
+      "end": 1.42
+    },
+    {
+      "text": "que eu faria e",
+      "start": 1.42,
+      "end": 2.22
+    },
+    {
+      "text": "não faria agora pós",
+      "start": 2.22,
+      "end": 3.14
+    },
+    {
+      "text": "-eleição",
+      "start": 3.14,
+      "end": 3.56
+    },
+    {
+      "text": "pelo menos pelo próximo",
+      "start": 3.56,
+      "end": 4.42
+    },
+    {
+      "text": "ano",
+      "start": 4.42,
+      "end": 4.76
+    },
+    {
+      "text": "pra gente dar uma",
+      "start": 4.76,
+      "end": 5.2
+    },
+    {
+      "text": "estudada e ver como",
+      "start": 5.2,
+      "end": 5.86
+    },
+    {
+      "text": "é que vai ser",
+      "start": 5.86,
+      "end": 6.44
+    },
+    {
+      "text": "pra mim",
+      "start": 6.62,
+      "end": 7.0
+    },
+    {
+      "text": "independente de quem é",
+      "start": 7.0,
+      "end": 7.84
+    },
+    {
+      "text": "essa eleição",
+      "start": 7.84,
+      "end": 8.44
+    },
+    {
+      "text": "os próximos 4 anos",
+      "start": 8.46,
+      "end": 9.5
+    },
+    {
+      "text": "no brasil seriam mornos",
+      "start": 9.5,
+      "end": 10.68
+    },
+    {
+      "text": "para ruim",
+      "start": 10.68,
+      "end": 11.24
+    },
+    {
+      "text": "mas não acho que",
+      "start": 11.24,
+      "end": 11.86
+    },
+    {
+      "text": "vai ser também um",
+      "start": 11.86,
+      "end": 12.66
+    },
+    {
+      "text": "desastre",
+      "start": 12.66,
+      "end": 13.36
+    },
+    {
+      "text": "e também não acho",
+      "start": 13.36,
+      "end": 14.12
+    },
+    {
+      "text": "que um outro candidato",
+      "start": 14.12,
+      "end": 14.96
+    },
+    {
+      "text": "faria um grande milagre",
+      "start": 14.96,
+      "end": 16.18
+    },
+    {
+      "text": "entendeu?",
+      "start": 16.18,
+      "end": 16.4
+    },
+    {
+      "text": "eu acho que fica",
+      "start": 16.4,
+      "end": 16.98
+    },
+    {
+      "text": "nessa coisa como tá",
+      "start": 16.98,
+      "end": 17.98
+    },
+    {
+      "text": "agora",
+      "start": 17.98,
+      "end": 18.36
+    },
+    {
+      "text": "eu vejo pessoas falando",
+      "start": 18.36,
+      "end": 18.9
+    },
+    {
+      "text": "não",
+      "start": 18.9,
+      "end": 19.08
+    },
+    {
+      "text": "mas tá todo mundo",
+      "start": 19.08,
+      "end": 19.52
+    },
+    {
+      "text": "comprando muito",
+      "start": 19.52,
+      "end": 20.3
+    },
+    {
+      "text": "as pessoas estão brigando",
+      "start": 20.3,
+      "end": 21.26
+    },
+    {
+      "text": "pra comprar bolsa",
+      "start": 21.26,
+      "end": 22.26
+    },
+    {
+      "text": "pra comprar roupa",
+      "start": 22.26,
+      "end": 22.96
+    },
+    {
+      "text": "não sei o quê",
+      "start": 22.96,
+      "end": 23.5
+    },
+    {
+      "text": "mas isso não é",
+      "start": 23.7,
+      "end": 24.16
+    },
+    {
+      "text": "um reflexo da economia",
+      "start": 24.16,
+      "end": 25.32
+    },
+    {
+      "text": "mas sim",
+      "start": 25.32,
+      "end": 25.86
+    },
+    {
+      "text": "porque as pessoas fazem",
+      "start": 25.98,
+      "end": 26.98
+    },
+    {
+      "text": "escolhas",
+      "start": 26.98,
+      "end": 27.46
+    },
+    {
+      "text": "irresponsáveis",
+      "start": 27.92,
+      "end": 28.28
+    },
+    {
+      "text": "no mundo todo",
+      "start": 28.28,
+      "end": 28.9
+    },
+    {
+      "text": "as pessoas viraram mais",
+      "start": 28.9,
+      "end": 29.7
+    },
+    {
+      "text": "consumista",
+      "start": 29.7,
+      "end": 30.42
+    },
+    {
+      "text": "porque antigamente você tinha",
+      "start": 30.42,
+      "end": 31.78
+    },
+    {
+      "text": "aqui até uma loja",
+      "start": 31.78,
+      "end": 32.52
+    },
+    {
+      "text": "pra comprar uma coisa",
+      "start": 32.52,
+      "end": 33.34
+    },
+    {
+      "text": "hoje em dia você",
+      "start": 33.34,
+      "end": 33.64
+    },
+    {
+      "text": "compra com um botão",
+      "start": 33.64,
+      "end": 34.46
+    },
+    {
+      "text": "no seu celular",
+      "start": 34.46,
+      "end": 35.06
+    },
+    {
+      "text": "então assim",
+      "start": 35.22,
+      "end": 35.52
+    },
+    {
+      "text": "ficou muito mais fácil",
+      "start": 35.64,
+      "end": 36.24
+    },
+    {
+      "text": "você consumir",
+      "start": 36.24,
+      "end": 36.82
+    },
+    {
+      "text": "muito mais fácil você",
+      "start": 36.82,
+      "end": 37.46
+    },
+    {
+      "text": "se endividar e muito",
+      "start": 37.46,
+      "end": 38.16
+    },
+    {
+      "text": "mais fácil você fazer",
+      "start": 38.16,
+      "end": 38.8
+    },
+    {
+      "text": "escolhas irresponsáveis",
+      "start": 38.8,
+      "end": 39.94
+    },
+    {
+      "text": "então a primeira dica",
+      "start": 40.1,
+      "end": 40.68
+    },
+    {
+      "text": "que eu tenho pra",
+      "start": 40.68,
+      "end": 41.04
+    },
+    {
+      "text": "te dar é o",
+      "start": 41.04,
+      "end": 41.4
+    },
+    {
+      "text": "seguinte",
+      "start": 41.4,
+      "end": 41.66
+    },
+    {
+      "text": "você deveria economizar um",
+      "start": 41.94,
+      "end": 42.98
+    },
+    {
+      "text": "dinheiro",
+      "start": 42.98,
+      "end": 43.36
+    },
+    {
+      "text": "eu sei que isso",
+      "start": 43.36,
+      "end": 43.56
+    },
+    {
+      "text": "é de f",
+      "start": 43.56,
+      "end": 43.9
+    }
+  ],
+  "emphasis": [
+    {
+      "text": "nem desastre\nnem milagre",
+      "start": 12.7,
+      "end": 16.3,
+      "y": 15,
+      "rot": -3,
+      "size": 76
+    },
+    {
+      "text": "escolhas\nirresponsáveis",
+      "start": 27.0,
+      "end": 28.7,
+      "y": 15,
+      "rot": 3,
+      "size": 76
+    }
+  ],
+  "inserts": [
+    {
+      "type": "explain",
+      "start": 8.9,
+      "end": 11.3,
+      "explain": {
+        "kind": "bignumber",
+        "tag": "01 / próximo ciclo",
+        "value": 4,
+        "suffix": " anos",
+        "label": "mornos pra ruim"
+      }
+    },
+    {
+      "type": "card",
+      "start": 20.7,
+      "end": 23.5,
+      "src": "midia/card_compras.png",
+      "label": "[todo mundo comprando]",
+      "caption": "bolsa, roupa, consumo"
+    },
+    {
+      "type": "float",
+      "start": 33.5,
+      "end": 35.1,
+      "src": "midia/float_botao.png",
+      "label": "um botão no celular"
+    },
+    {
+      "type": "explain",
+      "start": 36.0,
+      "end": 40.0,
+      "explain": {
+        "kind": "flow",
+        "tag": "02 / consumo fácil",
+        "items": [
+          {
+            "text": "consumir",
+            "at": 0.4
+          },
+          {
+            "text": "se endividar",
+            "at": 1.5
+          },
+          {
+            "text": "escolher mal",
+            "at": 2.6
+          }
+        ]
+      }
+    },
+    {
+      "type": "explain",
+      "start": 40.4,
+      "end": 43.8,
+      "explain": {
+        "kind": "bignumber",
+        "tag": "dica 01",
+        "value": 1,
+        "prefix": "nº ",
+        "label": "economizar um dinheiro"
+      }
+    }
+  ]
+}
