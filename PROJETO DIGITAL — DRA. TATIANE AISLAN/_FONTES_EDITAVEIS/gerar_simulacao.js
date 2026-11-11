@@ -7,7 +7,7 @@ const { pastaPost, slug } = require('./gerar_artes');
 
 // Usuário ILUSTRATIVO (substituir pelo @ oficial quando confirmado). Link = site publicado.
 const USUARIO = 'dra.tatianeaislan';
-const LINK = 'danielpassos60.github.io/Pasta-1/dratatianeaislan';
+const LINK = 'dratatianeaislan.netlify.app';
 
 const capa = (p) => {
   const d = pastaPost(p);

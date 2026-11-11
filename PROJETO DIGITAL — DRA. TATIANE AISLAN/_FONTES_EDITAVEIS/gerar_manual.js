@@ -194,7 +194,7 @@ function corpo(tocPages = {}) {
   <p>Início (logo, frase institucional, foto e botão de WhatsApp) · Saúde, Função e Estética · Sobre a profissional · Procedimentos (reabilitação oral, implantes, cirurgias, extrações e siso, restaurações, avaliação) · Primeira consulta · Agendamento · Rodapé com nome, CRO, WhatsApp e Instagram.</p>
   <p><b>WhatsApp configurado:</b> ${PERFIL.whatsapp}, com a mensagem automática “Olá, Dra. Tatiane! Encontrei seu site e gostaria de informações sobre uma consulta.”</p>
   <h2>Endereço do site</h2>
-  <div class="box"><b>Site no ar (endereço provisório):</b><br><span style="font-size:11pt;color:${C.caramEsc}">https://danielpassos60.github.io/Pasta-1/dratatianeaislan/</span><br><span class="small">Publicado gratuitamente pelo GitHub Pages. Para ter um endereço curto e definitivo no nome da Dra., siga os passos abaixo; o endereço provisório pode continuar funcionando até lá.</span></div>
+  <div class="box"><b>Site no ar:</b><br><span style="font-size:13pt;color:${C.caramEsc}">https://dratatianeaislan.netlify.app/</span><br><span class="small">Publicado na Netlify (gratuita), ligado ao GitHub: toda atualização salva no repositório vai para o site automaticamente.</span></div>
   <table><tr><th>Endereço sugerido</th><th>Verificação de disponibilidade (11/11/2026)</th></tr>
   <tr><td>dratatianeaislan.netlify.app <b>(recomendado)</b></td><td>Não foi possível testar daqui. A Netlify confirma na hora de renomear o site.</td></tr>
   <tr><td>dratatianeaislan.github.io</td><td>O usuário “dratatianeaislan” não existe no GitHub, o que indica que está livre.</td></tr>

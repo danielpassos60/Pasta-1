@@ -15,7 +15,7 @@ Identidade visual aplicada, site, Instagram e manual · Desenvolvido por **Danie
 
 ## Pendências (dependem da Dra.)
 1. **@ do Instagram e print do perfil atual**: não foram enviados. O botão do Instagram no site está pronto, mas oculto até o preenchimento.
-2. **Site**: já está no ar em https://danielpassos60.github.io/Pasta-1/dratatianeaislan/ (provisório). Para um endereço curto no nome da Dra., siga `02_SITE/COMO_PUBLICAR.md`.
+2. **Site**: no ar em https://dratatianeaislan.netlify.app/
 3. **Autorizações de imagem**: a publicação 07 e o story 08 usam fotos da Dra. em atendimento. Confirme que nenhum paciente ou colega é identificável sem autorização.
 4. **Revisar a publicação 35** (fluxo da primeira consulta): confirme se corresponde à rotina real da Dra.
 
