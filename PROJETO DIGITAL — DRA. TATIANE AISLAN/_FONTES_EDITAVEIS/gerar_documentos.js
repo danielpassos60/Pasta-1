@@ -88,7 +88,7 @@ ${DESTAQUES.map((d, i) => `| destaque${i + 1}_${slug(d.nome).toLowerCase()}.png 
 **Como aplicar a capa:** abra o destaque → ⋯ Editar destaque → Editar capa → ícone de galeria → escolha a imagem → centralize.
 
 ## Simulação
-Veja \`SIMULACAO_PERFIL/\`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. O @ e o link da simulação são **ilustrativos** até a confirmação dos oficiais.
+Veja \`SIMULACAO_PERFIL/\`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. O @ da simulação é **ilustrativo** até a confirmação do oficial; o link é o do site publicado.
 `);
 
 // ---------------------------------------------------------------- 07 stories

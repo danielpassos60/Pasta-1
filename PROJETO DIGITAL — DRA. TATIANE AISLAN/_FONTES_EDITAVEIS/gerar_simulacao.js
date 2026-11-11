@@ -5,9 +5,9 @@ const { render, close, htmlDoc, fileUrl, ROOT, FOTO, C } = require('./base');
 const { POSTS, BIOS, BIO_RECOMENDADA, NOME_PERFIL, DESTAQUES } = require('./conteudo');
 const { pastaPost, slug } = require('./gerar_artes');
 
-// Usuário e link ILUSTRATIVOS (substituir pelos oficiais quando confirmados)
+// Usuário ILUSTRATIVO (substituir pelo @ oficial quando confirmado). Link = site publicado.
 const USUARIO = 'dra.tatianeaislan';
-const LINK = 'dratatianeaislan.netlify.app';
+const LINK = 'danielpassos60.github.io/Pasta-1/dratatianeaislan';
 
 const capa = (p) => {
   const d = pastaPost(p);
@@ -34,7 +34,7 @@ function perfil(n) {
      <div style="font-weight:600">${NOME_PERFIL}</div>
      <div style="color:#737373">Dentista</div>
      ${bio}
-     <div style="color:#00376b;font-weight:600;margin-top:2px">🔗 ${LINK}</div>
+     <div style="color:#00376b;font-weight:600;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">🔗 ${LINK}</div>
    </div>
    <div style="display:flex;gap:6px;padding:12px 16px 0">${['Seguir', 'Mensagem', 'Contato'].map((t, i) => `<div style="flex:1;text-align:center;padding:7px 0;border-radius:8px;font-weight:600;font-size:13.5px;background:${i === 0 ? '#0095f6' : '#efefef'};color:${i === 0 ? '#fff' : '#000'}">${t}</div>`).join('')}</div>
    <div style="display:flex;gap:14px;padding:16px 16px 6px;overflow:hidden">${DESTAQUES.map((d, i) => `<div style="flex:none;width:66px;text-align:center;font-size:11.5px"><div style="width:66px;height:66px;border-radius:50%;border:1px solid #dbdbdb;padding:3px"><img src="${hl(i, d)}" style="width:100%;height:100%;border-radius:50%"></div><div style="margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${d.nome}</div></div>`).join('')}</div>

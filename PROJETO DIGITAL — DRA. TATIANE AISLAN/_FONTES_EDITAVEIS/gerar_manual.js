@@ -292,7 +292,7 @@ function corpo(tocPages = {}) {
   <table style="margin-top:5mm"><tr><th>Nº</th><th>Texto</th><th>Interação</th><th>CTA</th></tr>${STORIES.map((s) => `<tr><td><b>${pad(s.n)}</b></td><td>${esc(s.titulo)}</td><td class="small">${esc(s.interacao)}</td><td class="small">${esc(s.cta)}</td></tr>`).join('')}</table>`);
 
   // ---------------- 17 simulação
-  h += sec('17', 'Simulação do Instagram finalizado', 'Montada com as artes efetivamente criadas. O @ e o link são ilustrativos até a confirmação dos oficiais.', `
+  h += sec('17', 'Simulação do Instagram finalizado', 'Montada com as artes efetivamente criadas. O @ é ilustrativo até a confirmação do oficial; o link é o do site publicado.', `
   <div class="grid" style="grid-template-columns:1fr 1fr;align-items:start">
    <div><img src="${U(path.join(TH, 'simulacao_perfil_primeiras_12_publicacoes.jpg'))}" style="border:.5pt solid #ddd;max-height:190mm;width:auto;object-fit:contain"><div class="cap">Perfil após as 12 primeiras publicações</div></div>
    <div><p>A alternância entre capas ardósia e areia forma um padrão xadrez que permanece equilibrado a cada nova postagem, porque a grade tem 3 colunas. Fotografias e frases institucionais aparecem a cada 3 ou 4 publicações, trazendo calor humano e respiro.</p>
