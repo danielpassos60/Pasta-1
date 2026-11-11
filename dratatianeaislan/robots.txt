@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://danielpassos60.github.io/Pasta-1/dratatianeaislan/sitemap.xml
