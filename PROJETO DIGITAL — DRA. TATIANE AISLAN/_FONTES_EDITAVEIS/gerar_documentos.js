@@ -4,13 +4,14 @@ const path = require('path');
 const { ROOT, pad } = require('./base');
 const { PERFIL, REFS, POSTS, BIOS, BIO_RECOMENDADA, NOME_PERFIL, DESTAQUES, STORIES } = require('./conteudo');
 const { REELS } = require('./reels');
+const { DIAG } = require('./diagnostico');
 const { pastaPost, slug } = require('./gerar_artes');
 const W = (rel, txt) => { const f = path.join(ROOT, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, txt.trim() + '\n'); };
 const ref = (k) => `${REFS[k].c} Disponível em: ${REFS[k].l}`;
 const DIAS = ['segunda', 'quarta', 'sexta'];
 const quando = (n) => `Semana ${Math.ceil(n / 3)} · ${DIAS[(n - 1) % 3]}-feira`;
 
-const legendaCompleta = (p) => `${p.legenda}\n\n${p.cta}\n\nDra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044\nConteúdo educativo: não substitui a avaliação individual.\n\n${p.hashtags.join(' ')}`;
+const legendaCompleta = (p) => `${p.legenda}\n\n${p.cta}\n\nDra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044\n📍 Salvador e Lauro de Freitas – BA\nConteúdo educativo: não substitui a avaliação individual.\n\n${p.hashtags.join(' ')}`;
 
 // ---------------------------------------------------------------- 04 feed
 W('04_FEED_35_POSTS/LEGENDAS_COMPLETAS.md', `# Legendas completas — 35 publicações
@@ -58,20 +59,23 @@ ${refsUsadas.map((k) => REFS[k].c + ' ' + REFS[k].l).sort().map((r) => `- ${r}`)
 // ---------------------------------------------------------------- 03 instagram
 W('03_INSTAGRAM/BIOGRAFIAS_E_ORGANIZACAO_DO_PERFIL.md', `# Instagram — organização do perfil
 
-## Diagnóstico do perfil atual
-> **Pendência:** o print do Instagram atual não foi recebido, assim como o @ oficial. Por isso, não foi possível analisar o nome de usuário, a bio atual, o feed e os destaques existentes. Quando o print chegar, essa análise pode ser feita em poucos minutos.
+## Diagnóstico do perfil atual (@dratatianeaislan · ${DIAG.data})
+| Item | Como está | Situação | Recomendação |
+|---|---|---|---|
+${DIAG.atual.map(([a, b, c, d]) => [a, b, c === 'ok' ? '✅ ok' : c === 'atenção' ? '⚠️ atenção' : '✏️ ajustar', d].map((x) => x.replace(/\|/g, '\\|'))).map((r) => `| ${r.join(' | ')} |`).join('\n')}
 
-Enquanto isso, este é o checklist de organização (aplique na ordem):
+### Plano de ação (nesta ordem)
+${DIAG.acoes.map((a, i) => `${i + 1}. ${a}`).join('\n')}
+
+### Checklist de configuração
 1. **Tipo de conta:** profissional, categoria **Dentista**.
-2. **Nome (campo “Nome”):** \`${NOME_PERFIL}\`. Esse campo aparece na busca: incluir “Dentista” ajuda a ser encontrada.
-3. **Nome de usuário (@):** curto e fácil de ditar. Se for trocar, prefira algo como \`dra.tatianeaislan\` (verifique a disponibilidade no próprio app).
-4. **Foto de perfil:** recorte do rosto da fotografia oficial no consultório (sorrindo, jaleco branco). Alternativa: símbolo da marca em caramelo sobre ardósia (arquivo em \`01_IDENTIDADE_VISUAL/SIMBOLO_ISOLADO\`).
-5. **Bio:** escolha uma das 6 opções abaixo.
-6. **Link:** endereço do site (ver \`02_SITE/COMO_PUBLICAR.md\`).
-7. **Botões de contato:** ative “WhatsApp” com o número ${PERFIL.whatsapp}.
+2. **Nome:** \`${NOME_PERFIL}\`.
+3. **Usuário:** @dratatianeaislan (manter).
+4. **Foto de perfil:** recorte do rosto da fotografia oficial no consultório.
+5. **Bio:** opção ${BIO_RECOMENDADA + 1} abaixo.
+6. **Link:** https://dratatianeaislan.netlify.app
+7. **Botão de contato:** WhatsApp ${PERFIL.whatsapp} (já ativo).
 8. **Destaques:** 7 capas prontas em \`CAPAS_DESTAQUES\`.
-9. **Publicações antigas:** arquive (não exclua) as que não seguem o novo posicionamento ou que mostrem pacientes sem autorização.
-10. **Fixar no topo:** publicação 01 (apresentação) e, depois, a 35 (primeira consulta).
 
 ## Seis opções de biografia (limite: 150 caracteres)
 ${BIOS.map((b, i) => `### Opção ${i + 1} — ${b.titulo}${i === BIO_RECOMENDADA ? ' ⭐ RECOMENDADA' : ''} (${[...b.texto].length} caracteres)\n\`\`\`\n${b.texto}\n\`\`\``).join('\n\n')}
@@ -88,7 +92,7 @@ ${DESTAQUES.map((d, i) => `| destaque${i + 1}_${slug(d.nome).toLowerCase()}.png 
 **Como aplicar a capa:** abra o destaque → ⋯ Editar destaque → Editar capa → ícone de galeria → escolha a imagem → centralize.
 
 ## Simulação
-Veja \`SIMULACAO_PERFIL/\`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. O @ da simulação é **ilustrativo** até a confirmação do oficial; o link é o do site publicado.
+Veja \`SIMULACAO_PERFIL/\`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. A simulação usa o @ e o link oficiais.
 `);
 
 // ---------------------------------------------------------------- 07 stories
@@ -298,9 +302,9 @@ Identidade visual aplicada, site, Instagram e manual · Desenvolvido por **Danie
 | _FONTES_EDITAVEIS | Arquivos-fonte para editar textos e gerar as artes novamente (ver abaixo) |
 
 ## Pendências (dependem da Dra.)
-1. **@ do Instagram e print do perfil atual**: não foram enviados. O botão do Instagram no site está pronto, mas oculto até o preenchimento.
+1. **Perfil do Instagram**: aplicar o plano de ação de \`03_INSTAGRAM/BIOGRAFIAS_E_ORGANIZACAO_DO_PERFIL.md\` (@dratatianeaislan já ligado ao site).
 2. **Site**: no ar em https://dratatianeaislan.netlify.app/
-3. **Autorizações de imagem**: a publicação 07 e o story 08 usam fotos da Dra. em atendimento. Confirme que nenhum paciente ou colega é identificável sem autorização.
+3. **Autorizações de imagem**: confirmadas pelo responsável do projeto em 11/11/2026.
 4. **Revisar a publicação 35** (fluxo da primeira consulta): confirme se corresponde à rotina real da Dra.
 
 ## Como editar e gerar de novo (opcional, para quem usa computador)

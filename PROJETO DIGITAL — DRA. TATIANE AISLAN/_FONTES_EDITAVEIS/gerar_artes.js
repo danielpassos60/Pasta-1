@@ -32,6 +32,7 @@ ${p.legenda}
 ${p.cta}
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
 ${p.hashtags.join(' ')}

@@ -9,7 +9,7 @@ Muito prazer, eu sou a Dra. Tatiane Aislan. 🤍
 
 Sou cirurgiã-dentista, formada pela UNIME, e criei este espaço para falar de saúde bucal de um jeito claro, próximo e baseado em ciência.
 
-No consultório, atuo com cirurgias odontológicas, extrações (incluindo dentes do siso), restaurações e implantes dentários. Em cada atendimento, meu compromisso é o mesmo: ouvir com atenção, planejar com cuidado e explicar cada etapa para que você se sinta seguro(a) nas decisões sobre o seu tratamento.
+Atendo em Salvador e Lauro de Freitas (BA), com cirurgias odontológicas, extrações (incluindo dentes do siso), restaurações, facetas em resina e implantes dentários. Em cada atendimento, meu compromisso é o mesmo: ouvir com atenção, planejar com cuidado e explicar cada etapa para que você se sinta seguro(a) nas decisões sobre o seu tratamento.
 
 Por aqui você vai encontrar conteúdos sobre reabilitação oral, implantes, saúde gengival, prevenção e respostas às dúvidas mais comuns do consultório.
 
@@ -18,9 +18,10 @@ Me conta nos comentários: qual assunto você quer ver primeiro?
 Comente o assunto que você quer ver primeiro e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiadentista #implantesdentarios #reabilitacaooral
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiadentista #implantesdentarios #reabilitacaooral
 ```
 
 ## PUBLICAÇÃO 02 — Saúde bucal e saúde geral
@@ -40,9 +41,10 @@ Salve este post para lembrar e compartilhe com alguém que anda adiando a consul
 Salve, compartilhe e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #saudeintegral #prevencao #periodontite
+#odontologia #dentista #saudebucal #dentistasalvador #saudeintegral #prevencao #periodontite
 ```
 
 ## PUBLICAÇÃO 03 — O que é reabilitação oral
@@ -62,9 +64,10 @@ Tem alguma dúvida sobre reabilitação oral? Deixe nos comentários.
 Deixe sua dúvida nos comentários ou chame no WhatsApp pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #reabilitacaooral #implantesdentarios #protesedentaria
+#odontologia #dentista #saudebucal #dentistasalvador #reabilitacaooral #implantesdentarios #protesedentaria
 ```
 
 ## PUBLICAÇÃO 04 — Frase institucional: técnica, cuidado e escuta
@@ -80,9 +83,10 @@ Porque um bom tratamento começa com uma boa conversa.
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiadentista #atendimentohumanizado
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiadentista #atendimentohumanizado
 ```
 
 ## PUBLICAÇÃO 05 — Dente do siso: tirar ou não tirar?
@@ -102,9 +106,10 @@ Marque aqui alguém que vive adiando essa avaliação.
 Marque alguém e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiaoral #extracaodentaria #dentedosiso
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiaoral #extracaodentaria #dentedosiso
 ```
 
 ## PUBLICAÇÃO 06 — Gengiva que sangra não é normal
@@ -124,9 +129,10 @@ Salve para não esquecer.
 Salve este post e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #saudegengival #gengivite #periodontia
+#odontologia #dentista #saudebucal #dentistasalvador #saudegengival #gengivite #periodontia
 ```
 
 ## PUBLICAÇÃO 07 — Bastidores: planejamento cirúrgico
@@ -142,9 +148,10 @@ Antes de qualquer cirurgia, avalio a saúde geral, os exames, os medicamentos em
 Ficou com alguma dúvida sobre cirurgias? Chame no WhatsApp pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiaoral #bastidores #biosseguranca
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiaoral #bastidores #biosseguranca
 ```
 
 ## PUBLICAÇÃO 08 — Implante dentário: como funciona
@@ -164,9 +171,10 @@ Quer saber se o implante é uma opção para você?
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #implantedentario #implantesdentarios #reabilitacaooral
+#odontologia #dentista #saudebucal #dentistasalvador #implantedentario #implantesdentarios #reabilitacaooral
 ```
 
 ## PUBLICAÇÃO 09 — 3 mitos que atrasam o cuidado
@@ -186,9 +194,10 @@ Qual desses você já ouviu? Compartilhe com quem precisa ler isso.
 Compartilhe com alguém e salve para consultar depois.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #mitoseverdades
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #mitoseverdades
 ```
 
 ## PUBLICAÇÃO 10 — Cuidados após a extração
@@ -214,9 +223,10 @@ Importante: cada procedimento tem orientações específicas. Siga sempre as rec
 Salve para consultar quando precisar.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiaoral #extracaodentaria #dentedosiso #posoperatorio
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiaoral #extracaodentaria #dentedosiso #posoperatorio
 ```
 
 ## PUBLICAÇÃO 11 — Limpeza entre os dentes
@@ -236,9 +246,10 @@ Você usa fio dental todos os dias? Responda com sinceridade nos comentários. �
 Responda nos comentários e agende sua orientação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #fiodental
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #fiodental
 ```
 
 ## PUBLICAÇÃO 12 — A cárie começa em silêncio
@@ -261,9 +272,10 @@ Quando foi a sua última consulta?
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #restauracao #carie #dentistica #prevencao
+#odontologia #dentista #saudebucal #dentistasalvador #restauracao #carie #dentistica #prevencao
 ```
 
 ## PUBLICAÇÃO 13 — Ciência na prática: apresentação científica
@@ -281,9 +293,10 @@ Para mim, a odontologia de qualidade nasce da união entre ciência atualizada e
 Quer entender mais sobre implantes? Acompanhe o perfil e chame no WhatsApp pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cienciaodontologica #implantesdentarios #abobahia
+#odontologia #dentista #saudebucal #dentistasalvador #cienciaodontologica #implantesdentarios #abobahia
 ```
 
 ## PUBLICAÇÃO 14 — Tipos de prótese
@@ -305,9 +318,10 @@ Salve para consultar depois.
 Salve e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #protesedentaria #reabilitacaooral #implantesdentarios
+#odontologia #dentista #saudebucal #dentistasalvador #protesedentaria #reabilitacaooral #implantesdentarios
 ```
 
 ## PUBLICAÇÃO 15 — Implante: as perguntas que mais ouço
@@ -327,9 +341,10 @@ Ficou alguma dúvida? Pergunte nos comentários que eu respondo.
 Pergunte nos comentários ou agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #implantedentario #implantesdentarios #reabilitacaooral #duvidas
+#odontologia #dentista #saudebucal #dentistasalvador #implantedentario #implantesdentarios #reabilitacaooral #duvidas
 ```
 
 ## PUBLICAÇÃO 16 — Frase institucional: saúde, função e estética
@@ -345,9 +360,10 @@ Um sorriso bonito precisa ser, antes de tudo, saudável e funcional. Por isso, c
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #reabilitacaooral #implantesdentarios #protesedentaria
+#odontologia #dentista #saudebucal #dentistasalvador #reabilitacaooral #implantesdentarios #protesedentaria
 ```
 
 ## PUBLICAÇÃO 17 — Escovação: o básico bem-feito
@@ -367,9 +383,10 @@ Confere aí: quando foi a última vez que você trocou sua escova?
 Salve e compartilhe com a família.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #escovacao
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #escovacao
 ```
 
 ## PUBLICAÇÃO 18 — Perdi um dente: preciso repor?
@@ -387,9 +404,10 @@ Existem diferentes formas de reabilitar: implantes, próteses fixas ou removíve
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #reabilitacaooral #implantesdentarios #protesedentaria
+#odontologia #dentista #saudebucal #dentistasalvador #reabilitacaooral #implantesdentarios #protesedentaria
 ```
 
 ## PUBLICAÇÃO 19 — Rotina de consultório
@@ -407,9 +425,10 @@ Me conta: o que deixa você mais tranquilo(a) em uma consulta?
 Responda nos comentários e agende pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #rotinadedentista #atendimentohumanizado
+#odontologia #dentista #saudebucal #dentistasalvador #rotinadedentista #atendimentohumanizado
 ```
 
 ## PUBLICAÇÃO 20 — Antes da cirurgia: o que contar à dentista
@@ -427,9 +446,10 @@ Essas informações não são burocracia: elas tornam o procedimento mais seguro
 Salve e chame no WhatsApp pelo link da bio para agendar sua avaliação.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiaoral #extracaodentaria #dentedosiso #segurancadopaciente
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiaoral #extracaodentaria #dentedosiso #segurancadopaciente
 ```
 
 ## PUBLICAÇÃO 21 — Restauração tem prazo de validade?
@@ -445,9 +465,10 @@ Fique atento(a) a fraturas, manchas na borda, sensibilidade ou comida prendendo.
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #restauracao #carie #dentistica
+#odontologia #dentista #saudebucal #dentistasalvador #restauracao #carie #dentistica
 ```
 
 ## PUBLICAÇÃO 22 — Diabetes e gengiva
@@ -465,9 +486,10 @@ Se você tem diabetes, informe sempre à sua dentista e mantenha consultas regul
 Compartilhe e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #saudegengival #gengivite #periodontia #diabetes
+#odontologia #dentista #saudebucal #dentistasalvador #saudegengival #gengivite #periodontia #diabetes
 ```
 
 ## PUBLICAÇÃO 23 — A gengiva ao redor do implante
@@ -485,9 +507,10 @@ Esse foi o tema do trabalho que apresentei no Meeting Acadêmico da ABO-Bahia. �
 Quer saber se é o seu caso? Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #implantedentario #implantesdentarios #reabilitacaooral #enxertogengival
+#odontologia #dentista #saudebucal #dentistasalvador #implantedentario #implantesdentarios #reabilitacaooral #enxertogengival
 ```
 
 ## PUBLICAÇÃO 24 — Propósito
@@ -505,9 +528,10 @@ Obrigada por estar aqui. 🤍
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #cirurgiadentista #proposito
+#odontologia #dentista #saudebucal #dentistasalvador #cirurgiadentista #proposito
 ```
 
 ## PUBLICAÇÃO 25 — Implante: mitos e verdades
@@ -527,9 +551,10 @@ Salve e compartilhe com quem está pensando em fazer implante.
 Salve, compartilhe e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #implantedentario #implantesdentarios #reabilitacaooral #mitoseverdades
+#odontologia #dentista #saudebucal #dentistasalvador #implantedentario #implantesdentarios #reabilitacaooral #mitoseverdades
 ```
 
 ## PUBLICAÇÃO 26 — Açúcar: a frequência importa
@@ -550,9 +575,10 @@ Na prática:
 Salve e compartilhe com a família.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #carie
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #carie
 ```
 
 ## PUBLICAÇÃO 27 — Rotina de cuidados com o implante
@@ -572,9 +598,10 @@ O implante é um investimento na sua saúde. Cuide bem dele.
 Agende sua consulta de manutenção pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #implantedentario #implantesdentarios #reabilitacaooral #periimplantite
+#odontologia #dentista #saudebucal #dentistasalvador #implantedentario #implantesdentarios #reabilitacaooral #periimplantite
 ```
 
 ## PUBLICAÇÃO 28 — Por que ir ao dentista sem dor?
@@ -594,9 +621,10 @@ Quando foi a sua última avaliação?
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #checkup
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #checkup
 ```
 
 ## PUBLICAÇÃO 29 — Cuidados com a prótese removível
@@ -616,9 +644,10 @@ Compartilhe com alguém da família que usa prótese.
 Compartilhe e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #protesedentaria #reabilitacaooral #dentadura
+#odontologia #dentista #saudebucal #dentistasalvador #protesedentaria #reabilitacaooral #dentadura
 ```
 
 ## PUBLICAÇÃO 30 — O cigarro e a sua boca
@@ -638,9 +667,10 @@ Parar de fumar traz benefícios à saúde em qualquer fase da vida. Se você est
 Compartilhe com alguém que precisa ler isso.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #saudegengival #gengivite #periodontia #tabagismo
+#odontologia #dentista #saudebucal #dentistasalvador #saudegengival #gengivite #periodontia #tabagismo
 ```
 
 ## PUBLICAÇÃO 31 — Frase institucional: sem pressa, com planejamento
@@ -656,9 +686,10 @@ Pular etapas pode até parecer mais rápido, mas é o planejamento que traz segu
 Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #planejamento #reabilitacaooral
+#odontologia #dentista #saudebucal #dentistasalvador #planejamento #reabilitacaooral
 ```
 
 ## PUBLICAÇÃO 32 — Dente sensível ao gelado
@@ -676,9 +707,10 @@ Dependendo da causa, cremes dentais dessensibilizantes, ajuste de hábitos e pro
 Sente sensibilidade? Agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #restauracao #carie #dentistica #sensibilidadedental
+#odontologia #dentista #saudebucal #dentistasalvador #restauracao #carie #dentistica #sensibilidadedental
 ```
 
 ## PUBLICAÇÃO 33 — Bruxismo: apertar ou ranger os dentes
@@ -698,9 +730,10 @@ Marque alguém que vive apertando os dentes. 😬
 Marque alguém e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #bruxismo #sorrisosaudavel
+#odontologia #dentista #saudebucal #dentistasalvador #bruxismo #sorrisosaudavel
 ```
 
 ## PUBLICAÇÃO 34 — Autoexame da boca
@@ -724,9 +757,10 @@ Compartilhe: essa informação pode ajudar alguém.
 Compartilhe e agende sua avaliação pelo link da bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #prevencao #higienebucal #sorrisosaudavel #cancerdeboca
+#odontologia #dentista #saudebucal #dentistasalvador #prevencao #higienebucal #sorrisosaudavel #cancerdeboca
 ```
 
 ## PUBLICAÇÃO 35 — Como é a primeira consulta
@@ -746,7 +780,8 @@ Será um prazer receber você. 🤍
 Agende sua avaliação pelo WhatsApp: link na bio.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 Conteúdo educativo: não substitui a avaliação individual.
 
-#odontologia #dentista #saudebucal #odontologiabahia #primeiraconsulta #cirurgiadentista #reabilitacaooral
+#odontologia #dentista #saudebucal #dentistasalvador #primeiraconsulta #cirurgiadentista #reabilitacaooral
 ```

@@ -14,9 +14,9 @@ Identidade visual aplicada, site, Instagram e manual · Desenvolvido por **Danie
 | _FONTES_EDITAVEIS | Arquivos-fonte para editar textos e gerar as artes novamente (ver abaixo) |
 
 ## Pendências (dependem da Dra.)
-1. **@ do Instagram e print do perfil atual**: não foram enviados. O botão do Instagram no site está pronto, mas oculto até o preenchimento.
+1. **Perfil do Instagram**: aplicar o plano de ação de `03_INSTAGRAM/BIOGRAFIAS_E_ORGANIZACAO_DO_PERFIL.md` (@dratatianeaislan já ligado ao site).
 2. **Site**: no ar em https://dratatianeaislan.netlify.app/
-3. **Autorizações de imagem**: a publicação 07 e o story 08 usam fotos da Dra. em atendimento. Confirme que nenhum paciente ou colega é identificável sem autorização.
+3. **Autorizações de imagem**: confirmadas pelo responsável do projeto em 11/11/2026.
 4. **Revisar a publicação 35** (fluxo da primeira consulta): confirme se corresponde à rotina real da Dra.
 
 ## Como editar e gerar de novo (opcional, para quem usa computador)

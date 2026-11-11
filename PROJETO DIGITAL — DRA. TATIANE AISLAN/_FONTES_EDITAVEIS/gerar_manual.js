@@ -5,6 +5,7 @@ const { execFileSync } = require('child_process');
 const { ROOT, DIR, C, sym, LOGO, FONTS, fileUrl, browser, close, esc, pad, render, TMP } = require('./base');
 const { PERFIL, REFS, POSTS, BIOS, BIO_RECOMENDADA, NOME_PERFIL, DESTAQUES, STORIES } = require('./conteudo');
 const { REELS } = require('./reels');
+const { DIAG } = require('./diagnostico');
 const { pastaPost, slug } = require('./gerar_artes');
 
 const OUT = path.join(ROOT, '08_MANUAL_PDF', 'Manual_Identidade_Digital_Dra_Tatiane_Aislan.pdf');
@@ -205,14 +206,17 @@ function corpo(tocPages = {}) {
 
   // ---------------- 06 instagram
   h += sec('06', 'Organização do Instagram', 'O perfil deve transmitir confiança antes mesmo do primeiro contato.', `
-  <div class="warn"><b>Pendência:</b> o print do perfil atual e o @ oficial não foram recebidos. Por isso, o diagnóstico do perfil existente (nome de usuário, bio, feed e destaques atuais) ainda não foi feito. O checklist abaixo vale para qualquer situação.</div>
+  <h2>Diagnóstico do perfil atual</h2><p class="small">Análise do print de @dratatianeaislan enviado em ${DIAG.data}.</p>
+  <table><tr><th>Item</th><th>Como está</th><th>Situação</th><th>Recomendação</th></tr>${DIAG.atual.map(([a, b, c, d]) => `<tr><td><b>${a}</b></td><td class="small">${esc(b)}</td><td>${c === 'ok' ? '<span style="color:#5b7a5b">ok</span>' : c === 'atenção' ? '<span style="color:#A07A55">atenção</span>' : '<span style="color:#A07A55">ajustar</span>'}</td><td class="small">${esc(d)}</td></tr>`).join('')}</table>
+  <h2>Plano de ação, nesta ordem</h2><ol>${DIAG.acoes.map((a) => `<li>${esc(a)}</li>`).join('')}</ol>
+  <h2>Como deve ficar</h2>
   <table><tr><th>Item</th><th>Como deixar</th></tr>
   <tr><td>Tipo de conta</td><td>Profissional · categoria <b>Dentista</b></td></tr>
   <tr><td>Nome (campo pesquisável)</td><td><b>${NOME_PERFIL}</b></td></tr>
-  <tr><td>Nome de usuário</td><td>Curto e fácil de ditar. Se for trocar, algo como <i>dra.tatianeaislan</i> (confirme a disponibilidade no app).</td></tr>
+  <tr><td>Nome de usuário</td><td>@dratatianeaislan (manter)</td></tr>
   <tr><td>Foto de perfil</td><td>Recorte do rosto da fotografia oficial no consultório. Alternativa: símbolo caramelo sobre ardósia.</td></tr>
   <tr><td>Bio</td><td>Uma das 6 opções da seção 07 (recomendada: opção ${BIO_RECOMENDADA + 1}).</td></tr>
-  <tr><td>Link</td><td>Endereço do site (seção 05).</td></tr>
+  <tr><td>Link</td><td>https://dratatianeaislan.netlify.app</td></tr>
   <tr><td>Botões de contato</td><td>WhatsApp ${PERFIL.whatsapp}</td></tr>
   <tr><td>Destaques</td><td>7 capas (seção 08)</td></tr>
   <tr><td>Publicações antigas</td><td>Arquivar (não excluir) as que fogem do novo posicionamento ou expõem pacientes sem autorização.</td></tr>
@@ -245,7 +249,7 @@ function corpo(tocPages = {}) {
     <p class="small"><b>Objetivo:</b> ${esc(p.objetivo)}</p>
     <div class="arts ${p.pages.length === 1 ? 'single' : ''}">${imgs}</div>
     <h3>Legenda: copie e cole</h3>
-    <div class="leg">${esc(p.legenda)}\n\n${esc(p.cta)}\n\nDra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044\nConteúdo educativo: não substitui a avaliação individual.\n\n<span class="tag">${p.hashtags.join(' ')}</span></div>
+    <div class="leg">${esc(p.legenda)}\n\n${esc(p.cta)}\n\nDra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044\n📍 Salvador e Lauro de Freitas – BA\nConteúdo educativo: não substitui a avaliação individual.\n\n<span class="tag">${p.hashtags.join(' ')}</span></div>
     <div class="two" style="margin-top:3mm"><div><h3>Chamada para ação</h3><p class="small">${esc(p.cta)}</p><h3>Orientação visual</h3><p class="small">${esc(p.visual)}</p></div>
     <div><h3>Orientação de postagem</h3><p class="small">${esc(p.postagem)}</p><h3>Referência</h3><p class="small">${p.refs.length ? p.refs.map(refLine).join('<br>') : esc(p.fonte)}</p></div></div></div>`;
   }
@@ -292,7 +296,7 @@ function corpo(tocPages = {}) {
   <table style="margin-top:5mm"><tr><th>Nº</th><th>Texto</th><th>Interação</th><th>CTA</th></tr>${STORIES.map((s) => `<tr><td><b>${pad(s.n)}</b></td><td>${esc(s.titulo)}</td><td class="small">${esc(s.interacao)}</td><td class="small">${esc(s.cta)}</td></tr>`).join('')}</table>`);
 
   // ---------------- 17 simulação
-  h += sec('17', 'Simulação do Instagram finalizado', 'Montada com as artes efetivamente criadas. O @ é ilustrativo até a confirmação do oficial; o link é o do site publicado.', `
+  h += sec('17', 'Simulação do Instagram finalizado', 'Montada com as artes efetivamente criadas. Com o @ e o link oficiais.', `
   <div class="grid" style="grid-template-columns:1fr 1fr;align-items:start">
    <div><img src="${U(path.join(TH, 'simulacao_perfil_primeiras_12_publicacoes.jpg'))}" style="border:.5pt solid #ddd;max-height:190mm;width:auto;object-fit:contain"><div class="cap">Perfil após as 12 primeiras publicações</div></div>
    <div><p>A alternância entre capas ardósia e areia forma um padrão xadrez que permanece equilibrado a cada nova postagem, porque a grade tem 3 colunas. Fotografias e frases institucionais aparecem a cada 3 ou 4 publicações, trazendo calor humano e respiro.</p>
@@ -304,9 +308,7 @@ function corpo(tocPages = {}) {
   <ul><li><b>Constância acima de quantidade:</b> 3 publicações por semana são suficientes.</li><li><b>Responda</b> comentários e mensagens no mesmo dia, sempre com orientação geral (diagnóstico só em consulta).</li><li><b>Reaproveite</b> os temas que tiveram mais salvamentos e compartilhamentos (veja em Insights).</li><li><b>Atualize os destaques</b> a cada mês com novos stories.</li><li><b>Fotos reais:</b> registre bastidores com luz natural e fundo limpo.</li><li><b>Novas artes:</b> use os templates da pasta _FONTES_EDITAVEIS ou reproduza o padrão no Canva: fundo ardósia ou areia, título em Jost Light caixa-alta, texto em Inter Light, fio caramelo, símbolo no topo e nome com CRO no rodapé.</li><li><b>Revisão trimestral:</b> confira bio, link, destaques e publicações fixadas.</li></ul>
   <h2>Pendências para concluir o projeto</h2>
   <table><tr><th>Item</th><th>Responsável</th></tr>
-  <tr><td>Enviar o @ oficial e o print do Instagram atual</td><td>Dra. / Daniel</td></tr>
-  <tr><td>Publicar o site na Netlify e preencher o @ no index.html</td><td>Daniel</td></tr>
-  <tr><td>Confirmar autorizações de imagem (publicação 07 e story 08)</td><td>Dra.</td></tr>
+  <tr><td>Aplicar o plano de ação do perfil (seção 06)</td><td>Dra. / Daniel</td></tr>
   <tr><td>Revisar a publicação 35 (fluxo da primeira consulta)</td><td>Dra.</td></tr></table>
   <div style="margin-top:20mm;text-align:center"><img src="${LOGO.vertClaro}" style="height:42mm"><p class="small" style="margin-top:6mm">Projeto desenvolvido por <b>Daniel dos Passos Gomes</b> · Identidade Visual | Social Media | Estratégia Digital</p></div>`);
 

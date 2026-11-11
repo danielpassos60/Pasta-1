@@ -1,67 +1,84 @@
 # Instagram — organização do perfil
 
-## Diagnóstico do perfil atual
-> **Pendência:** o print do Instagram atual não foi recebido, assim como o @ oficial. Por isso, não foi possível analisar o nome de usuário, a bio atual, o feed e os destaques existentes. Quando o print chegar, essa análise pode ser feita em poucos minutos.
+## Diagnóstico do perfil atual (@dratatianeaislan · 11/11/2026)
+| Item | Como está | Situação | Recomendação |
+|---|---|---|---|
+| Usuário | @dratatianeaislan | ✅ ok | Curto, profissional e igual ao endereço do site. Manter. |
+| Nome | Dra. Tatiane Aislan \| Odontologia Estética e Reabilitação Oral | ✏️ ajustar | Bom, mas não contém a palavra “Dentista”, a mais buscada. Sugestão: “Dra. Tatiane Aislan \| Dentista · Reabilitação Oral”. |
+| Foto de perfil | Selfie de jaleco com fundo de consultório | ✏️ ajustar | Rosto pequeno e fundo com elementos. Trocar pelo recorte do rosto da foto oficial no consultório (sorrindo, jaleco branco). |
+| Bio | CRO · Facetas em resina · Cirurgiã-dentista na UNIME · Salvador/Lauro de Freitas · Agendamentos | ✏️ ajustar | Tem CRO e localização (ótimo), mas não cita implantes, cirurgias nem reabilitação. “Cirurgiã-dentista na UNIME” pode confundir formação com local de atendimento. Não há link do site. |
+| Link | Sem link na bio | ✏️ ajustar | Adicionar dratatianeaislan.netlify.app (Editar perfil → Links). |
+| Botão de contato | WhatsApp ativo | ✅ ok | Manter. |
+| Destaques | 1 destaque, sem capa padronizada, nome só com emojis | ✏️ ajustar | Substituir pelas 7 capas da identidade visual, com nomes em texto. |
+| Feed | 8 publicações; 3 fixadas: foto com touca de outra marca, foto de família com crianças e selfie | ✏️ ajustar | Feed mistura vida pessoal e profissional e não tem identidade visual. As fixadas são a primeira impressão do perfil. |
+| Seguindo × seguidores | 1.974 seguindo × 573 seguidores | ⚠️ atenção | Seguir muito mais contas do que seguidores passa impressão de perfil pessoal. Revisar aos poucos, manualmente. |
 
-Enquanto isso, este é o checklist de organização (aplique na ordem):
+### Plano de ação (nesta ordem)
+1. Desafixar as 3 publicações atuais. Arquivar (não excluir) a foto de família com as crianças, as fotos pessoais e a foto com a touca de outra clínica.
+2. Trocar a foto de perfil pelo recorte da foto oficial no consultório.
+3. Atualizar o nome para “Dra. Tatiane Aislan | Dentista · Reabilitação Oral”.
+4. Colar a bio recomendada (opção 1) e adicionar o link dratatianeaislan.netlify.app.
+5. Arquivar o destaque atual e criar os 7 destaques novos com as capas prontas.
+6. Publicar a Publicação 01 e fixá-la no topo; seguir a sequência 02, 03… (3 por semana).
+7. Ao longo das semanas, deixar de seguir contas que não tenham relação com a vida profissional ou pessoal próxima (sem ferramentas automáticas, que violam as regras do Instagram).
+
+### Checklist de configuração
 1. **Tipo de conta:** profissional, categoria **Dentista**.
-2. **Nome (campo “Nome”):** `Dra. Tatiane Aislan | Dentista`. Esse campo aparece na busca: incluir “Dentista” ajuda a ser encontrada.
-3. **Nome de usuário (@):** curto e fácil de ditar. Se for trocar, prefira algo como `dra.tatianeaislan` (verifique a disponibilidade no próprio app).
-4. **Foto de perfil:** recorte do rosto da fotografia oficial no consultório (sorrindo, jaleco branco). Alternativa: símbolo da marca em caramelo sobre ardósia (arquivo em `01_IDENTIDADE_VISUAL/SIMBOLO_ISOLADO`).
-5. **Bio:** escolha uma das 6 opções abaixo.
-6. **Link:** endereço do site (ver `02_SITE/COMO_PUBLICAR.md`).
-7. **Botões de contato:** ative “WhatsApp” com o número +55 71 99220-6132.
+2. **Nome:** `Dra. Tatiane Aislan | Dentista · Reabilitação Oral`.
+3. **Usuário:** @dratatianeaislan (manter).
+4. **Foto de perfil:** recorte do rosto da fotografia oficial no consultório.
+5. **Bio:** opção 1 abaixo.
+6. **Link:** https://dratatianeaislan.netlify.app
+7. **Botão de contato:** WhatsApp +55 71 99220-6132 (já ativo).
 8. **Destaques:** 7 capas prontas em `CAPAS_DESTAQUES`.
-9. **Publicações antigas:** arquive (não exclua) as que não seguem o novo posicionamento ou que mostrem pacientes sem autorização.
-10. **Fixar no topo:** publicação 01 (apresentação) e, depois, a 35 (primeira consulta).
 
 ## Seis opções de biografia (limite: 150 caracteres)
-### Opção 1 — Clássica e completa ⭐ RECOMENDADA (136 caracteres)
+### Opção 1 — Clássica e completa ⭐ RECOMENDADA (148 caracteres)
 ```
 Cirurgiã-Dentista | CRO-BA 32044
-Reabilitação oral, implantes, cirurgias e restaurações
-Técnica, cuidado e escuta
+Reabilitação oral, implantes, cirurgias e facetas em resina
+📍 Salvador e Lauro de Freitas–BA
 ↓ Agende sua avaliação
 ```
 
-### Opção 2 — Foco em reabilitação (129 caracteres)
+### Opção 2 — Foco em reabilitação (145 caracteres)
 ```
 Devolvendo saúde, função e confiança ao seu sorriso
 Reabilitação oral • Implantes • Cirurgias
-CRO-BA 32044
-↓ Agende pelo WhatsApp
+📍 Salvador | Lauro de Freitas
+CRO-BA 32044 ↓ Agende
 ```
 
-### Opção 3 — Acolhedora (121 caracteres)
+### Opção 3 — Acolhedora (147 caracteres)
 ```
 Odontologia com técnica e acolhimento 🤍
-Implantes, cirurgias, extrações e restaurações
-CRO-BA 32044
+Implantes, cirurgias, restaurações e facetas
+CRO-BA 32044 · Salvador/Lauro de Freitas
 ↓ Agende sua consulta
 ```
 
-### Opção 4 — Objetiva (130 caracteres)
+### Opção 4 — Objetiva (139 caracteres)
 ```
 Cirurgiã-Dentista • CRO-BA 32044
-Implantes | Cirurgias | Restaurações
+Implantes | Cirurgias | Facetas em resina
 Reabilitação oral com planejamento
-↓ Avaliação pelo WhatsApp
+📍 Salvador e Lauro de Freitas
 ```
 
-### Opção 5 — Educativa (133 caracteres)
+### Opção 5 — Educativa (137 caracteres)
 ```
 Cirurgiã-Dentista | CRO-BA 32044
 Conteúdo sobre reabilitação oral, implantes e saúde bucal
-Atendimento com planejamento
+📍 Salvador e Lauro de Freitas–BA
 ↓ Agende aqui
 ```
 
-### Opção 6 — Com assinatura de marca (122 caracteres)
+### Opção 6 — Com assinatura de marca (137 caracteres)
 ```
 Saúde • Função • Estética
-Reabilitação oral, implantes e cirurgias
+Reabilitação oral, implantes e facetas em resina
 Cirurgiã-Dentista | CRO-BA 32044
-↓ Agende sua avaliação
+📍 Salvador/Lauro de Freitas ↓
 ```
 
 **Por que a opção 1 é a mais estratégica:** em quatro linhas ela responde o que o paciente procura (quem é, o que faz, como é o atendimento e como agendar), traz o CRO, como pede a ética do CFO, e coloca a reabilitação oral em primeiro lugar entre as áreas de atuação, sem usar o termo “especialista”, já que a Dra. não tem título de especialista registrado.
@@ -82,4 +99,4 @@ Cirurgiã-Dentista | CRO-BA 32044
 **Como aplicar a capa:** abra o destaque → ⋯ Editar destaque → Editar capa → ícone de galeria → escolha a imagem → centralize.
 
 ## Simulação
-Veja `SIMULACAO_PERFIL/`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. O @ da simulação é **ilustrativo** até a confirmação do oficial; o link é o do site publicado.
+Veja `SIMULACAO_PERFIL/`: uma versão mostra o perfil após as 12 primeiras publicações e a outra mostra o feed completo, com 35. A simulação usa o @ e o link oficiais.

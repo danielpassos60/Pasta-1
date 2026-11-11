@@ -5,8 +5,8 @@ const { render, close, htmlDoc, fileUrl, ROOT, FOTO, C } = require('./base');
 const { POSTS, BIOS, BIO_RECOMENDADA, NOME_PERFIL, DESTAQUES } = require('./conteudo');
 const { pastaPost, slug } = require('./gerar_artes');
 
-// Usuário ILUSTRATIVO (substituir pelo @ oficial quando confirmado). Link = site publicado.
-const USUARIO = 'dra.tatianeaislan';
+// @ oficial e link do site publicado
+const USUARIO = 'dratatianeaislan';
 const LINK = 'dratatianeaislan.netlify.app';
 
 const capa = (p) => {
@@ -28,7 +28,7 @@ function perfil(n) {
    <div style="height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 16px"><span style="font-size:20px">‹</span><span style="font-weight:700;font-size:17px">${USUARIO}</span><span style="font-size:20px;letter-spacing:2px">···</span></div>
    <div style="display:flex;align-items:center;padding:10px 16px 0">
      <div style="width:88px;height:88px;border-radius:50%;padding:3px;background:linear-gradient(45deg,#C79E74,#A07A55)"><div style="width:100%;height:100%;border-radius:50%;border:3px solid #fff;overflow:hidden"><img src="${FOTO('mesa')}" style="width:100%;height:100%;object-fit:cover;object-position:52% 26%;transform:scale(1.9);transform-origin:52% 32%"></div></div>
-     <div style="flex:1;display:flex;justify-content:space-around;text-align:center;font-size:13px"><div><b style="font-size:17px;display:block">${n}</b>publicações</div><div><b style="font-size:17px;display:block">—</b>seguidores</div><div><b style="font-size:17px;display:block">—</b>seguindo</div></div>
+     <div style="flex:1;display:flex;justify-content:space-around;text-align:center;font-size:13px"><div><b style="font-size:17px;display:block">${n}</b>publicações</div><div><b style="font-size:17px;display:block">573</b>seguidores</div><div><b style="font-size:17px;display:block">1.974</b>seguindo</div></div>
    </div>
    <div style="padding:10px 16px 0;font-size:13.5px;line-height:1.38">
      <div style="font-weight:600">${NOME_PERFIL}</div>

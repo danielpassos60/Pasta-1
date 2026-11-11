@@ -16,7 +16,7 @@ const PERFIL = {
   whatsappLinkInsta: 'https://wa.me/5571992206132?text=' + encodeURIComponent('Olá, Dra. Tatiane! Vim pelo Instagram e gostaria de agendar uma avaliação.'),
   // @ oficial do Instagram (sem o @)
   instagram: 'dratatianeaislan',
-  procedimentos: ['Cirurgias odontológicas', 'Extrações, incluindo dentes do siso', 'Restaurações', 'Implantes dentários'],
+  procedimentos: ['Cirurgias odontológicas', 'Extrações, incluindo dentes do siso', 'Restaurações e facetas em resina', 'Implantes dentários'],
 };
 
 // ---------------------------------------------------------------------
@@ -72,7 +72,7 @@ const REFS = {
 // HASHTAGS (enxutas: 5 a 8 por post)
 // ---------------------------------------------------------------------
 const H = {
-  base: ['#odontologia', '#dentista', '#saudebucal', '#odontologiabahia'],
+  base: ['#odontologia', '#dentista', '#saudebucal', '#dentistasalvador'],
   ro: ['#reabilitacaooral', '#implantesdentarios', '#protesedentaria'],
   imp: ['#implantedentario', '#implantesdentarios', '#reabilitacaooral'],
   cir: ['#cirurgiaoral', '#extracaodentaria', '#dentedosiso'],
@@ -97,7 +97,7 @@ const POSTS = [
     pages: [
       { t: 'capaFoto', foto: 'mesa', kicker: 'Muito prazer', title: 'Dra. Tatiane Aislan', sub: 'Cirurgiã-Dentista · CRO-BA 32044' },
       { t: 'texto', h: 'Quem sou', p: 'Sou cirurgiã-dentista formada pela UNIME (União Metropolitana de Educação e Cultura). Acredito em uma odontologia feita com técnica, escuta e respeito ao tempo de cada paciente.' },
-      { t: 'lista', h: 'O que eu faço', items: ['Cirurgias odontológicas', 'Extrações, incluindo dentes do siso', 'Restaurações', 'Implantes dentários'] },
+      { t: 'lista', h: 'O que eu faço', items: ['Cirurgias odontológicas', 'Extrações, incluindo dentes do siso', 'Restaurações e facetas em resina', 'Implantes dentários'] },
       { t: 'final', h: 'Meu compromisso', p: 'Planejar cada tratamento a partir da sua história, para devolver saúde, função e confiança ao seu sorriso.', cta: 'Agende sua avaliação' },
     ],
     visual: 'Capa com a fotografia oficial no consultório (tons areia e madeira), moldura off-white e nome em Jost Light. Páginas internas em off-white com fios caramelo. Última página em areia.',
@@ -105,7 +105,7 @@ const POSTS = [
 
 Sou cirurgiã-dentista, formada pela UNIME, e criei este espaço para falar de saúde bucal de um jeito claro, próximo e baseado em ciência.
 
-No consultório, atuo com cirurgias odontológicas, extrações (incluindo dentes do siso), restaurações e implantes dentários. Em cada atendimento, meu compromisso é o mesmo: ouvir com atenção, planejar com cuidado e explicar cada etapa para que você se sinta seguro(a) nas decisões sobre o seu tratamento.
+Atendo em Salvador e Lauro de Freitas (BA), com cirurgias odontológicas, extrações (incluindo dentes do siso), restaurações, facetas em resina e implantes dentários. Em cada atendimento, meu compromisso é o mesmo: ouvir com atenção, planejar com cuidado e explicar cada etapa para que você se sinta seguro(a) nas decisões sobre o seu tratamento.
 
 Por aqui você vai encontrar conteúdos sobre reabilitação oral, implantes, saúde gengival, prevenção e respostas às dúvidas mais comuns do consultório.
 
@@ -916,15 +916,15 @@ Será um prazer receber você. 🤍`,
 // 6 BIOGRAFIAS (limite do Instagram: 150 caracteres)
 // ---------------------------------------------------------------------
 const BIOS = [
-  { titulo: 'Clássica e completa', texto: 'Cirurgiã-Dentista | CRO-BA 32044\nReabilitação oral, implantes, cirurgias e restaurações\nTécnica, cuidado e escuta\n↓ Agende sua avaliação' },
-  { titulo: 'Foco em reabilitação', texto: 'Devolvendo saúde, função e confiança ao seu sorriso\nReabilitação oral • Implantes • Cirurgias\nCRO-BA 32044\n↓ Agende pelo WhatsApp' },
-  { titulo: 'Acolhedora', texto: 'Odontologia com técnica e acolhimento 🤍\nImplantes, cirurgias, extrações e restaurações\nCRO-BA 32044\n↓ Agende sua consulta' },
-  { titulo: 'Objetiva', texto: 'Cirurgiã-Dentista • CRO-BA 32044\nImplantes | Cirurgias | Restaurações\nReabilitação oral com planejamento\n↓ Avaliação pelo WhatsApp' },
-  { titulo: 'Educativa', texto: 'Cirurgiã-Dentista | CRO-BA 32044\nConteúdo sobre reabilitação oral, implantes e saúde bucal\nAtendimento com planejamento\n↓ Agende aqui' },
-  { titulo: 'Com assinatura de marca', texto: 'Saúde • Função • Estética\nReabilitação oral, implantes e cirurgias\nCirurgiã-Dentista | CRO-BA 32044\n↓ Agende sua avaliação' },
+  { titulo: 'Clássica e completa', texto: 'Cirurgiã-Dentista | CRO-BA 32044\nReabilitação oral, implantes, cirurgias e facetas em resina\n📍 Salvador e Lauro de Freitas–BA\n↓ Agende sua avaliação' },
+  { titulo: 'Foco em reabilitação', texto: 'Devolvendo saúde, função e confiança ao seu sorriso\nReabilitação oral • Implantes • Cirurgias\n📍 Salvador | Lauro de Freitas\nCRO-BA 32044 ↓ Agende' },
+  { titulo: 'Acolhedora', texto: 'Odontologia com técnica e acolhimento 🤍\nImplantes, cirurgias, restaurações e facetas\nCRO-BA 32044 · Salvador/Lauro de Freitas\n↓ Agende sua consulta' },
+  { titulo: 'Objetiva', texto: 'Cirurgiã-Dentista • CRO-BA 32044\nImplantes | Cirurgias | Facetas em resina\nReabilitação oral com planejamento\n📍 Salvador e Lauro de Freitas' },
+  { titulo: 'Educativa', texto: 'Cirurgiã-Dentista | CRO-BA 32044\nConteúdo sobre reabilitação oral, implantes e saúde bucal\n📍 Salvador e Lauro de Freitas–BA\n↓ Agende aqui' },
+  { titulo: 'Com assinatura de marca', texto: 'Saúde • Função • Estética\nReabilitação oral, implantes e facetas em resina\nCirurgiã-Dentista | CRO-BA 32044\n📍 Salvador/Lauro de Freitas ↓' },
 ];
 const BIO_RECOMENDADA = 0;
-const NOME_PERFIL = 'Dra. Tatiane Aislan | Dentista';
+const NOME_PERFIL = 'Dra. Tatiane Aislan | Dentista · Reabilitação Oral';
 
 // ---------------------------------------------------------------------
 // 7 DESTAQUES

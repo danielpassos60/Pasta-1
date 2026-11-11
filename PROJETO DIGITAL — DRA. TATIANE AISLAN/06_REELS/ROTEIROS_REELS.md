@@ -37,6 +37,7 @@ Reabilitação oral é devolver função, conforto e harmonia ao sorriso. Ela po
 Salve este vídeo e envie para alguém que está adiando esse cuidado.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 
 #reabilitacaooral #implantesdentarios #protesedentaria #odontologia #dentista #saudebucal
 ```
@@ -80,6 +81,7 @@ O implante não sofre “rejeição” como um órgão transplantado: ele se int
 Tem mais alguma dúvida sobre implantes? Deixe nos comentários.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 
 #implantedentario #implantesdentarios #odontologia #dentista #saudebucal
 ```
@@ -127,6 +129,7 @@ Três erros comuns na escovação:
 Qual desses você comete? Conta nos comentários e compartilhe com a família.
 
 Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
+📍 Salvador e Lauro de Freitas – BA
 
 #saudebucal #escovacao #prevencao #odontologia #dentista #sorrisosaudavel
 ```
