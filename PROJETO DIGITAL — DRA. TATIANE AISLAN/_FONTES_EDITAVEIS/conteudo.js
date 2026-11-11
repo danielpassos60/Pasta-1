@@ -5,6 +5,7 @@
 // =====================================================================
 
 const PERFIL = {
+  local: "Salvador e Lauro de Freitas – BA",
   nome: 'Dra. Tatiane Aislan',
   nomeCompleto: 'Tatiane Aislan Damascena Feitosa',
   titulo: 'Cirurgiã-Dentista',
@@ -13,8 +14,8 @@ const PERFIL = {
   whatsapp: '+55 71 99220-6132',
   whatsappLink: 'https://wa.me/5571992206132?text=' + encodeURIComponent('Olá, Dra. Tatiane! Encontrei seu site e gostaria de informações sobre uma consulta.'),
   whatsappLinkInsta: 'https://wa.me/5571992206132?text=' + encodeURIComponent('Olá, Dra. Tatiane! Vim pelo Instagram e gostaria de agendar uma avaliação.'),
-  // >>> PREENCHER: @ oficial do Instagram (sem o @). Não foi enviado.
-  instagram: '',
+  // @ oficial do Instagram (sem o @)
+  instagram: 'dratatianeaislan',
   procedimentos: ['Cirurgias odontológicas', 'Extrações, incluindo dentes do siso', 'Restaurações', 'Implantes dentários'],
 };
 
