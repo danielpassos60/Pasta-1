@@ -27,6 +27,7 @@ for f in glob.glob(os.path.join(root,'04_FEED_35_POSTS','*','*.png')): t(f,os.pa
 for f in glob.glob(os.path.join(root,'07_STORIES','*.png')): t(f,os.path.join(th,os.path.basename(f)[:-4]+'.jpg'),540)
 for f in glob.glob(os.path.join(root,'03_INSTAGRAM','SIMULACAO_PERFIL','*.png')): t(f,os.path.join(th,os.path.basename(f)[:-4]+'.jpg'),900)
 for f in glob.glob(os.path.join(root,'03_INSTAGRAM','CAPAS_DESTAQUES','*.png')): t(f,os.path.join(th,os.path.basename(f)[:-4]+'.jpg'),300)
+for f in glob.glob(os.path.join(root,'06_REELS','CAPAS','*.png')): t(f,os.path.join(th,os.path.basename(f)[:-4]+'.jpg'),500)
 `;
   execFileSync('python3', ['-I', '-c', py, ROOT, TH]);
 }
@@ -279,7 +280,7 @@ function corpo(tocPages = {}) {
 
   // ---------------- 15 reels
   h += sec('15', 'Três roteiros de Reels', 'Linguagem natural e educativa, fácil de gravar com celular.', REELS.map((r) => `<div class="${r.n > 1 ? 'sec' : ''}"><h2>Reels ${r.n} · ${esc(r.titulo)}</h2>
-  <p><span class="chip">${r.duracao}</span></p><p><b>Gancho inicial:</b> ${esc(r.gancho)}</p>
+  <div style="display:grid;grid-template-columns:1fr 34mm;gap:6mm;align-items:start"><div><p><span class="chip">${r.duracao}</span></p><p><b>Gancho inicial:</b> ${esc(r.gancho)}</p><p class="small" style="margin-top:3mm">Capa pronta ao lado: <i>06_REELS/CAPAS/capa_reels${pad(r.n)}.png</i>. Ao publicar, toque em “Editar capa” → “Adicionar da galeria”.</p></div><img src="${U(path.join(TH, `capa_reels${pad(r.n)}.jpg`))}" style="border:.4pt solid #ddd"></div>
   <h3>Texto completo da fala</h3><table><tr><th style="width:18mm">Tempo</th><th>Fala</th></tr>${r.fala.map(([t, f]) => `<tr><td>${t}</td><td>${esc(f)}</td></tr>`).join('')}</table>
   <div class="two"><div><h3>Orientação de gravação</h3><p class="small">${esc(r.gravacao)}</p><h3>Sugestão de cenas</h3><ul class="small">${r.cenas.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></div>
   <div><h3>Textos na tela</h3><ul class="small">${r.textosTela.map((c) => `<li>${esc(c)}</li>`).join('')}</ul><h3>CTA final</h3><p class="small">${esc(r.cta)}</p></div></div>

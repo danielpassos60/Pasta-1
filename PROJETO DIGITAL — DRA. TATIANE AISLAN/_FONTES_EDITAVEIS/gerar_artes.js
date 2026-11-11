@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ROOT, C, sym, render, pdf, close, htmlDoc, KIT, LOGO, pad, esc } = require('./base');
-const { postPage, story, destaque, overlay } = require('./artes');
+const { postPage, story, destaque, overlay, capaReels } = require('./artes');
 const { POSTS, STORIES, DESTAQUES, REFS } = require('./conteudo');
 
 const slug = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '_').replace(/^_|_$/g, '').toUpperCase();
@@ -57,6 +57,16 @@ async function stories() {
     await render(story(s), P('07_STORIES', `story${pad(s.n)}_${slug(s.tema).toLowerCase()}.png`), { w: 1080, h: 1920 });
   }
   console.log('stories ok');
+}
+
+async function reels() {
+  const capas = [
+    [{ n: 1, kicker: 'Reabilitação oral', capa: 'O que é reabilitação oral?' }, 'reabilitacao', 'escuro'],
+    [{ n: 2, kicker: 'Implantes', capa: 'O corpo pode rejeitar um implante?' }, 'implante', 'claro'],
+    [{ n: 3, kicker: 'Saúde bucal', capa: '3 erros comuns na escovação' }, 'escova', 'escuro'],
+  ];
+  for (const [r, il, tom] of capas) await render(capaReels(r, il, tom), P('06_REELS', 'CAPAS', `capa_reels${pad(r.n)}.png`), { w: 1080, h: 1920 });
+  console.log('capas reels ok');
 }
 
 async function destaques() {
@@ -134,6 +144,7 @@ async function logos() {
 if (require.main === module) (async () => {
   if (!only || only === 'feed') await feed();
   if (!only || only === 'stories') await stories();
+  if (!only || only === 'reels') await reels();
   if (!only || only === 'destaques') await destaques();
   if (!only || only === 'overlays') await overlays();
   if (!only || only === 'logos') await logos();

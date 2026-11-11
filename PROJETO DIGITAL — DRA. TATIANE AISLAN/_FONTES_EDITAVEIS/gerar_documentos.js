@@ -114,7 +114,7 @@ W('06_REELS/ROTEIROS_REELS.md', `# Três roteiros de Reels
 Gravação simples com celular: vertical, tripé, luz natural de frente e fala em tom de conversa. Edite no próprio Instagram ou no CapCut, usando as fontes da marca (Jost e Inter) nos textos da tela, quando possível.
 
 ${REELS.map((r) => `## Reels ${r.n} — ${r.titulo}
-**Duração estimada:** ${r.duracao}
+**Duração estimada:** ${r.duracao} · **Capa pronta:** \`CAPAS/capa_reels${pad(r.n)}.png\` (no Instagram: Editar capa → Adicionar da galeria)
 
 **Gancho inicial (primeiros 3 segundos):** ${r.gancho}
 
@@ -282,7 +282,7 @@ Identidade visual aplicada, site, Instagram e manual · Desenvolvido por **Danie
 | 03_INSTAGRAM | 6 biografias, organização do perfil, 7 capas de destaques, simulação do perfil |
 | 04_FEED_35_POSTS | 35 pastas (uma por publicação) com artes e legenda; legendas completas, referências e calendário |
 | 05_ANTES_E_DEPOIS | 4 elementos PNG transparentes (+1 extra), em 2 tamanhos |
-| 06_REELS | 3 roteiros completos |
+| 06_REELS | 3 roteiros completos + 3 capas ilustradas |
 | 07_STORIES | 10 stories prontos + roteiro de interações |
 | 08_MANUAL_PDF | Manual completo de identidade digital e posicionamento |
 | _FONTES_EDITAVEIS | Arquivos-fonte para editar textos e gerar as artes novamente (ver abaixo) |

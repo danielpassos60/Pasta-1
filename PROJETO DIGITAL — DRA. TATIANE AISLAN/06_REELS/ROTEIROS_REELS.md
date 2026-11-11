@@ -2,7 +2,7 @@
 Gravação simples com celular: vertical, tripé, luz natural de frente e fala em tom de conversa. Edite no próprio Instagram ou no CapCut, usando as fontes da marca (Jost e Inter) nos textos da tela, quando possível.
 
 ## Reels 1 — O que é reabilitação oral e quando ela pode ser necessária?
-**Duração estimada:** 45 a 60 segundos
+**Duração estimada:** 45 a 60 segundos · **Capa pronta:** `CAPAS/capa_reels01.png` (no Instagram: Editar capa → Adicionar da galeria)
 
 **Gancho inicial (primeiros 3 segundos):** “Reabilitação oral não é só deixar o sorriso bonito.”
 
@@ -45,7 +45,7 @@ Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
 **Referências:** Gerritsen AE, Allen PF, Witter DJ, Bronkhorst EM, Creugers NHJ. Tooth loss and oral health-related quality of life: a systematic review and meta-analysis. Health Qual Life Outcomes. 2010;8:126. https://doi.org/10.1186/1477-7525-8-126
 
 ## Reels 2 — O corpo pode rejeitar um implante dentário?
-**Duração estimada:** 35 a 45 segundos
+**Duração estimada:** 35 a 45 segundos · **Capa pronta:** `CAPAS/capa_reels02.png` (no Instagram: Editar capa → Adicionar da galeria)
 
 **Gancho inicial (primeiros 3 segundos):** “Será que o corpo pode rejeitar um implante, como acontece em um transplante?”
 
@@ -88,7 +88,7 @@ Dra. Tatiane Aislan · Cirurgiã-Dentista · CRO-BA 32044
 **Referências:** Albrektsson T, Brånemark PI, Hansson HA, Lindström J. Osseointegrated titanium implants. Requirements for ensuring a long-lasting, direct bone-to-implant anchorage in man. Acta Orthop Scand. 1981;52(2):155-170. https://doi.org/10.3109/17453678108991776 | Berglundh T, Armitage G, Araujo MG, et al. Peri-implant diseases and conditions: Consensus report of workgroup 4 of the 2017 World Workshop. J Clin Periodontol. 2018;45(Suppl 20):S286-S291. https://doi.org/10.1111/jcpe.12957 | Chrcanovic BR, Albrektsson T, Wennerberg A. Smoking and dental implants: A systematic review and meta-analysis. J Dent. 2015;43(5):487-498. https://doi.org/10.1016/j.jdent.2015.03.003
 
 ## Reels 3 — 3 erros comuns na escovação
-**Duração estimada:** 30 a 40 segundos
+**Duração estimada:** 30 a 40 segundos · **Capa pronta:** `CAPAS/capa_reels03.png` (no Instagram: Editar capa → Adicionar da galeria)
 
 **Gancho inicial (primeiros 3 segundos):** “Você escova os dentes todos os dias, mas pode estar cometendo pelo menos um destes três erros.”
 

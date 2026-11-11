@@ -1,6 +1,12 @@
 // Templates das artes: feed (1080x1350), stories (1080x1920), destaques (1080x1080)
 // e elementos de antes/depois (PNG transparente).
 const { C, sym, LOGO, FOTO, htmlDoc, esc, pad } = require('./base');
+const { POR_POST, ilustracao } = require('./ilustracoes');
+const PAL = {
+  escuro: { l: C.areia, a: C.caramelo, f: '#384451', bg: C.ardosia },
+  claro: { l: C.ardosia, a: C.caramEsc, f: '#DFD3C2', bg: C.areia },
+  off: { l: C.ardosia, a: C.caramEsc, f: '#EAE0D3', bg: C.off },
+};
 
 // Ajuste de enquadramento de cada foto (object-position)
 const FOTO_POS = {
@@ -49,8 +55,9 @@ function marcaDagua(tom, size = 1180, right = -430, top = 40) {
   const k = corTexto(tom);
   return `<div class="wm" style="right:${right}px;top:${top}px">${sym(k.est, size, 3.2)}</div>`;
 }
-function tamTitulo(t) {
+function tamTitulo(t, comIl) {
   const L = t.length;
+  if (comIl) { if (L <= 16) return 96; if (L <= 24) return 84; if (L <= 32) return 76; if (L <= 40) return 68; return 62; }
   if (L <= 16) return 104; if (L <= 24) return 92; if (L <= 32) return 82; if (L <= 40) return 74; return 66;
 }
 
@@ -58,11 +65,16 @@ function tamTitulo(t) {
 function capa(post, pg, i, tot) {
   const tom = post.tom; const k = corTexto(tom);
   const bgc = tom === 'escuro' ? 'escuro' : 'claro';
-  return `<div class="pg ${bgc}">${marcaDagua(tom)}${topo(tom, i, tot)}
-  <div style="position:absolute;left:96px;right:150px;bottom:250px">
-    <div class="kick" style="color:${k.ac};margin-bottom:54px">${esc(pg.kicker)}</div>
-    <div class="ttl" style="font-size:${tamTitulo(pg.title)}px">${esc(pg.title)}</div>
-    ${pg.sub ? `<div class="sub" style="margin-top:40px;opacity:.85;max-width:760px">${esc(pg.sub)}</div>` : ''}
+  const il = POR_POST[post.n];
+  const pal = PAL[tom === 'escuro' ? 'escuro' : 'claro'];
+  const arte = il ? `<div style="position:absolute;right:84px;top:132px;width:560px;height:560px;border-radius:50%;background:${pal.f}"></div>
+    <div style="position:absolute;right:56px;top:160px;width:560px;height:560px;border-radius:50%;border:1.5px solid ${k.ac};opacity:.55"></div>
+    <div style="position:absolute;right:104px;top:152px">${ilustracao(il, 520, pal, 1.15)}</div>` : marcaDagua(tom);
+  return `<div class="pg ${bgc}">${arte}${topo(tom, i, tot)}
+  <div style="position:absolute;left:96px;right:${il ? 120 : 150}px;bottom:${il ? 200 : 250}px">
+    <div class="kick" style="color:${k.ac};margin-bottom:${il ? 40 : 54}px">${esc(pg.kicker)}</div>
+    <div class="ttl" style="font-size:${tamTitulo(pg.title, !!il)}px">${esc(pg.title)}</div>
+    ${pg.sub ? `<div class="sub" style="margin-top:${il ? 30 : 40}px;opacity:.85;max-width:760px">${esc(pg.sub)}</div>` : ''}
   </div>${rodape(tom, tot > 1 ? 'Deslize →' : '')}</div>`;
 }
 
@@ -87,25 +99,29 @@ function interna(post, pg, i, tot) {
   const tomTxt = final ? post.tom : 'claro';
   const k = corTexto(tomTxt);
   const cls = final ? (post.tom === 'escuro' ? 'escuro' : 'claro') : 'off';
+  const il = POR_POST[post.n];
+  const pal = final ? PAL[post.tom === 'escuro' ? 'escuro' : 'claro'] : PAL.off;
+  const mini = il ? `<div style="flex:none;margin-top:-10px">${ilustracao(il, 190, pal, 1.5)}</div>` : '';
+  const linha = (a) => il ? `<div style="display:flex;justify-content:space-between;align-items:flex-start">${a}${mini}</div>` : a;
   let corpo = '';
   if (pg.t === 'texto' || pg.t === 'final') {
-    corpo = `<div class="num" style="color:${k.ac}">${pad(i)}</div><div style="height:56px"></div>
+    corpo = `${linha(`<div class="num" style="color:${k.ac}">${pad(i)}</div>`)}<div style="height:${il ? 26 : 56}px"></div>
       <div class="h">${esc(pg.h)}</div><div class="rule" style="background:${k.ac}"></div>
       <div class="p" style="max-width:840px">${esc(pg.p)}</div>`;
   } else if (pg.t === 'lista') {
-    corpo = `<div class="num" style="color:${k.ac}">${pad(i)}</div><div style="height:56px"></div>
+    corpo = `${linha(`<div class="num" style="color:${k.ac}">${pad(i)}</div>`)}<div style="height:${il ? 26 : 56}px"></div>
       <div class="h" style="margin-bottom:56px">${esc(pg.h)}</div>
       <div>${pg.items.map((it, j) => `<div class="li" style="border-color:${final && post.tom === 'escuro' ? 'rgba(199,158,116,.4)' : ''}"><b style="color:${k.ac}">${pad(j + 1)}</b><span>${esc(it)}</span></div>`).join('')}</div>`;
   } else if (pg.t === 'mito') {
-    corpo = `<span class="tag">${esc(pg.tag)}</span>
+    corpo = `${linha(`<span class="tag">${esc(pg.tag)}</span>`)}
       <div class="jost" style="font-weight:300;font-size:64px;line-height:1.22;letter-spacing:.01em">${esc(pg.h)}</div>
       <div class="rule" style="background:${k.ac}"></div><div class="p" style="max-width:840px">${esc(pg.p)}</div>`;
   } else if (pg.t === 'pergunta') {
-    corpo = `<div class="jost" style="font-weight:200;font-size:150px;line-height:1;color:${k.ac}">?</div><div style="height:46px"></div>
+    corpo = `${linha(`<div class="jost" style="font-weight:200;font-size:150px;line-height:1;color:${k.ac}">?</div>`)}<div style="height:${il ? 20 : 46}px"></div>
       <div class="jost" style="font-weight:300;font-size:70px;line-height:1.18">${esc(pg.h)}</div>
       <div class="rule" style="background:${k.ac}"></div><div class="p" style="max-width:840px">${esc(pg.p)}</div>`;
   } else if (pg.t === 'passo') {
-    corpo = `<div class="num" style="font-size:190px;color:${k.ac}">${esc(pg.num)}</div><div style="height:50px"></div>
+    corpo = `${linha(`<div class="num" style="font-size:190px;color:${k.ac}">${esc(pg.num)}</div>`)}<div style="height:${il ? 24 : 50}px"></div>
       <div class="h">${esc(pg.h)}</div><div class="rule" style="background:${k.ac}"></div>
       <div class="p" style="max-width:840px">${esc(pg.p)}</div>`;
   }
@@ -118,10 +134,14 @@ function interna(post, pg, i, tot) {
 function frase(post, pg) {
   const tom = post.tom; const k = corTexto(tom);
   const cls = tom === 'escuro' ? 'escuro' : 'claro';
-  return `<div class="pg ${cls}">${marcaDagua(tom, 1500, -760, -80)}
+  return `<div class="pg ${cls}">
   <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 110px">
-    ${sym(k.sym, 150, 2.6)}
-    <div class="ttl" style="font-size:66px;line-height:1.3;letter-spacing:.14em;margin-top:84px">${esc(pg.frase)}</div>
+    <div style="position:relative;width:360px;height:360px">
+      <div style="position:absolute;inset:0;border-radius:50%;background:${PAL[tom === 'escuro' ? 'escuro' : 'claro'].f}"></div>
+      <div style="position:absolute;inset:0;transform:translate(22px,18px);border-radius:50%;border:1.5px solid ${k.ac};opacity:.55"></div>
+      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">${sym(k.sym, 200, 2.4)}</div>
+    </div>
+    <div class="ttl" style="font-size:62px;line-height:1.3;letter-spacing:.14em;margin-top:80px">${esc(pg.frase)}</div>
     <div style="width:96px;height:1.5px;background:${k.ac};margin-top:70px"></div>
   </div>${rodape(tom)}</div>`;
 }
@@ -231,4 +251,19 @@ function overlay(tipo, w = 1080, h = 1350) {
   return htmlDoc(`<div style="position:relative;width:${w}px;height:${h}px">${body}</div>`, '', w, h, 'transparent');
 }
 
-module.exports = { postPage, story, destaque, overlay, ICONES, FOTO_POS, POST_CSS, corTexto };
+function capaReels(r, il, tom) {
+  const k = corTexto(tom); const pal = PAL[tom];
+  return htmlDoc(`<div class="pg ${tom}" style="width:1080px;height:1920px">
+    <div style="position:absolute;top:200px;left:96px;right:96px;display:flex;align-items:center;justify-content:space-between">${sym(k.sym, 64, 1.7)}<span class="cnt" style="color:${k.ac}">REELS ${pad(r.n)}</span></div>
+    <div style="position:absolute;left:50%;top:430px;width:640px;height:640px;margin-left:-320px;border-radius:50%;background:${pal.f}"></div>
+    <div style="position:absolute;left:50%;top:456px;width:640px;height:640px;margin-left:-294px;border-radius:50%;border:1.5px solid ${k.ac};opacity:.55"></div>
+    <div style="position:absolute;left:50%;top:470px;margin-left:-280px">${ilustracao(il, 560, pal, 1.15)}</div>
+    <div style="position:absolute;left:110px;right:110px;top:1150px;text-align:center">
+      <div class="kick" style="color:${k.ac};justify-content:center;margin-bottom:40px">${esc(r.kicker)}</div>
+      <div class="ttl" style="font-size:66px;line-height:1.2">${esc(r.capa)}</div>
+    </div>
+    <div style="position:absolute;bottom:300px;left:0;right:0;text-align:center;font-family:'Inter';font-weight:500;font-size:20px;letter-spacing:.24em;text-transform:uppercase;color:${k.ac}">Dra. Tatiane Aislan · CRO-BA 32044</div>
+  </div>`, STORY_CSS, 1080, 1920);
+}
+
+module.exports = { capaReels, postPage, story, destaque, overlay, ICONES, FOTO_POS, POST_CSS, corTexto };

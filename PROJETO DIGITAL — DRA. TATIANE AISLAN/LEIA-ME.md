@@ -8,7 +8,7 @@ Identidade visual aplicada, site, Instagram e manual · Desenvolvido por **Danie
 | 03_INSTAGRAM | 6 biografias, organização do perfil, 7 capas de destaques, simulação do perfil |
 | 04_FEED_35_POSTS | 35 pastas (uma por publicação) com artes e legenda; legendas completas, referências e calendário |
 | 05_ANTES_E_DEPOIS | 4 elementos PNG transparentes (+1 extra), em 2 tamanhos |
-| 06_REELS | 3 roteiros completos |
+| 06_REELS | 3 roteiros completos + 3 capas ilustradas |
 | 07_STORIES | 10 stories prontos + roteiro de interações |
 | 08_MANUAL_PDF | Manual completo de identidade digital e posicionamento |
 | _FONTES_EDITAVEIS | Arquivos-fonte para editar textos e gerar as artes novamente (ver abaixo) |
