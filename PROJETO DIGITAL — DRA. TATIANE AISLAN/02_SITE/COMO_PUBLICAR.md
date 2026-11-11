@@ -6,6 +6,13 @@ Site de página única, responsivo e leve (cerca de 0,6 MB), pronto para ser o l
 - `assets/img`: fotos otimizadas (WebP e JPG), logomarca em SVG, favicon e imagem de compartilhamento.
 - `assets/fonts`: fontes Jost e Inter hospedadas no próprio site (mais rapidez e privacidade).
 
+## ✅ Site no ar — endereço provisório
+**https://danielpassos60.github.io/Pasta-1/dratatianeaislan/**
+
+Publicado em 11/11/2026 pelo GitHub Pages (gratuito), dentro do repositório `danielpassos60/Pasta-1`, branch `gh-pages`, pasta `dratatianeaislan/`. O site da Nilda, que já estava nessa branch, não foi alterado. Esse endereço já pode ir na bio. Para um endereço curto no nome da Dra., use uma das opções abaixo.
+
+**Para atualizar o site provisório:** substitua o conteúdo da pasta `dratatianeaislan/` na branch `gh-pages` e faça o commit. O GitHub publica de novo em cerca de 1 minuto.
+
 ## Antes de publicar (2 ajustes no index.html)
 1. **Instagram:** no final do arquivo, preencha `var INSTAGRAM = '';` com o usuário, sem @ (ex.: `'dra.tatianeaislan'`). Enquanto estiver vazio, o botão do Instagram fica oculto para não haver link quebrado.
 2. **Endereço final (depois de publicado):** descomente a linha `<link rel="canonical" ...>` no topo e coloque o endereço real.
