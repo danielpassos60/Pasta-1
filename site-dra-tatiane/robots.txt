@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dratatianeaislan.netlify.app/sitemap.xml
