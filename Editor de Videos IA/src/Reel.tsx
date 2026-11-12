@@ -67,7 +67,7 @@ export const Reel: React.FC<{plan: Plan}> = ({plan}) => {
       <Captions captions={plan.captions} />
       {plan.progress && <div style={{position: 'absolute', left: 0, bottom: 0, height: 10, width: `${(frame / Math.max(1, durationInFrames - 1)) * 100}%`, background: B.lime}} />}
       {autoSfx(plan).map((s, k) => (
-        <Sequence key={'s' + k} from={Math.max(0, F(s.at))}><Audio src={staticFile(`sfx/${s.name}.wav`)} volume={s.vol ?? 0.8} /></Sequence>))}
+        <Sequence key={'s' + k} from={Math.max(0, F(s.at))}><Audio src={staticFile(`sfx/${s.name}.wav`)} volume={(s.vol ?? 0.8) * (plan.sfxGain ?? 0.8)} /></Sequence>))}
     </AbsoluteFill>
   );
 };

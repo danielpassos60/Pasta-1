@@ -40,7 +40,7 @@ export const EmphasisLayer: React.FC<{items: Emphasis[]}> = ({items}) => {
     const box = e.box ?? true;
     return (
       <div key={i} style={{position: 'absolute', left: `${e.x ?? 50}%`, top: `${e.y ?? 22}%`,
-        transform: `translate(-50%,-50%) rotate(${e.rot ?? -3}deg) scale(${s})`, textAlign: 'center', whiteSpace: 'pre-line'}}>
+        transform: `translate(-50%,-50%) rotate(${e.rot ?? -3}deg) scale(${s})`, textAlign: 'center', whiteSpace: 'pre'}}>
         <span style={{fontFamily: B.sans, fontWeight: 800, fontSize: e.size ?? 84, lineHeight: 1.1, letterSpacing: -2,
           color: box ? B.ink : B.lime, background: box ? B.lime : 'transparent', padding: box ? '0 14px' : 0,
           textShadow: box ? 'none' : '0 6px 30px rgba(0,0,0,.45)',

@@ -1,12 +1,12 @@
 {
  "video": "ferida15.mp4",
  "durationSec": 89.1,
- "coverAt": 1.9,
+ "coverAt": 84.45,
  "title": {
   "tag": "Ferida na boca há mais de 15 dias?",
   "text": "Assiste isso.",
   "until": 2.75,
-  "top": 770
+  "top": 810
  },
  "captions": [
   {
@@ -421,7 +421,7 @@
    "end": 21.92,
    "y": 52,
    "rot": -3,
-   "size": 96
+   "size": 104
   },
   {
    "text": "calma.",

@@ -21,15 +21,15 @@ for c, n in zip(caps, caps[1:]):
 DUR = 89.1
 E_ = lambda text, s, e, **k: dict(text=text, start=round(s, 2), end=round(e, 2), **k)
 plan = {
- 'video': 'ferida15.mp4', 'durationSec': DUR, 'coverAt': 1.9,
- 'title': {'tag': 'Ferida na boca há mais de 15 dias?', 'text': 'Assiste isso.', 'until': 2.75, 'top': 770},
+ 'video': 'ferida15.mp4', 'durationSec': DUR, 'coverAt': 84.45,
+ 'title': {'tag': 'Ferida na boca há mais de 15 dias?', 'text': 'Assiste isso.', 'until': 2.75, 'top': 810},
  'captions': caps,
  'emphasis': [
   E_('15', st(16) - 0.05, 7.15, y=50, rot=0, size=400, box=False, countTo=15),
   E_('dias', st(18), 7.15, y=61.5, rot=-3, size=84),
   E_('fáceis de tratar', st(34), en(37) + 0.2, y=52, rot=-3, size=86),
   E_('saram sozinhas', st(41), en(42) + 0.15, y=52, rot=2, size=86),
-  E_('≈ 2 semanas', st(46), en(49) + 0.2, y=52, rot=-3, size=96),
+  E_('≈ 2 semanas', st(46), en(49) + 0.2, y=52, rot=-3, size=104),
   E_('calma.', st(135) - 0.05, st(137), y=51, rot=0, size=230, box=False),
   E_('não quer dizer\ncâncer', st(137), en(143) + 0.15, y=52, rot=-3, size=88),
   E_('precisa ser\navaliado', st(148), en(155) + 0.1, y=52, rot=2, size=92),
