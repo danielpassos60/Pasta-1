@@ -9,3 +9,6 @@ Pastas: `Material Bruto/` entrada · `Referencias/` · `Videos Prontos/` saída 
 3. Título da capa: sempre `tag` pequena + título curto em verde + faixa de imagens (`title.images`).
 4. `python3 scripts/editar.py --renderizar planos/<nome>.json` e entregue o mp4 + capa. Peça ajustes em chat ("gancho maior", "mais inserts").
 Esquema do plano: `src/types.ts`. Exemplo: `planos/demo.json`.
+
+## Regra fixa: posição da legenda
+A legenda fica SEMPRE no mesmo lugar do vídeo 1: centralizada na horizontal, centro a 74% da altura da tela (abaixo das mãos/peito, acima do rodapé). Nunca mudar.

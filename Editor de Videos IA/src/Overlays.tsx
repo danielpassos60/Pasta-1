@@ -16,13 +16,13 @@ export const Media: React.FC<{src?: string; style?: React.CSSProperties}> = ({sr
 };
 
 // Legenda pequena com marca-texto verde (como nos vídeos 1 e 2)
-export const Captions: React.FC<{captions: Caption[]; bottom?: number}> = ({captions, bottom = 29}) => {
+export const Captions: React.FC<{captions: Caption[]}> = ({captions}) => {
   const frame = useCurrentFrame(); const {fps} = useVideoConfig(); const t = frame / fps;
   const c = captions.find((x) => t >= x.start && t < x.end);
   if (!c) return null;
   const s = pop(frame - Math.round(c.start * fps), fps) ;
   return (
-    <div style={{position: 'absolute', left: 0, right: 0, top: `${100 - bottom}%`, display: 'flex', justifyContent: 'center', padding: '0 120px'}}>
+    <div style={{position: 'absolute', left: 0, right: 0, top: '74%', transform: 'translateY(-50%)', display: 'flex', justifyContent: 'center', padding: '0 120px'}}  /* POSIÇÃO TRAVADA: igual ao vídeo 1 (centro a 74% da altura) */>
       <span style={{
         fontFamily: B.sans, fontWeight: 600, fontSize: 40, lineHeight: 1.25, color: B.ink, background: B.lime,
         padding: '2px 12px', textAlign: 'center', transform: `scale(${0.9 + 0.1 * Math.min(s, 1)})`,

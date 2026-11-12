@@ -35,3 +35,6 @@ Estalos curtos de banda larga (~10ms) a cada inserto/palavra-chave; pop grave qu
 3. O Claude lê `planos/<nome>.transcricao.txt`, escolhe onde entram inserts/explicações/palavras-chave e preenche o plano (imagens em `public/midia/`).
 4. `python3 scripts/editar.py --renderizar planos/<nome>.json` → `Videos Prontos/<nome>.mp4` + capa.
 Pré-visualizar/ajustar: `npm run studio`.
+
+## Regra fixa: posição da legenda
+A legenda fica SEMPRE no mesmo lugar do vídeo 1: centralizada na horizontal, centro a 74% da altura da tela (abaixo das mãos/peito, acima do rodapé). Nunca mudar.
