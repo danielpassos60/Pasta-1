@@ -21,8 +21,8 @@ export const Explainer: React.FC<{e: Explain}> = ({e}) => {
     const v = e.value * ease(rise(t, 0.2, 1.2));
     return <AbsoluteFill style={wrap}><Tag text={e.tag} />
       <div style={{...ctr, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-        <div style={{fontFamily: B.serif, fontWeight: 700, fontSize: 240, color: B.lime, letterSpacing: -6}}>{e.prefix}{v.toFixed(e.decimals ?? 0)}{e.suffix}</div>
-        {e.label && <div style={{fontFamily: B.sans, fontSize: 44, color: B.paper, marginTop: 20, opacity: rise(t, 1.0)}}>{e.label}</div>}
+        <div style={{fontFamily: B.serif, fontWeight: 700, fontSize: (e as any).size ?? 240, color: B.lime, letterSpacing: -6, whiteSpace: 'nowrap'}}>{e.prefix}{v.toFixed(e.decimals ?? 0)}{e.suffix}</div>
+        {e.label && <div style={{fontFamily: B.sans, fontWeight: 600, fontSize: 52, color: B.paper, marginTop: 24, opacity: rise(t, 1.0), letterSpacing: -1}}>{e.label}</div>}
       </div></AbsoluteFill>;
   }
   if (e.kind === 'bars') {

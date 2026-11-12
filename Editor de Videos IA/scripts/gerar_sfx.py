@@ -20,6 +20,8 @@ def lp(x, a=0.1):
     return y
 # click: estalo de banda larga (como o tic visto nos espectrogramas)
 tt = t(0.06); save('click', hp(rng.normal(size=len(tt))) * np.exp(-tt * 220) + 0.6 * np.sin(2*np.pi*2200*tt) * np.exp(-tt * 300))
+# tick: toque curto e suave para itens de lista
+tt = t(0.05); save('tick', np.sin(2*np.pi*1500*tt) * np.exp(-tt * 140) + 0.3 * hp(rng.normal(size=len(tt))) * np.exp(-tt * 400))
 # pop: gota grave + estalo
 tt = t(0.18); f = 520 * np.exp(-tt * 18) + 120
 save('pop', np.sin(2*np.pi*np.cumsum(f)/SR) * np.exp(-tt * 26) + 0.5 * hp(rng.normal(size=len(tt))) * np.exp(-tt * 300))

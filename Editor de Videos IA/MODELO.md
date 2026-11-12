@@ -38,3 +38,15 @@ Pré-visualizar/ajustar: `npm run studio`.
 
 ## Regra fixa: posição da legenda
 A legenda fica SEMPRE no mesmo lugar do vídeo 1: centralizada na horizontal, centro a 74% da altura da tela (abaixo das mãos/peito, acima do rodapé). Nunca mudar.
+
+## Fluxo com áudio de microfone + câmera (várias tomadas)
+1. `planos/<nome>_spec.json`: áudio do microfone, arquivos da câmera com o offset (sincronizado por correlação do áudio), e a lista das melhores tomadas (segundos do áudio).
+2. `python3 scripts/montar_tomadas.py planos/<nome>_spec.json` → gira, **espelha**, corrige o bordado do jaleco (`scripts/bordado.py`, o nome continua legível), corta silêncios, alterna zoom a cada corte, corrige a cor e usa o áudio do microfone tratado (-14 LUFS). Sai `public/<nome>.mp4`.
+3. Transcrever o áudio final → `planos/<nome>_words.json`; montar o plano com `planos/<nome>_plano.py` (legendas com o texto do roteiro, não o da transcrição).
+4. `python3 scripts/editar.py --renderizar planos/<nome>.json`.
+
+## Novas camadas
+- `split`: painel explicativo escuro em cima (570px) e o apresentador continua embaixo. Painéis: `source` (fonte, ex. INCA), `calendar` (dias sendo riscados), `checklist`, `versus`, `growth`. Painéis encostados não fecham a tela entre si.
+- `stickers`: cartões com ilustrações próprias (afta, mordida, aparelho) e pílulas de CTA (salva / manda pra alguém). Nunca usar foto de paciente sem autorização.
+- `emphasis` com `countTo` (número contando) e `box:false` (texto verde grande).
+- Em vídeos sem espaço acima da cabeça, o título/capa vai no peito (`title.top`) e as palavras-chave em y≈52%.

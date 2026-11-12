@@ -1,0 +1,87 @@
+{
+ "nome": "ferida15",
+ "mic": "Material Bruto/audio_microfone.m4a",
+ "cams": [
+  {
+   "file": "Material Bruto/drive/MVI_4977.MOV",
+   "offset": -0.574,
+   "dur": 144.6445
+  },
+  {
+   "file": "Material Bruto/drive/MVI_4978.MOV",
+   "offset": 195.955,
+   "dur": 284.951333
+  }
+ ],
+ "mirror": true,
+ "fix_text": "planos/ferida15_bordado.png",
+ "zoom": 1.12,
+ "segments": [
+  [
+   44.7,
+   52.35
+  ],
+  [
+   59.5,
+   69.15
+  ],
+  [
+   95.6,
+   101.8
+  ],
+  [
+   108.4,
+   111.42
+  ],
+  [
+   123.62,
+   129.74,
+   "raw"
+  ],
+  [
+   229.56,
+   234.32,
+   "raw"
+  ],
+  [
+   246.55,
+   262.34
+  ],
+  [
+   272.25,
+   276.35
+  ],
+  [
+   285.84,
+   288.58,
+   "raw"
+  ],
+  [
+   292.6,
+   295.95
+  ],
+  [
+   305.56,
+   309.5,
+   "raw"
+  ],
+  [
+   348.2,
+   353.35
+  ],
+  [
+   370.85,
+   376.65
+  ],
+  [
+   446.6,
+   457.0
+  ],
+  [
+   462.75,
+   467.65
+  ]
+ ],
+ "out": "public/ferida15.mp4",
+ "grade": "colorbalance=rs=-0.15:gs=-0.02:bs=0.14:rm=-0.16:gm=-0.02:bm=0.14:rh=-0.06:bh=0.08,eq=contrast=1.1:saturation=0.9:gamma=0.98"
+}

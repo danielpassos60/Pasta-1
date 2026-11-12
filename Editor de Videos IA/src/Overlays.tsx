@@ -43,7 +43,8 @@ export const EmphasisLayer: React.FC<{items: Emphasis[]}> = ({items}) => {
         transform: `translate(-50%,-50%) rotate(${e.rot ?? -3}deg) scale(${s})`, textAlign: 'center', whiteSpace: 'pre-line'}}>
         <span style={{fontFamily: B.sans, fontWeight: 800, fontSize: e.size ?? 84, lineHeight: 1.1, letterSpacing: -2,
           color: box ? B.ink : B.lime, background: box ? B.lime : 'transparent', padding: box ? '0 14px' : 0,
-          boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone'}}>{e.text}</span>
+          textShadow: box ? 'none' : '0 6px 30px rgba(0,0,0,.45)',
+          boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone'}}>{e.countTo ? `${Math.max(1, Math.round(e.countTo * Math.min(1, (t - e.start) / 0.7)))}${e.suffix ?? ''}` : e.text}</span>
       </div>);
   })}</>;
 };
@@ -62,8 +63,8 @@ export const TitleBlock: React.FC<{title: NonNullable<Plan['title']>}> = ({title
         <div style={{position: 'absolute', top: 170, left: 120, right: 120, height: 280, display: 'flex', transform: `scale(${s})`, boxShadow: '0 8px 30px rgba(0,0,0,.25)'}}>
           {imgs.map((m, i) => <Media key={i} src={m} style={{flex: 1, height: '100%', width: 0}} />)}
         </div>)}
-      <div style={{position: 'absolute', top: imgs.length ? 480 : 300, left: 0, right: 0, textAlign: 'center', transform: `scale(${s})`}}>
-        {title.tag && <div style={{display: 'inline-block', transform: 'rotate(-3deg)', background: B.lime, color: B.ink, fontFamily: B.sans, fontWeight: 600, fontSize: 36, padding: '0 10px', marginBottom: 6, marginRight: 300}}>{title.tag}</div>}
+      <div style={{position: 'absolute', top: title.top ?? (imgs.length ? 480 : 300), left: 0, right: 0, textAlign: 'center', transform: `scale(${s})`}}>
+        {title.tag && <div style={{display: 'inline-block', transform: 'rotate(-3deg)', background: B.lime, color: B.ink, fontFamily: B.sans, fontWeight: 600, fontSize: 36, padding: '0 10px', marginBottom: 10, marginRight: imgs.length ? 300 : 0}}>{title.tag}</div>}
         <div style={{fontFamily: B.sans, fontWeight: 800, fontSize: 112, letterSpacing: -4, lineHeight: 1, color: B.lime, textShadow: '0 4px 24px rgba(0,0,0,.35)'}}>
           <span style={{fontSize: 56}}>★ </span>{title.text}<span style={{fontSize: 56}}> ★</span>
         </div>
