@@ -8,17 +8,18 @@ const ink = {fill: 'none', stroke: B.ink, strokeWidth: 5, strokeLinecap: 'round'
 const TOOTH = 'M40 34 C40 14 52 6 64 8 C70 9 72 12 75 12 C78 12 80 9 86 8 C98 6 110 14 110 34 C110 48 105 57 103 71 C101 86 99 97 94 105 C91 110 86 107 85 98 C84 89 82 80 75 80 C68 80 66 89 65 98 C64 107 59 110 56 105 C51 97 49 86 47 71 C45 57 40 48 40 34 Z';
 const Icon: React.FC<{name: Sticker['icon']}> = ({name}) => {
   if (name === 'afta') return <svg viewBox="0 0 150 120" width="100%">
-    <path {...ink} d="M14 52 C40 20 62 30 75 40 C88 30 110 20 136 52 C112 96 38 96 14 52 Z" />
-    <path {...ink} strokeWidth={4} d="M14 52 C50 62 100 62 136 52" />
-    <circle cx="98" cy="72" r="13" fill={B.lime} stroke={B.ink} strokeWidth="4" />
-    <circle cx="98" cy="72" r="4.5" fill={B.ink} /></svg>;
+    <path d="M10 50 C36 20 60 26 75 38 C90 26 114 20 140 50 C116 100 34 100 10 50 Z" fill="#EFA3A8" stroke={B.ink} strokeWidth="5" strokeLinejoin="round" />
+    <path d="M10 50 C48 62 102 62 140 50" fill="none" stroke={B.ink} strokeWidth="4" strokeLinecap="round" />
+    <circle cx="98" cy="74" r="15" fill="#D7263D" />
+    <circle cx="98" cy="74" r="9.5" fill="#FFF6D6" stroke={B.ink} strokeWidth="3" />
+    <circle cx="98" cy="74" r="24" fill="none" stroke={B.lime} strokeWidth="5" strokeDasharray="7 6" /></svg>;
   if (name === 'mordida') return <svg viewBox="0 0 150 120" width="100%">
-    <path {...ink} d={TOOTH} />
+    <path {...ink} d={TOOTH} fill="#FFFFFF" />
     <path d="M112 30 L128 22 M116 46 L136 46 M112 62 L128 70" stroke={B.ink} strokeWidth="5" strokeLinecap="round" />
     <path d="M58 38 C66 46 84 46 92 38" {...ink} strokeWidth={4} />
     <circle cx="124" cy="46" r="0" /></svg>;
   if (name === 'aparelho') return <svg viewBox="0 0 150 120" width="100%">
-    {[18, 58, 98].map((x) => <rect key={x} x={x} y="26" width="34" height="68" rx="12" {...ink} />)}
+    {[18, 58, 98].map((x) => <rect key={x} x={x} y="26" width="34" height="68" rx="12" {...ink} fill="#FFFFFF" />)}
     <path d="M8 60 H142" stroke={B.ink} strokeWidth="4" />
     {[24, 64, 104].map((x) => <rect key={x} x={x} y="49" width="22" height="22" rx="4" fill={B.lime} stroke={B.ink} strokeWidth="4" />)}</svg>;
   if (name === 'salvar') return <svg viewBox="0 0 60 60" width="100%"><path d="M16 8 H44 V52 L30 40 L16 52 Z" fill={B.ink} stroke={B.ink} strokeWidth="4" strokeLinejoin="round" /></svg>;

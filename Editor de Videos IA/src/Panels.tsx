@@ -9,7 +9,7 @@ export type Panel =
   | {kind: 'calendar'; tag?: string; heading?: string; days: number; from?: number; to: number; label?: string}
   | {kind: 'checklist'; tag?: string; items: {text: string; at: number}[]}
   | {kind: 'versus'; tag?: string; rows: {left: string; right: string; at: number; rightAt?: number; good?: boolean}[]}
-  | {kind: 'signs'; tag?: string; source?: string; intro?: string; items: {text: string; at: number; img?: string; icon?: 'sangue' | 'caroco' | 'semdor'; term?: string}[]}
+  | {kind: 'signs'; tag?: string; source?: string; intro?: string; items: {text: string; at: number; img?: string; icon?: 'sangue' | 'caroco' | 'semdor' | 'leuco' | 'eritro'; term?: string}[]}
   | {kind: 'growth'; tag?: string; from: string; to: string; at?: number};
 
 const useT = () => { const f = useCurrentFrame(); const {fps} = useVideoConfig(); return {f, fps, t: f / fps}; };
@@ -111,6 +111,25 @@ export const PanelView: React.FC<{p: Panel; dur: number}> = ({p, dur}) => {
         <path d="M150 44 L128 92 H146 L134 136 L170 80 H150 L162 44 Z" {...P} strokeWidth={5} />
         <path d="M118 40 L180 142" stroke={B.lime} strokeWidth="8" strokeLinecap="round" /></>}
     </svg>;
+
+    const Tongue: React.FC<{kind: 'leuco' | 'eritro'}> = ({kind}) => {
+      const INK = B.ink, PINK = '#EFA3A8', PINK2 = '#D9838B';
+      return <svg viewBox="0 0 400 352" width="100%" height="100%">
+        <rect width="400" height="352" fill={B.paper} />
+        <path d="M70 -10 C62 110 70 210 104 268 C140 330 260 330 296 268 C330 210 338 110 330 -10 Z" fill={PINK} stroke={INK} strokeWidth="7" strokeLinejoin="round" />
+        <path d="M200 10 C198 90 200 170 200 246" fill="none" stroke={PINK2} strokeWidth="7" strokeLinecap="round" />
+        {[[128,60],[156,96],[250,70],[272,118],[236,150],[150,214],[262,226],[226,262],[170,270]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r="4.5" fill={PINK2} opacity="0.75" />)}
+        {kind === 'leuco' ? <>
+          <path d="M92 118 C108 96 150 100 166 122 C184 146 176 176 156 196 C140 212 112 216 98 196 C82 174 78 138 92 118 Z" fill="#FFFDF7" stroke={INK} strokeWidth="5" strokeLinejoin="round" />
+          <path d="M110 132 q10 -8 20 0 M124 160 q10 -8 20 0 M106 176 q9 -7 18 0 M140 138 q8 -6 16 0" fill="none" stroke="#CFC8B8" strokeWidth="4" strokeLinecap="round" />
+        </> : <>
+          <path d="M236 112 C258 92 300 104 310 132 C320 160 306 194 282 204 C256 214 228 198 222 170 C218 148 222 126 236 112 Z" fill="#D7263D" stroke={INK} strokeWidth="5" strokeLinejoin="round" />
+          {[[250,132],[274,126],[292,150],[262,158],[282,180],[246,176]].map(([x, y], i) => <circle key={i} cx={x} cy={y} r="4" fill="#9E1326" />)}
+        </>}
+        <circle cx={kind === 'leuco' ? 128 : 266} cy="156" r="72" fill="none" stroke={B.lime} strokeWidth="7" strokeDasharray="12 12" />
+        <circle cx={kind === 'leuco' ? 128 : 266} cy="156" r="72" fill="none" stroke={INK} strokeWidth="2" strokeDasharray="12 12" opacity="0.25" />
+      </svg>;
+    };
     body = <div style={{...box, display: 'flex', gap: 44}}>
       <div style={{width: 400, flex: 'none', position: 'relative'}}>
         <div style={{position: 'absolute', inset: 0, borderRadius: 24, background: B.lime, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: act < 0 ? 1 : 0,
@@ -118,10 +137,11 @@ export const PanelView: React.FC<{p: Panel; dur: number}> = ({p, dur}) => {
           <div style={{fontFamily: B.serif, fontWeight: 700, fontSize: 280, lineHeight: 1, color: B.ink}}>!</div></div>
         {p.items.map((it, i) => {
           if (i !== act) return null;
-          const s = pop(f, fps, it.at);
+          const s = pop(f, fps, it.at); const flat = !!it.img || it.icon === 'leuco' || it.icon === 'eritro';
           return <div key={i} style={{position: 'absolute', inset: 0, transform: `scale(${0.86 + 0.14 * s})`, opacity: Math.min(1, s * 1.6)}}>
-            <div style={{position: 'absolute', inset: 0, borderRadius: 24, overflow: 'hidden', background: '#17171b', border: it.img ? 'none' : '2px solid #2e2e35', padding: it.img ? 0 : 34}}>
-              {it.img ? <Img src={staticFile(it.img)} style={{width: '100%', height: '100%', objectFit: 'cover'}} /> : <Ill name={it.icon} />}
+            <div style={{position: 'absolute', inset: 0, borderRadius: 24, overflow: 'hidden', background: '#17171b', border: flat ? 'none' : '2px solid #2e2e35', padding: flat ? 0 : 34}}>
+              {it.img ? <Img src={staticFile(it.img)} style={{width: '100%', height: '100%', objectFit: 'cover'}} /> : (it.icon === 'leuco' || it.icon === 'eritro') ? <Tongue kind={it.icon} /> : <Ill name={it.icon} />}
+              {!it.img && flat && <div style={{position: 'absolute', top: 14, right: 14, background: 'rgba(11,11,13,.78)', color: B.paper, fontFamily: B.mono, fontWeight: 500, fontSize: 17, letterSpacing: 2, padding: '4px 10px', borderRadius: 8}}>ILUSTRAÇÃO</div>}
               {it.img && <div style={{position: 'absolute', top: 14, right: 14, background: 'rgba(11,11,13,.72)', color: B.paper, fontFamily: B.mono, fontWeight: 500, fontSize: 17, letterSpacing: 2, padding: '4px 10px', borderRadius: 8}}>FOTO CLÍNICA</div>}
             </div>
             {it.term && <div style={{position: 'absolute', left: -14, bottom: 22, transform: `rotate(-3deg) scale(${pop(f, fps, it.at + 0.18)})`, transformOrigin: 'left bottom', background: B.lime, color: B.ink,

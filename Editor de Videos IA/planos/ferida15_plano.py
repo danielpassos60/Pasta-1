@@ -36,7 +36,7 @@ plan = {
   E_('a regra é simples', st(186), st(190) - 0.25, y=52, rot=-3, size=88),
  ],
  'stickers': [
-  {'icon': 'afta', 'img': 'midia/ferida15/afta.jpg', 'label': 'afta', 'start': st(26), 'end': en(30) + 0.2, 'x': 22, 'y': 56, 'rot': -5},
+  {'icon': 'afta', 'label': 'afta', 'start': st(26), 'end': en(30) + 0.2, 'x': 22, 'y': 56, 'rot': -5},
   {'icon': 'mordida', 'label': 'mordida', 'start': st(27), 'end': en(30) + 0.2, 'x': 50, 'y': 57.5, 'rot': 2},
   {'icon': 'aparelho', 'label': 'aparelho', 'start': st(28), 'end': en(30) + 0.2, 'x': 78, 'y': 56, 'rot': 5},
   {'icon': 'salvar', 'label': 'salva', 'start': st(210), 'end': DUR, 'x': 50, 'y': 50.5, 'rot': -3},
@@ -50,8 +50,8 @@ a0 = st(58) - 0.05; a1 = st(74) - 0.1; a2 = st(90) - 0.05; a3 = st(134) - 0.12
 I.append({'type': 'split', 'start': a0, 'end': a1, 'panel': {'kind': 'source', 'tag': 'fonte oficial', 'big': 'INCA', 'sub': 'Instituto Nacional de Câncer', 'subAt': st(61) - a0, 'chip': 'sinais de alerta', 'chipAt': st(69) - a0}})
 I.append({'type': 'split', 'start': a1, 'end': a2, 'panel': {'kind': 'calendar', 'tag': 'o número', 'heading': 'ferida que não cicatriza em', 'days': 15, 'from': 0.35, 'to': st(87) - a1, 'label': 'dias'}})
 I.append({'type': 'split', 'start': a2, 'end': a3, 'panel': {'kind': 'signs', 'tag': 'sinais de alerta', 'source': 'fonte: INCA · OMS', 'intro': 'junto com\noutros sinais', 'items': [
-  {'text': 'mancha branca que não sai', 'term': 'leucoplasia', 'img': 'midia/ferida15/leucoplasia.jpg', 'at': st(98) - a2},
-  {'text': 'lesão vermelha', 'term': 'eritroplasia', 'img': 'midia/ferida15/eritroplasia.jpg', 'at': st(110) - 0.08 - a2},
+  {'text': 'mancha branca que não sai', 'term': 'leucoplasia', 'icon': 'leuco', 'at': st(98) - a2},
+  {'text': 'lesão vermelha', 'term': 'eritroplasia', 'icon': 'eritro', 'at': st(110) - 0.08 - a2},
   {'text': 'lesão que sangra fácil', 'icon': 'sangue', 'at': st(112) - a2},
   {'text': 'caroço que não some', 'icon': 'caroco', 'at': st(118) - a2},
   {'text': 'ferida que não dói', 'icon': 'semdor', 'at': st(126) - a2}]}})

@@ -460,7 +460,6 @@
  "stickers": [
   {
    "icon": "afta",
-   "img": "midia/ferida15/afta.jpg",
    "label": "afta",
    "start": 9.58,
    "end": 14.239999999999998,
@@ -547,13 +546,13 @@
      {
       "text": "mancha branca que não sai",
       "term": "leucoplasia",
-      "img": "midia/ferida15/leucoplasia.jpg",
+      "icon": "leuco",
       "at": 3.210000000000001
      },
      {
       "text": "lesão vermelha",
       "term": "eritroplasia",
-      "img": "midia/ferida15/eritroplasia.jpg",
+      "icon": "eritro",
       "at": 9.07
      },
      {
