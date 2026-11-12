@@ -36,7 +36,7 @@ plan = {
   E_('a regra é simples', st(186), st(190) - 0.25, y=52, rot=-3, size=88),
  ],
  'stickers': [
-  {'icon': 'afta', 'label': 'afta', 'start': st(26), 'end': en(30) + 0.2, 'x': 22, 'y': 56, 'rot': -5},
+  {'icon': 'afta', 'img': 'midia/ferida15/afta.jpg', 'label': 'afta', 'start': st(26), 'end': en(30) + 0.2, 'x': 22, 'y': 56, 'rot': -5},
   {'icon': 'mordida', 'label': 'mordida', 'start': st(27), 'end': en(30) + 0.2, 'x': 50, 'y': 57.5, 'rot': 2},
   {'icon': 'aparelho', 'label': 'aparelho', 'start': st(28), 'end': en(30) + 0.2, 'x': 78, 'y': 56, 'rot': 5},
   {'icon': 'salvar', 'label': 'salva', 'start': st(210), 'end': DUR, 'x': 50, 'y': 50.5, 'rot': -3},
@@ -46,19 +46,24 @@ plan = {
  'sfx': [{'at': st(210), 'name': 'ding', 'vol': 0.45}],
 }
 I = plan['inserts']
-a0 = st(58) - 0.05; a1 = st(74) - 0.1; a2 = st(94) - 0.3; a3 = st(134) - 0.12
+a0 = st(58) - 0.05; a1 = st(74) - 0.1; a2 = st(90) - 0.05; a3 = st(134) - 0.12
 I.append({'type': 'split', 'start': a0, 'end': a1, 'panel': {'kind': 'source', 'tag': 'fonte oficial', 'big': 'INCA', 'sub': 'Instituto Nacional de Câncer', 'subAt': st(61) - a0, 'chip': 'sinais de alerta', 'chipAt': st(69) - a0}})
 I.append({'type': 'split', 'start': a1, 'end': a2, 'panel': {'kind': 'calendar', 'tag': 'o número', 'heading': 'ferida que não cicatriza em', 'days': 15, 'from': 0.35, 'to': st(87) - a1, 'label': 'dias'}})
-I.append({'type': 'split', 'start': a2, 'end': a3, 'panel': {'kind': 'checklist', 'tag': 'outros sinais de alerta', 'items': [
-  {'text': 'mancha branca que não sai', 'at': st(99) - a2}, {'text': 'lesão vermelha', 'at': st(110) - a2}, {'text': 'lesão que sangra', 'at': st(112) - a2},
-  {'text': 'caroço que não some', 'at': st(119) - a2}, {'text': 'ferida que não dói', 'at': st(126) - a2}]}})
+I.append({'type': 'split', 'start': a2, 'end': a3, 'panel': {'kind': 'signs', 'tag': 'sinais de alerta', 'source': 'fonte: INCA · OMS', 'intro': 'junto com\noutros sinais', 'items': [
+  {'text': 'mancha branca que não sai', 'term': 'leucoplasia', 'img': 'midia/ferida15/leucoplasia.jpg', 'at': st(98) - a2},
+  {'text': 'lesão vermelha', 'term': 'eritroplasia', 'img': 'midia/ferida15/eritroplasia.jpg', 'at': st(110) - 0.08 - a2},
+  {'text': 'lesão que sangra fácil', 'icon': 'sangue', 'at': st(112) - a2},
+  {'text': 'caroço que não some', 'icon': 'caroco', 'at': st(118) - a2},
+  {'text': 'ferida que não dói', 'icon': 'semdor', 'at': st(126) - a2}]}})
 b0 = st(156) - 0.1; b1 = en(168) + 0.02
 I.append({'type': 'split', 'start': b0, 'end': b1, 'panel': {'kind': 'growth', 'tag': 'diagnóstico precoce', 'from': 'descoberto cedo', 'to': 'maior chance de cura', 'at': st(160) - b0 + 0.3}})
-I.append({'type': 'explain', 'start': st(171) - 0.05, 'end': en(184) + 0.1, 'explain': {'kind': 'bignumber', 'tag': 'INCA · estimativa', 'prefix': '≈ ', 'value': 15, 'suffix': ' mil', 'size': 250, 'label': 'casos novos por ano no Brasil'}})
+I.append({'type': 'explain', 'start': st(171) - 0.05, 'end': en(184) + 0.1, 'explain': {'kind': 'bignumber', 'tag': 'câncer de boca no Brasil', 'prefix': '≈ ', 'value': 15, 'suffix': ' mil', 'size': 250, 'label': 'casos novos por ano', 'source': 'fonte: INCA · Estimativa 2023–2025', 'note': 'estimativa 2026–2028: ≈ 17 mil por ano', 'noteAt': 2.3}})
 c0 = st(190) - 0.2; c1 = en(209) + 0.1
 I.append({'type': 'split', 'start': c0, 'end': c1, 'panel': {'kind': 'versus', 'tag': 'a regra', 'rows': [
   {'left': 'sarou em até 2 semanas', 'right': 'ótimo', 'at': 0.15, 'rightAt': st(194) - c0, 'good': True},
   {'left': 'passou de 15 dias', 'right': 'procure um dentista', 'at': st(195) - c0, 'rightAt': st(203) - c0}]}})
 for i in I: i['start'] = round(i['start'], 2); i['end'] = round(i['end'], 2)
+cuts = json.load(open(f'{D}/ferida15_cortes.json')); tcur = 0.0; plan['cuts'] = []
+for a, b in cuts: plan['cuts'].append(round(tcur, 3)); tcur += round((b - a) * 30) / 30
 json.dump(plan, open(f'{D}/ferida15.json', 'w'), ensure_ascii=False, indent=1)
 print('plano ok:', len(caps), 'legendas,', len(I), 'inserts')

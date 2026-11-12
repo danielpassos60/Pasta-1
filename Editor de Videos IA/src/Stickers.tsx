@@ -1,9 +1,9 @@
 import React from 'react';
-import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {BRAND as B} from './brand';
 
 // Cartõezinhos desenhados que "pipocam" conforme a fala (ilustrações próprias, sem foto de paciente).
-export type Sticker = {icon: 'afta' | 'mordida' | 'aparelho' | 'salvar' | 'enviar'; label: string; start: number; end: number; x: number; y: number; rot?: number; w?: number};
+export type Sticker = {icon: 'afta' | 'mordida' | 'aparelho' | 'salvar' | 'enviar'; label: string; start: number; end: number; x: number; y: number; rot?: number; w?: number; img?: string};
 const ink = {fill: 'none', stroke: B.ink, strokeWidth: 5, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const};
 const TOOTH = 'M40 34 C40 14 52 6 64 8 C70 9 72 12 75 12 C78 12 80 9 86 8 C98 6 110 14 110 34 C110 48 105 57 103 71 C101 86 99 97 94 105 C91 110 86 107 85 98 C84 89 82 80 75 80 C68 80 66 89 65 98 C64 107 59 110 56 105 C51 97 49 86 47 71 C45 57 40 48 40 34 Z';
 const Icon: React.FC<{name: Sticker['icon']}> = ({name}) => {
@@ -39,7 +39,7 @@ export const StickerLayer: React.FC<{items: Sticker[]}> = ({items}) => {
     const w = s.w ?? 290;
     return <div key={i} style={{position: 'absolute', left: `${s.x}%`, top: `${s.y}%`, width: w, transform: `translate(-50%,-50%) scale(${k * out}) rotate(${(s.rot ?? 0) + (1 - k) * -10}deg)`,
       background: B.paper, borderRadius: 30, padding: '26px 26px 22px', boxShadow: '0 18px 50px rgba(0,0,0,.4)', textAlign: 'center'}}>
-      <Icon name={s.icon} />
+      {s.img ? <Img src={staticFile(s.img)} style={{width: '100%', aspectRatio: '150 / 120', objectFit: 'cover', borderRadius: 16, display: 'block'}} /> : <Icon name={s.icon} />}
       <div style={{display: 'inline-block', marginTop: 10, background: B.lime, color: B.ink, fontFamily: B.sans, fontWeight: 800, fontSize: 44, letterSpacing: -1.5, padding: '0 12px'}}>{s.label}</div></div>;
   })}</>;
 };

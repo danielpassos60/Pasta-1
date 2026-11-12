@@ -460,6 +460,7 @@
  "stickers": [
   {
    "icon": "afta",
+   "img": "midia/ferida15/afta.jpg",
    "label": "afta",
    "start": 9.58,
    "end": 14.239999999999998,
@@ -522,7 +523,7 @@
   {
    "type": "split",
    "start": 30.78,
-   "end": 37.88,
+   "end": 36.03,
    "panel": {
     "kind": "calendar",
     "tag": "o número",
@@ -535,31 +536,40 @@
   },
   {
    "type": "split",
-   "start": 37.88,
+   "start": 36.03,
    "end": 57.1,
    "panel": {
-    "kind": "checklist",
-    "tag": "outros sinais de alerta",
+    "kind": "signs",
+    "tag": "sinais de alerta",
+    "source": "fonte: INCA · OMS",
+    "intro": "junto com\noutros sinais",
     "items": [
      {
       "text": "mancha branca que não sai",
-      "at": 1.8399999999999963
+      "term": "leucoplasia",
+      "img": "midia/ferida15/leucoplasia.jpg",
+      "at": 3.210000000000001
      },
      {
       "text": "lesão vermelha",
-      "at": 7.299999999999997
+      "term": "eritroplasia",
+      "img": "midia/ferida15/eritroplasia.jpg",
+      "at": 9.07
      },
      {
-      "text": "lesão que sangra",
-      "at": 8.96
+      "text": "lesão que sangra fácil",
+      "icon": "sangue",
+      "at": 10.810000000000002
      },
      {
       "text": "caroço que não some",
-      "at": 13.479999999999997
+      "icon": "caroco",
+      "at": 14.57
      },
      {
       "text": "ferida que não dói",
-      "at": 16.519999999999996
+      "icon": "semdor",
+      "at": 18.369999999999997
      }
     ]
    }
@@ -582,12 +592,15 @@
    "end": 74.84,
    "explain": {
     "kind": "bignumber",
-    "tag": "INCA · estimativa",
+    "tag": "câncer de boca no Brasil",
     "prefix": "≈ ",
     "value": 15,
     "suffix": " mil",
     "size": 250,
-    "label": "casos novos por ano no Brasil"
+    "label": "casos novos por ano",
+    "source": "fonte: INCA · Estimativa 2023–2025",
+    "note": "estimativa 2026–2028: ≈ 17 mil por ano",
+    "noteAt": 2.3
    }
   },
   {
@@ -621,5 +634,28 @@
    "name": "ding",
    "vol": 0.45
   }
+ ],
+ "cuts": [
+  0.0,
+  0.967,
+  2.833,
+  7.0,
+  16.233,
+  19.533,
+  21.9,
+  24.733,
+  30.867,
+  35.633,
+  45.1,
+  47.467,
+  50.733,
+  54.4,
+  57.133,
+  60.167,
+  64.1,
+  69.233,
+  74.867,
+  78.867,
+  84.5
  ]
 }

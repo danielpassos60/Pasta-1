@@ -19,6 +19,6 @@ export type Sfx = {at: number; name: 'pop' | 'click' | 'whoosh' | 'ding' | 'rise
 export type Plan = {
   video: string; durationSec: number; handle?: string; coverAt?: number;
   title?: {tag?: string; text: string; images?: string[]; until?: number; top?: number};
-  stickers?: import('./Stickers').Sticker[]; progress?: boolean; sfxGain?: number;
+  stickers?: import('./Stickers').Sticker[]; progress?: boolean; sfxGain?: number; cuts?: number[];
   captions: Caption[]; emphasis?: Emphasis[]; inserts?: Insert[]; sfx?: Sfx[];
 };

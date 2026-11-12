@@ -46,10 +46,13 @@ export const Reel: React.FC<{plan: Plan}> = ({plan}) => {
     sp = Math.max(sp, Math.min(pin, pout));
   }
   const top = sp * PANEL_H;
+  // empurrão lento (push-in) dentro de cada corte, para a imagem nunca ficar parada
+  const cuts = plan.cuts ?? []; const tt = frame / fps; let push = 1;
+  for (let i = cuts.length - 1; i >= 0; i--) if (tt >= cuts[i]) { const end = cuts[i + 1] ?? plan.durationSec; push = 1 + 0.03 * Math.min(1, (tt - cuts[i]) / Math.max(1.5, end - cuts[i])); break; }
   return (
     <AbsoluteFill style={{background: B.dark}}>
       <div style={{position: 'absolute', left: 0, right: 0, top, bottom: 0, overflow: 'hidden'}}>
-        <OffthreadVideo src={staticFile(plan.video)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 8%'}} />
+        <OffthreadVideo src={staticFile(plan.video)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 8%', transform: `scale(${push})`, transformOrigin: '50% 28%'}} />
       </div>
       {sp > 0.001 && <div style={{position: 'absolute', left: 0, right: 0, top: 0, height: PANEL_H, transform: `translateY(${top - PANEL_H}px)`, background: B.dark, borderBottom: `8px solid ${B.lime}`, overflow: 'hidden'}}>
         {(plan.inserts ?? []).filter((i) => i.type === 'split' && i.panel).map((i, k) => (

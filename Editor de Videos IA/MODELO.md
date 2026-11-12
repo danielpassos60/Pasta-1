@@ -50,3 +50,7 @@ A legenda fica SEMPRE no mesmo lugar do vídeo 1: centralizada na horizontal, ce
 - `stickers`: cartões com ilustrações próprias (afta, mordida, aparelho) e pílulas de CTA (salva / manda pra alguém). Nunca usar foto de paciente sem autorização.
 - `emphasis` com `countTo` (número contando) e `box:false` (texto verde grande).
 - Em vídeos sem espaço acima da cabeça, o título/capa vai no peito (`title.top`) e as palavras-chave em y≈52%.
+- Painel `signs`: foto clínica ou ilustração à esquerda (com o termo técnico em etiqueta verde) + lista numerada que acende item por item; fonte no canto (ex.: "fonte: INCA · OMS").
+- Fotos clínicas: recortar na lesão, etiqueta "FOTO CLÍNICA"; só usar imagens com autorização/crédito.
+- Números sempre com a fonte e o período na tela (ex.: "INCA · Estimativa 2023–2025"); se houver dado mais novo, mostrar como atualização.
+- `plan.cuts`: início de cada corte → empurrão lento (push-in de 3%) dentro de cada corte.

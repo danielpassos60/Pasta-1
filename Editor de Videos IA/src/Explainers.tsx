@@ -23,6 +23,9 @@ export const Explainer: React.FC<{e: Explain}> = ({e}) => {
       <div style={{...ctr, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
         <div style={{fontFamily: B.serif, fontWeight: 700, fontSize: (e as any).size ?? 240, color: B.lime, letterSpacing: -6, whiteSpace: 'nowrap'}}>{e.prefix}{v.toFixed(e.decimals ?? 0)}{e.suffix}</div>
         {e.label && <div style={{fontFamily: B.sans, fontWeight: 600, fontSize: 52, color: B.paper, marginTop: 24, opacity: rise(t, 1.0), letterSpacing: -1}}>{e.label}</div>}
+        {(e as any).note && <div style={{marginTop: 46, opacity: rise(t, (e as any).noteAt ?? 2), transform: `translateY(${(1 - ease(rise(t, (e as any).noteAt ?? 2))) * 24}px) rotate(-2deg)`,
+          background: B.lime, color: B.ink, fontFamily: B.sans, fontWeight: 800, fontSize: 40, letterSpacing: -1, padding: '2px 16px'}}>{(e as any).note}</div>}
+        {(e as any).source && <div style={{marginTop: 44, textAlign: 'center', fontFamily: B.mono, fontWeight: 500, fontSize: 22, letterSpacing: 2, color: B.muted, opacity: rise(t, 0.6)}}>{(e as any).source}</div>}
       </div></AbsoluteFill>;
   }
   if (e.kind === 'bars') {

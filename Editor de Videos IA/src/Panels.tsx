@@ -1,5 +1,5 @@
 import React from 'react';
-import {interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {BRAND as B} from './brand';
 
 // Painéis explicativos do modo "tela dividida": ficam na parte de cima enquanto o apresentador continua embaixo.
@@ -9,6 +9,7 @@ export type Panel =
   | {kind: 'calendar'; tag?: string; heading?: string; days: number; from?: number; to: number; label?: string}
   | {kind: 'checklist'; tag?: string; items: {text: string; at: number}[]}
   | {kind: 'versus'; tag?: string; rows: {left: string; right: string; at: number; rightAt?: number; good?: boolean}[]}
+  | {kind: 'signs'; tag?: string; source?: string; intro?: string; items: {text: string; at: number; img?: string; icon?: 'sangue' | 'caroco' | 'semdor'; term?: string}[]}
   | {kind: 'growth'; tag?: string; from: string; to: string; at?: number};
 
 const useT = () => { const f = useCurrentFrame(); const {fps} = useVideoConfig(); return {f, fps, t: f / fps}; };
@@ -89,6 +90,62 @@ export const PanelView: React.FC<{p: Panel; dur: number}> = ({p, dur}) => {
     </div>;
   }
 
+  if (p.kind === 'signs') {
+    const act = p.items.reduce((acc, it, i) => (t >= it.at ? i : acc), -1);
+    const paper = B.paper, P = {fill: 'none', stroke: paper, strokeWidth: 6, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const};
+    const Ill: React.FC<{name?: string}> = ({name}) => <svg viewBox="0 0 200 176" width="100%" height="100%">
+      {name === 'sangue' && <>
+        <path d="M22 44 C60 60 140 60 178 44" {...P} strokeWidth={5} opacity={0.55} />
+        <path d="M100 52 C100 52 66 98 66 122 a34 34 0 0 0 68 0 C134 98 100 52 100 52 Z" fill={B.lime} />
+        <path d="M84 124 a17 17 0 0 0 14 15" fill="none" stroke={B.ink} strokeWidth="5" strokeLinecap="round" />
+        <path d="M152 78 C152 78 140 95 140 104 a12 12 0 0 0 24 0 C164 95 152 78 152 78 Z" {...P} strokeWidth={5} />
+        <path d="M46 84 C46 84 37 97 37 104 a9 9 0 0 0 18 0 C55 97 46 84 46 84 Z" {...P} strokeWidth={5} /></>}
+      {name === 'caroco' && <>
+        <path d="M72 124 C84 124 82 64 100 64 C118 64 116 124 128 124 Z" fill={B.lime} />
+        <path d="M16 124 H72 C84 124 82 64 100 64 C118 64 116 124 128 124 H184" {...P} />
+        <circle cx="100" cy="92" r="50" fill="none" stroke={B.lime} strokeWidth="4" strokeDasharray="7 9" />
+        <path d="M40 146 H160 M40 139 V153 M160 139 V153" {...P} strokeWidth={4} opacity={0.6} /></>}
+      {name === 'semdor' && <>
+        <circle cx="74" cy="92" r="40" {...P} />
+        <circle cx="74" cy="92" r="15" fill={B.lime} />
+        <path d="M150 44 L128 92 H146 L134 136 L170 80 H150 L162 44 Z" {...P} strokeWidth={5} />
+        <path d="M118 40 L180 142" stroke={B.lime} strokeWidth="8" strokeLinecap="round" /></>}
+    </svg>;
+    body = <div style={{...box, display: 'flex', gap: 44}}>
+      <div style={{width: 400, flex: 'none', position: 'relative'}}>
+        <div style={{position: 'absolute', inset: 0, borderRadius: 24, background: B.lime, display: 'flex', alignItems: 'center', justifyContent: 'center', opacity: act < 0 ? 1 : 0,
+          transform: `scale(${0.9 + 0.1 * pop(f, fps, 0.05)})`}}>
+          <div style={{fontFamily: B.serif, fontWeight: 700, fontSize: 280, lineHeight: 1, color: B.ink}}>!</div></div>
+        {p.items.map((it, i) => {
+          if (i !== act) return null;
+          const s = pop(f, fps, it.at);
+          return <div key={i} style={{position: 'absolute', inset: 0, transform: `scale(${0.86 + 0.14 * s})`, opacity: Math.min(1, s * 1.6)}}>
+            <div style={{position: 'absolute', inset: 0, borderRadius: 24, overflow: 'hidden', background: '#17171b', border: it.img ? 'none' : '2px solid #2e2e35', padding: it.img ? 0 : 34}}>
+              {it.img ? <Img src={staticFile(it.img)} style={{width: '100%', height: '100%', objectFit: 'cover'}} /> : <Ill name={it.icon} />}
+              {it.img && <div style={{position: 'absolute', top: 14, right: 14, background: 'rgba(11,11,13,.72)', color: B.paper, fontFamily: B.mono, fontWeight: 500, fontSize: 17, letterSpacing: 2, padding: '4px 10px', borderRadius: 8}}>FOTO CLÍNICA</div>}
+            </div>
+            {it.term && <div style={{position: 'absolute', left: -14, bottom: 22, transform: `rotate(-3deg) scale(${pop(f, fps, it.at + 0.18)})`, transformOrigin: 'left bottom', background: B.lime, color: B.ink,
+              fontFamily: B.sans, fontWeight: 800, fontSize: 46, letterSpacing: -1.5, padding: '0 14px', boxShadow: '0 8px 24px rgba(0,0,0,.4)'}}>{it.term}</div>}
+          </div>;
+        })}
+      </div>
+      <div style={{flex: 1, position: 'relative'}}>
+        {p.intro && <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', opacity: act < 0 ? rise(t, 0.15) : 0, whiteSpace: 'pre-line',
+          fontFamily: B.sans, fontWeight: 800, fontSize: 68, lineHeight: 1.02, letterSpacing: -2.5, color: paper}}>{p.intro}</div>}
+        <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 12}}>
+          {p.items.map((it, i) => {
+            const k = ease(rise(t, it.at, 0.35)); const on = i === act;
+            return <div key={i} style={{display: 'flex', alignItems: 'center', gap: 16, opacity: k, transform: `translateX(${(1 - k) * 40}px)`}}>
+              <div style={{width: 40, height: 40, flex: 'none', borderRadius: 20, background: on ? B.lime : 'transparent', border: `3px solid ${B.lime}`, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontFamily: B.mono, fontWeight: 700, fontSize: 22, color: on ? B.ink : B.lime}}>{i + 1}</div>
+              <div style={{fontFamily: B.sans, fontWeight: 700, fontSize: 37, lineHeight: 1.2, letterSpacing: -1, whiteSpace: 'nowrap', color: on ? B.ink : paper, background: on ? B.lime : 'transparent', padding: on ? '0 10px' : 0, marginLeft: on ? -4 : 0}}>{it.text}</div>
+            </div>;
+          })}
+        </div>
+      </div>
+    </div>;
+  }
+
   if (p.kind === 'growth') {
     const a = p.at ?? 0.3; const k = ease(rise(t, a, 1.6));
     const path = 'M 20 250 C 220 245, 380 210, 520 150 S 800 40, 920 22'; const len = 1010;
@@ -104,5 +161,8 @@ export const PanelView: React.FC<{p: Panel; dur: number}> = ({p, dur}) => {
     </div>;
   }
 
-  return <div style={{position: 'absolute', inset: 0, opacity: fade}}><Tag text={(p as any).tag} />{body}</div>;
+  const src = (p as any).source;
+  return <div style={{position: 'absolute', inset: 0, opacity: fade}}><Tag text={(p as any).tag} />
+    {src && <div style={{position: 'absolute', top: 118, right: 70, fontFamily: B.mono, fontWeight: 500, fontSize: 20, letterSpacing: 2, color: B.muted}}>{src}</div>}
+    {body}</div>;
 };
