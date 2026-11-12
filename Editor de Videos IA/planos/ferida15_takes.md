@@ -18,4 +18,4 @@
 | Fechamento | 446.7–456.9 | sarou em até 2 semanas ótimo; passou de 15 dias, procure dentista |
 | CTA | 462.8–467.5 | salva e manda pra quem vive dizendo que é afta |
 Visuais do roteiro: calendário 15 dias riscados (bignumber/dots 15), ilustração de afta (sem foto de paciente), texto "mais de 15 dias = avaliação", checklist dos sinais, número 15 mil.
-Capa: tag "(dentista explica)" + título "regra dos 15 dias". Vídeo espelhado. Sincronizar câmera x microfone por correlação do áudio.
+Capa e 1º quadro (definido pelo Daniel): tag "Ferida na boca há mais de 15 dias?" + título verde "Assiste isso."  → UM reel só, montado com as melhores tomadas. Vídeo espelhado. Sincronizar câmera x microfone por correlação do áudio.
