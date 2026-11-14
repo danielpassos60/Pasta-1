@@ -634,6 +634,19 @@
    "vol": 0.45
   }
  ],
+ "cover": {
+  "shift": 560,
+  "frame": "midia/ferida15/capa_foto.png",
+  "title": {
+   "top": 478,
+   "images": [
+    "midia/ferida15/capa_15.png",
+    "midia/ferida15/capa_leuco.png",
+    "midia/ferida15/capa_cal.png",
+    "midia/ferida15/capa_eritro.png"
+   ]
+  }
+ },
  "cuts": [
   0.0,
   0.967,

@@ -63,6 +63,9 @@ I.append({'type': 'split', 'start': c0, 'end': c1, 'panel': {'kind': 'versus', '
   {'left': 'sarou em até 2 semanas', 'right': 'ótimo', 'at': 0.15, 'rightAt': st(194) - c0, 'good': True},
   {'left': 'passou de 15 dias', 'right': 'procure um dentista', 'at': st(195) - c0, 'rightAt': st(203) - c0}]}})
 for i in I: i['start'] = round(i['start'], 2); i['end'] = round(i['end'], 2)
+# capa: foto de estúdio enviada pelo Daniel, no modelo faixa de imagens + etiqueta + título verde
+plan['cover'] = {'shift': 560, 'frame': 'midia/ferida15/capa_foto.png', 'title': {'top': 478, 'images': [
+  'midia/ferida15/capa_15.png', 'midia/ferida15/capa_leuco.png', 'midia/ferida15/capa_cal.png', 'midia/ferida15/capa_eritro.png']}}
 cuts = json.load(open(f'{D}/ferida15_cortes.json')); tcur = 0.0; plan['cuts'] = []
 for a, b in cuts: plan['cuts'].append(round(tcur, 3)); tcur += round((b - a) * 30) / 30
 json.dump(plan, open(f'{D}/ferida15.json', 'w'), ensure_ascii=False, indent=1)
