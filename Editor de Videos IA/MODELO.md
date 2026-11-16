@@ -54,3 +54,9 @@ A legenda fica SEMPRE no mesmo lugar do vídeo 1: centralizada na horizontal, ce
 - Fotos clínicas: recortar na lesão, etiqueta "FOTO CLÍNICA"; só usar imagens com autorização/crédito.
 - Números sempre com a fonte e o período na tela (ex.: "INCA · Estimativa 2023–2025"); se houver dado mais novo, mostrar como atualização.
 - `plan.cuts`: início de cada corte → empurrão lento (push-in de 3%) dentro de cada corte.
+
+## Marca pessoal Dr. Daniel Passos (capas e peças com a identidade do site)
+Fonte da identidade: artefato "Dr. Daniel Passos" (claude.ai). Logos em `public/marca/`.
+- Cores: grafite `#161718`, papel `#F4F4F1`, verde-água `#2F6B69` / `#3E7C7A` / `#7FB3B0`, cinza claro `#EDEDEA` / `#A9ACAD`.
+- Fontes: **Jost** (títulos em caixa alta, peso 200–300) e **Syncopate** (rótulos com espaçamento largo).
+- Capa: `node scripts/capa_marca.js <saida.jpg>` → foto + véu grafite, logo claro no topo, rótulo verde-água, título fino em caixa alta, número grande, traço verde-água, "ASSISTE ISSO →", rodapé @drdanielpassos · CRO-BA 32800. Texto dentro do recorte 3:4 da grade do perfil.
