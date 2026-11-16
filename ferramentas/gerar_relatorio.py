@@ -228,7 +228,7 @@ def build_pdf():
             [P('<b>Vínculo atual</b>', 'cell'), P(e(pf['atual']), 'cell')],
             [P('<b>Disponibilidade</b>', 'cell'), P(e(pf['disp']), 'cell')],
             [P('<b>E-mail</b>', 'cell'), P(a('mailto:' + pf['email'], pf['email']), 'cell')],
-            [P('<b>WhatsApp</b>', 'cell'), P('<b>Pendente de preenchimento</b>', 'cell')]]
+            [P('<b>WhatsApp</b>', 'cell'), P(a('https://wa.me/5575988641058', '(75) 98864-1058'), 'cell')]]
     for lab, txt, url in pf['links']:
         rows.append([P(f'<b>{e(lab)}</b>', 'cell'), P(a(url, txt), 'cell')])
     s += [tbl(rows, [38 * mm, 140 * mm], head=False)]
@@ -446,7 +446,7 @@ def build_xlsx():
                                              ['Instagram — clínicas', C.MSG_INSTA], ['E-mail — currículo', C.MSG_EMAIL]] + [['Personalização: ' + x, y] for x, y in C.PERSONALIZACAO], [38, 120])
     pf = C.PERFIL
     sheet('Perfil', ['Campo', 'Informação'], [['Nome', pf['nome']], ['Nome profissional', pf['nome_prof']], ['Atuação', pf['titulo']], ['Registro', pf['cro']],
-                                              ['E-mail', 'mailto:' + pf['email']], ['WhatsApp', 'PENDENTE DE PREENCHIMENTO'], ['Residência', pf['residencia']],
+                                              ['E-mail', 'mailto:' + pf['email']], ['WhatsApp', 'https://wa.me/5575988641058'], ['Residência', pf['residencia']],
                                               ['Vínculo atual', pf['atual']], ['Disponibilidade', pf['disp']]] + [[l, u] for l, t, u in pf['links']]
           + [['Formação', x] for x in pf['formacao']] + [['Experiência', x] for x in pf['experiencia']] + [['Habilidade', x] for x in pf['habilidades']]
           + [['PENDENTE', x] for x in pf['pendentes']], [26, 120], linkcols=(2,))

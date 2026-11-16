@@ -21,7 +21,7 @@ PAINEL = 'PAINEL DE PROSPECÇÃO'
 SITUACOES = ['Pendente de contato', 'Pesquisa complementar necessária', 'Mensagem preparada', 'Contato realizado', 'Aguardando resposta', 'Respondeu',
              'Solicitou currículo', 'Entrevista agendada', 'Proposta recebida', 'Não possui oportunidade', 'Retomar futuramente']
 CANAIS = ['WhatsApp', 'Ligação', 'E-mail', 'Instagram', 'LinkedIn', 'Formulário da rede', 'Visita presencial']
-ASS = 'Dr. Daniel Passos\nCirurgião-Dentista — Clínico Geral — CRO-BA 32800\ndanielgomes.ss@yahoo.com | WhatsApp: [PREENCHER]'
+ASS = 'Dr. Daniel Passos\nCirurgião-Dentista — Clínico Geral — CRO-BA 32800\ndanielgomes.ss@yahoo.com | WhatsApp: (75) 98864-1058'
 
 
 def digs(t):
@@ -151,7 +151,7 @@ PRIM = [
                  'tratamentos, além de dentística e exodontias. Tenho disponibilidade de segunda a sexta-feira.\n\n'
                  'Poderiam me informar o endereço da clínica e os dias previstos para a função?\n\nCurrículo em anexo. Fico à disposição para uma conversa.'),
          alt='Telefone do anúncio: (71) 99140-9257 (tentativa de WhatsApp).',
-         pend='PRECISA do currículo em PDF anexado e do seu WhatsApp na assinatura. A vaga pede experiência em vendas — o texto cita só avaliação e planejamento.'),
+         pend='Anexar o currículo (Curriculo_Daniel_Passos_Cirurgiao-Dentista.pdf) antes de enviar. A vaga pede experiência em vendas — o texto cita só avaliação e planejamento.'),
     dict(k='Oral Centter', canal='WhatsApp', pessoa='Sócios na Receita Federal: Maria Alice Silveira de Freitas (sócia-administradora) e Luciano Freitas Antunes. Gestor local não identificado.',
          msg='Olá! Sei que este é o canal de agendamento, então serei breve: sou o Dr. Daniel Passos, cirurgião-dentista clínico geral (CRO-BA 32800), morador de São Felipe. '
              'Tenho experiência em clínica popular e disponibilidade de segunda a sexta-feira, e gostaria de apresentar meu currículo para a unidade de Cruz das Almas. '
@@ -170,7 +170,7 @@ PRIM = [
                  'Prezados,\n\nSou cirurgião-dentista clínico geral (CRO-BA 32800), morador de São Felipe, e gostaria de apresentar meu currículo à gerência da AmorSaúde Santo Antônio de Jesus.\n\n'
                  'Atuo aos sábados em clínica popular em Salvador, com rotina de alto fluxo: avaliação, dentística e exodontias. Tenho disponibilidade de segunda a sexta-feira e posso '
                  'atender também na unidade de Cruz das Almas.\n\nPoderiam encaminhar meu currículo ao responsável pela seleção de dentistas?\n\nCurrículo em anexo.'),
-         alt='Ligação: (75) 3016-2505; formulário "Trabalhe Conosco" da rede.', pend='PRECISA do currículo em PDF anexado e do seu WhatsApp na assinatura. E-mail vem do cadastro CNES da unidade.'),
+         alt='Ligação: (75) 3016-2505; formulário "Trabalhe Conosco" da rede.', pend='Anexar o currículo (Curriculo_Daniel_Passos_Cirurgiao-Dentista.pdf) antes de enviar. E-mail vem do cadastro CNES da unidade.'),
     dict(k='AmorSaúde Cruz das Almas', canal='WhatsApp', pessoa='Sócios na Receita Federal: Alex Alvares Pimentel Maciel e Valdiria Alves Ferreira (sócios-administradores); Altair de Jesus Vilar Guimaraes (administrador). Gerente não identificado.',
          msg='Olá! Sou o Dr. Daniel Passos, cirurgião-dentista clínico geral (CRO-BA 32800), morador de São Felipe. Atuo aos sábados em clínica popular em Salvador e tenho '
              'disponibilidade de segunda a sexta-feira. Gostaria de apresentar meu currículo para a odontologia da AmorSaúde Cruz das Almas. Poderiam me indicar o contato da '
@@ -406,7 +406,7 @@ def main():
          'Para clínicas independentes a planilha traz link de busca, marcado como não verificado.'),
         ('Duplicações', 'Nenhum registro duplicado. Telefones repetidos entre unidades da AmorSaúde são centrais compartilhadas. Dra. Daniela Araújo e Luciana Marques dividem o endereço (Landulfo Alves, 186), mas são empresas distintas.',
          'Clidonto SAJ e Nazaré têm os mesmos sócios: uma única abordagem. O anúncio de avaliador em Cruz das Almas pode ser da Oral Centter (não confirmado).'),
-        ('Pendências suas', 'WhatsApp profissional e currículo atualizado em PDF.', 'Sem eles os e-mails não podem ser finalizados (assinatura e anexo).'),
+        ('Pendências suas', 'Resolvidas: WhatsApp (75) 98864-1058 na assinatura e currículo novo (Curriculo_Daniel_Passos_Cirurgiao-Dentista.pdf e .docx).', 'Nos e-mails, o currículo precisa ser anexado manualmente — o link de e-mail não anexa arquivos.'),
     ]
     for n, (a, b, c) in enumerate(conf, 2):
         put(w5, n, 1, a, bold=True); put(w5, n, 2, b); put(w5, n, 3, c); put(w5, n, 4, CONF)

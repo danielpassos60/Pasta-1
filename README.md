@@ -13,3 +13,8 @@ Para regenerar o PDF e a planilha a partir da base: `python3 ferramentas/gerar_r
 
 A planilha traz as abas `PAINEL DE PROSPECÇÃO`, `PRIMEIROS 15 — APROVAÇÃO`, `LINKEDIN`, `REGISTRO DE CONTATOS`, `CONFERÊNCIA`, `RESUMO` e `COMO USAR`.
 Depois que o painel começar a ser preenchido, atualize a planilha editando o arquivo: rodar `gerar_relatorio.py` + `gerar_crm.py` recria tudo do zero e apaga o que foi preenchido à mão.
+
+## Currículo e kit para o Claude Desktop
+
+- `curriculo/` — currículo em PDF (design, 1 página, texto legível por ATS) e DOCX (versão para portais), gerados por `ferramentas/curriculo.py`.
+- `kit_claude/` e `Kit_Prospeccao_Daniel_Passos.zip` — briefing, currículo, CRM e relatório para continuar a prospecção no Claude Desktop com o Claude in Chrome.

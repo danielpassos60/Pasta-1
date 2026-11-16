@@ -24,7 +24,7 @@ PERFIL = {
         'Cursos Fiocruz e UFSC: SUS, cuidados paliativos, síndromes geriátricas, entre outros.',
     ],
     'experiencia': [
-        'Clínico geral na Mais Sorriso (São Cristóvão, Salvador) — clínica popular, escala aos sábados (atual).',
+        'Clínico geral na Clínica Mais Sorriso (São Cristóvão, Salvador) há cerca de 5 meses, aos sábados: exodontias de terceiros molares, cirurgia oral menor (biópsias, remoção de tórus mandibular e outras alterações ósseas), restaurações estéticas, pinos de fibra de vidro, urgências, odontopediatria, raspagem e remoção de aparelhos ortodônticos.',
         'Estágio em Implantodontia — Instituto ÍCONE (Complexo Odonto-Médico Itaigara).',
         'Estágios em Odontologia Hospitalar — Hospital Ana Nery (cardiologia pediátrica) e Hospital Naval de Salvador (cuidados paliativos).',
         'Ligas acadêmicas LAOPED e LAPOS (2021–2024); extensão em Radiologia Odontológica; organização do CONAO e do PRODIC.',
@@ -38,8 +38,7 @@ PERFIL = {
         'Atendimento de urgências e de diferentes demandas da clínica geral, em ritmo de clínica popular.',
     ],
     'pendentes': [
-        'WhatsApp/telefone profissional — não consta em nenhum registro acessível (o campo está como "número pendente" na sua página de links). Preencher nas mensagens.',
-        'Currículo atualizado em PDF — não localizado nos arquivos acessíveis; as informações acima vêm do seu perfil público no Doctoralia e da sua página de links.',
+        'Mês de início na Mais Sorriso — o currículo traz "2026 – Atual" (cerca de 5 meses); informar o mês exato se quiser mais precisão.',
         'Ano de conclusão da graduação e datas de cada experiência — não constam nas fontes consultadas.',
         'Portfólio de casos clínicos — não localizado.',
     ],
@@ -126,7 +125,7 @@ Tenho rotina em avaliação e planejamento, dentística restauradora e exodontia
 Posso enviar meu currículo por aqui? Fico à disposição para uma conversa ou um dia de teste.
 
 Obrigado pela atenção.
-Daniel Passos — [SEU WHATSAPP]'''
+Daniel Passos — WhatsApp (75) 98864-1058'''
 
 MSG_WHATS_VAGA = '''Olá, bom dia! Vi o anúncio de [DATA] no classificados do CRO-BA para [VAGA — ex.: clínico geral às quintas].
 
@@ -162,7 +161,7 @@ Segue meu currículo em anexo. Fico à disposição para entrevista ou período 
 Atenciosamente,
 Dr. Daniel Passos
 Cirurgião-Dentista — Clínico Geral — CRO-BA 32800
-danielgomes.ss@yahoo.com | [SEU WHATSAPP]
+danielgomes.ss@yahoo.com | WhatsApp (75) 98864-1058
 Instagram: @drdanielpassos | LinkedIn: linkedin.com/in/daniel-passos-gomes-b18a69275'''
 
 PERSONALIZACAO = [
