@@ -1,6 +1,6 @@
 {
  "verificado_em": "16/11/2026",
- "total_verificadas": 129,
+ "total_verificadas": 130,
  "clinicas": [
   {
    "rede": "Independente",
@@ -31,7 +31,7 @@
      "https://croba.org.br/classificados/vaga-para-clinico-geral-67/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 5,
@@ -69,6 +69,128 @@
    "site": "Não localizado",
    "instagram": "Não localizado",
    "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "10/11/2026 (e 27/10/2026)",
+   "socios": "Não localizado",
+   "gestor": "Não identificado",
+   "linkedin": "",
+   "whatsapp": "",
+   "email": "jessicajeu_14@hotmail.com",
+   "telefone": "(71) 99926-2024",
+   "outros": [],
+   "fontes": [
+    [
+     "CRO-BA classificados (10/11/2026)",
+     "https://croba.org.br/classificados/dias-para-clinico-geral/"
+    ],
+    [
+     "CRO-BA classificados (27/10/2026)",
+     "https://croba.org.br/classificados/vaga-para-quem-faz-extracao-dia-terca-feira/"
+    ]
+   ],
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
+   "cnpj": "",
+   "obs": "",
+   "pts_modelo": 5,
+   "pts_expansao": 5,
+   "pts_facil": 5,
+   "estrutura": "indefinida",
+   "compat_nivel": "alta",
+   "pts_contato": 10,
+   "nome": "Anunciante CRO-BA — extrações às terças e dias para clínico geral",
+   "cidade": "Não informada (DDD 71)",
+   "dist_km": null,
+   "categoria": "A",
+   "perfil_equipe": "Clínica/consultório com atendimento particular e por plano odontológico (texto do anúncio de 27/10). Anunciante não identifica a clínica.",
+   "oportunidade": "VAGA CONFIRMADA (dois anúncios do mesmo contato): em 27/10/2026, \"dentista que tenha curso de cirurgia ou seja bucomaxilo\", para extrações às terças-feiras, particular e plano; em 10/11/2026, \"vaga para clínico geral\" com dias disponíveis. Sem local nem remuneração informados.",
+   "compat": "Alta — o anúncio de 27/10 pede curso de cirurgia, e você tem formação complementar em Cirurgia Oral Menor; o de 10/11 pede clínico geral.",
+   "abordagem": "Mensagem ao contato citando os dois anúncios: curso de Cirurgia Oral Menor para as terças e disponibilidade como clínico geral nos demais dias. Perguntar cidade/bairro e remuneração.",
+   "situacao": "A — Vaga confirmada",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Anunciante+CRO-BA+%E2%80%94+%22Dias+para+cl%C3%ADnico+geral%22+N%C3%A3o+informada+%28DDD+71%29+BA+odontologia",
+   "pontuacao": 75,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 30,
+    "Proximidade de São Felipe (0–20)": 3,
+    "Estrutura da clínica (0–15)": 7,
+    "Compatibilidade com clínico geral (0–10)": 10,
+    "Contato direto (0–10)": 10,
+    "Diária/turno/produção (0–5)": 5,
+    "Indícios de expansão (0–5)": 5,
+    "Facilidade de envio do currículo (0–5)": 5
+   },
+   "ranking": 2
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Rua Thomaz Gonzaga, 121, salas 201 e 202, Pernambués (endereço do CNPJ)",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "15/10/2026",
+   "socios": "Rebeca Alves de Almeida",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Rebeca+Alves+de+Almeida+odontologia",
+   "whatsapp": "(71) 99348-6225",
+   "email": "orthosprime.doc@outlook.com",
+   "telefone": "(71) 3359-6479",
+   "outros": [
+    [
+     "Facebook da clínica",
+     "https://www.facebook.com/clinicaorthosprime"
+    ],
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Orthos+Prime+Odontologia+Pernambu%C3%A9s+Salvador+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CRO-BA classificados (15/10/2026)",
+     "https://croba.org.br/classificados/oportunidade-de-emprego-para-dentistas/"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/26461678000165"
+    ]
+   ],
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
+   "cnpj": "26461678000165",
+   "obs": "Clínica identificada pelo e-mail do anúncio (orthosprime.doc@outlook.com) e pelo CNPJ da Orthos Prime LTDA em Salvador; o anúncio não cita o nome — confirmar no primeiro contato. Telefone fixo é o do cadastro da Receita Federal.",
+   "pts_modelo": 0,
+   "pts_expansao": 5,
+   "pts_facil": 5,
+   "estrutura": "clinica",
+   "compat_nivel": "alta",
+   "pts_contato": 10,
+   "nome": "Orthos Prime (anúncio CRO-BA — 3 vagas: clínico geral, protesista e cirurgião)",
+   "cidade": "Salvador",
+   "dist_km": 190,
+   "categoria": "A",
+   "perfil_equipe": "Clínica com várias cadeiras: contrata simultaneamente clínico geral, protesista e cirurgião.",
+   "oportunidade": "VAGA CONFIRMADA: 01 dentista clínico geral (além de protesista e cirurgião). Pagamento todo 5º dia útil. Contato por WhatsApp.",
+   "compat": "Alta — vaga nominal para clínico geral; sua experiência em exodontias também conversa com a vaga de cirurgia (sem se apresentar como especialista).",
+   "abordagem": "Mensagem de WhatsApp ao número do anúncio com o modelo deste relatório; perguntar cidade/bairro, dias e modelo de pagamento.",
+   "situacao": "A — Vaga confirmada",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Anunciante+CRO-BA+%E2%80%94+3+vagas+%28cl%C3%ADnico+geral%2C+protesista+e+cirurgi%C3%A3o%29+N%C3%A3o+informada+%28DDD+71%29+BA+odontologia",
+   "pontuacao": 74,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 30,
+    "Proximidade de São Felipe (0–20)": 3,
+    "Estrutura da clínica (0–15)": 11,
+    "Compatibilidade com clínico geral (0–10)": 10,
+    "Contato direto (0–10)": 10,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 5,
+    "Facilidade de envio do currículo (0–5)": 5
+   },
+   "linkedin_tipo": "busca",
+   "ranking": 3
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Não informado no anúncio (DDD 71; confirmar cidade)",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
    "data_vaga": "17/10/2026",
    "socios": "Não localizado",
    "gestor": "Não identificado",
@@ -87,7 +209,7 @@
      "https://croba.org.br/classificados/vaga-para-dentista-avaliador-8/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 0,
@@ -117,115 +239,11 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 2
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Não informado no anúncio (DDD 71; e-mail sugere o nome \"Orthos Prime\" — confirmar)",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "15/10/2026",
-   "socios": "Não localizado",
-   "gestor": "Não identificado",
-   "linkedin": "",
-   "whatsapp": "(71) 99348-6225",
-   "email": "orthosprime.doc@outlook.com",
-   "telefone": "",
-   "outros": [],
-   "fontes": [
-    [
-     "CRO-BA classificados (15/10/2026)",
-     "https://croba.org.br/classificados/oportunidade-de-emprego-para-dentistas/"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 5,
-   "pts_facil": 5,
-   "estrutura": "clinica",
-   "compat_nivel": "alta",
-   "pts_contato": 10,
-   "nome": "Anunciante CRO-BA — 3 vagas (clínico geral, protesista e cirurgião)",
-   "cidade": "Não informada (DDD 71)",
-   "dist_km": null,
-   "categoria": "A",
-   "perfil_equipe": "Clínica com várias cadeiras: contrata simultaneamente clínico geral, protesista e cirurgião.",
-   "oportunidade": "VAGA CONFIRMADA: 01 dentista clínico geral (além de protesista e cirurgião). Pagamento todo 5º dia útil. Contato por WhatsApp.",
-   "compat": "Alta — vaga nominal para clínico geral; sua experiência em exodontias também conversa com a vaga de cirurgia (sem se apresentar como especialista).",
-   "abordagem": "Mensagem de WhatsApp ao número do anúncio com o modelo deste relatório; perguntar cidade/bairro, dias e modelo de pagamento.",
-   "situacao": "A — Vaga confirmada",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Anunciante+CRO-BA+%E2%80%94+3+vagas+%28cl%C3%ADnico+geral%2C+protesista+e+cirurgi%C3%A3o%29+N%C3%A3o+informada+%28DDD+71%29+BA+odontologia",
-   "pontuacao": 74,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 30,
-    "Proximidade de São Felipe (0–20)": 3,
-    "Estrutura da clínica (0–15)": 11,
-    "Compatibilidade com clínico geral (0–10)": 10,
-    "Contato direto (0–10)": 10,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 5,
-    "Facilidade de envio do currículo (0–5)": 5
-   },
-   "ranking": 3
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Não informado no anúncio (DDD 71; confirmar cidade)",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "10/11/2026",
-   "socios": "Não localizado",
-   "gestor": "Não identificado",
-   "linkedin": "",
-   "whatsapp": "",
-   "email": "jessicajeu_14@hotmail.com",
-   "telefone": "(71) 99926-2024",
-   "outros": [],
-   "fontes": [
-    [
-     "CRO-BA classificados (10/11/2026)",
-     "https://croba.org.br/classificados/dias-para-clinico-geral/"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "",
-   "obs": "",
-   "pts_modelo": 5,
-   "pts_expansao": 0,
-   "pts_facil": 5,
-   "estrutura": "indefinida",
-   "compat_nivel": "alta",
-   "pts_contato": 10,
-   "nome": "Anunciante CRO-BA — \"Dias para clínico geral\"",
-   "cidade": "Não informada (DDD 71)",
-   "dist_km": null,
-   "categoria": "A",
-   "perfil_equipe": "Não informado. Anunciante não identifica a clínica.",
-   "oportunidade": "VAGA CONFIRMADA: \"vaga para clínico geral\" com dias disponíveis (anúncio de 6 dias antes da verificação). Sem detalhes de local, remuneração ou dias.",
-   "compat": "Alta — pede exatamente clínico geral por dias.",
-   "abordagem": "Ligar/enviar mensagem ao contato do anúncio pedindo nome da clínica, cidade, dias e forma de remuneração. Informar disponibilidade de segunda a sexta.",
-   "situacao": "A — Vaga confirmada",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Anunciante+CRO-BA+%E2%80%94+%22Dias+para+cl%C3%ADnico+geral%22+N%C3%A3o+informada+%28DDD+71%29+BA+odontologia",
-   "pontuacao": 70,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 30,
-    "Proximidade de São Felipe (0–20)": 3,
-    "Estrutura da clínica (0–15)": 7,
-    "Compatibilidade com clínico geral (0–10)": 10,
-    "Contato direto (0–10)": 10,
-    "Diária/turno/produção (0–5)": 5,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 5
-   },
    "ranking": 4
   },
   {
    "rede": "Oral Centter (matriz em Espinosa-MG)",
-   "endereco": "Rua 15 de Novembro, 68, Centro (guia empresarial; confirmar)",
+   "endereco": "Rua 15 de Novembro, 68, Centro (confirmado em notícia local de 07/2026)",
    "site": "Não localizado",
    "instagram": "Não localizado",
    "n_unidades": "Ao menos 2 (matriz em Espinosa-MG e unidade em Cruz das Almas); total não confirmado",
@@ -233,7 +251,7 @@
    "socios": "Luciano Freitas Antunes; Maria Alice Silveira de Freitas",
    "gestor": "Não identificado",
    "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Luciano+Freitas+Antunes+odontologia",
-   "whatsapp": "",
+   "whatsapp": "(75) 98168-9393",
    "email": "",
    "telefone": "",
    "outros": [
@@ -254,40 +272,117 @@
     [
      "Guia empresarial — endereço",
      "https://guiapinzon.com.br/ba/cruz-das-almas/centro/dentista-em-centro"
+    ],
+    [
+     "Portal Cruzalmense (07/2026) — endereço e WhatsApp",
+     "http://www.portalcruzalmense.com.br/2026/07/oral-centter-lanca-promocao-com-50-de.html"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "60065244000184",
-   "obs": "Telefones divergentes nas listagens ((38) 2211-7100 e (75) 3621-1734) — não confirmados.",
+   "obs": "WhatsApp (75) 98168-9393 divulgado pela clínica para agendamento de pacientes (Portal Cruzalmense, 07/2026) — não é canal de recrutamento. Os outros telefones de diretórios seguem não confirmados.",
    "pts_modelo": 0,
    "pts_expansao": 5,
-   "pts_facil": 1,
+   "pts_facil": 2,
    "estrutura": "rede",
    "compat_nivel": "media",
-   "pts_contato": 6,
+   "pts_contato": 8,
    "nome": "Oral Centter Clínicas Odontológicas — Cruz das Almas",
    "cidade": "Cruz das Almas",
    "categoria": "B",
    "perfil_equipe": "Clínica popular em rede; a vaga publicada cita \"vivência em clínicas populares, odontologia em rede ou franqueadas\" como diferencial.",
    "oportunidade": "INDÍCIO FORTE: vaga de \"dentista avaliador\" (presencial, CLT) listada em agregador de empregos para Cruz das Almas, sem data visível; empresa aberta em 03/2025 (Receita Federal) — rede nova entrando no Recôncavo. Vaga atual não confirmada.",
    "compat": "Média/alta — experiência em clínica popular é o diferencial pedido; a função de avaliador exige perfil comercial.",
-   "abordagem": "Ir à unidade (38 km de São Felipe) e pedir o contato da coordenação/gerência; citar a vaga de dentista avaliador e a experiência em clínica popular. Telefones dos diretórios divergem — confirmar no local.",
+   "abordagem": "Mensagem ao WhatsApp de agendamento pedindo o contato da coordenação clínica/gerência; em seguida, visita à unidade (38 km de São Felipe). Citar a vaga de dentista avaliador e a experiência em clínica popular.",
    "dist_km": 38,
    "situacao": "B — Indício forte de contratação",
    "instagram_busca": "https://www.google.com/search?q=instagram+Oral+Centter+Cl%C3%ADnicas+Odontol%C3%B3gicas+%E2%80%94+Cruz+das+Almas+Cruz+das+Almas+BA+odontologia",
    "linkedin_tipo": "busca",
-   "pontuacao": 68,
+   "pontuacao": 71,
    "pontuacao_detalhe": {
     "Vaga/sinal de contratação (0–30)": 15,
     "Proximidade de São Felipe (0–20)": 18,
     "Estrutura da clínica (0–15)": 15,
     "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
+    "Contato direto (0–10)": 8,
     "Diária/turno/produção (0–5)": 0,
     "Indícios de expansão (0–5)": 5,
-    "Facilidade de envio do currículo (0–5)": 1
+    "Facilidade de envio do currículo (0–5)": 2
    },
    "ranking": 5
+  },
+  {
+   "rede": "Clidonto (grupo regional — SAJ, Nazaré e Amargosa)",
+   "endereco": "Rua Armando Tavares, 92 — Centro",
+   "site": "Não localizado",
+   "instagram": "https://www.instagram.com/clidonto",
+   "n_unidades": "3 (Santo Antônio de Jesus — sede, Nazaré e Amargosa, segundo a Agência Sebrae)",
+   "data_vaga": "—",
+   "socios": "Everton Miguel Ferreira Pereira; José Luiz Ollero Speggiorin",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Everton+Miguel+Ferreira+Pereira+odontologia",
+   "whatsapp": "(75) 99956-9898",
+   "email": "",
+   "telefone": "(75) 3631-5435",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Clidonto+Santo+Ant%C3%B4nio+de+Jesus+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CNES/DataSUS — ficha do estabelecimento",
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928707158459"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/09190495000133"
+    ],
+    [
+     "Agência Sebrae — unidades em SAJ, Nazaré e Amargosa",
+     "https://ba.agenciasebrae.com.br/cultura-empreendedora/acoes-do-sebrae-contribuem-para-desenvolvimento-de-clinica-odontologica-em-saj/"
+    ],
+    [
+     "Blog do Valente (05/2025) — prêmio Melhores do Ano",
+     "https://blogdovalente.com.br/noticias/saj/2025/05/clidonto-e-eleita-melhor-clinica-odontologica-e-melhor-clinica-ortodontica-no-premio-melhores-do-ano/"
+    ],
+    [
+     "Diretório AppLocal — telefones",
+     "https://applocal.com.br/empresa/clidonto-clinica-odontologica/santo-antonio-de-jesus/ba/9004480"
+    ]
+   ],
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
+   "cnpj": "09190495000133",
+   "obs": "Instagram @clidonto: mesmo nome de usuário do perfil da clínica no Threads (conferir). Eleita melhor clínica odontológica de SAJ em 2023 e 2025 (Blog do Valente). Telefones da sede: (75) 3631-5435 e (75) 3632-1891; celular (75) 99956-9898 aparece como WhatsApp em diretório (não oficial).",
+   "pts_modelo": 0,
+   "pts_expansao": 5,
+   "pts_facil": 2,
+   "estrutura": "clinica",
+   "compat_nivel": "media",
+   "pts_contato": 8,
+   "nome": "Clidonto",
+   "cidade": "Santo Antônio de Jesus",
+   "categoria": "B",
+   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
+   "oportunidade": "Sem vaga anunciada, mas há expansão comprovada: os mesmos sócios da unidade de SAJ (2007) abriram a unidade de Nazaré em 2024 (Receita Federal). Grupo em crescimento tende a precisar de clínico geral para cobrir duas cidades.",
+   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
+   "abordagem": "Abordar os sócios apresentando-se como clínico geral residente em São Felipe, a ~30 km de SAJ e ~42 km de Nazaré, disponível de segunda a sexta para atender nas duas unidades.",
+   "dist_km": 30,
+   "situacao": "B — Indício forte de contratação",
+   "linkedin_tipo": "busca",
+   "pontuacao": 67,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 15,
+    "Proximidade de São Felipe (0–20)": 18,
+    "Estrutura da clínica (0–15)": 11,
+    "Compatibilidade com clínico geral (0–10)": 8,
+    "Contato direto (0–10)": 8,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 5,
+    "Facilidade de envio do currículo (0–5)": 2
+   },
+   "ranking": 6
   },
   {
    "rede": "Independente",
@@ -318,7 +413,7 @@
      "https://www.infojobs.com.br/vaga-de-auxiliar-saude-bucal-em-bahia__12035592.aspx"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 5,
@@ -348,14 +443,72 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 6
+   "ranking": 7
   },
   {
-   "rede": "Clidonto (grupo regional — mesmos sócios em SAJ e Nazaré)",
-   "endereco": "Rua Armando Tavares, 92 — Centro",
+   "rede": "Independente",
+   "endereco": "Tancredo Neves, Salvador (clínica não identificada no anúncio)",
    "site": "Não localizado",
    "instagram": "Não localizado",
-   "n_unidades": "2 (Santo Antônio de Jesus e Nazaré)",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "06/11/2026",
+   "socios": "Não localizado",
+   "gestor": "Não identificado",
+   "linkedin": "",
+   "whatsapp": "",
+   "email": "dralexandre.nogueira23@gmail.com",
+   "telefone": "(71) 99208-2650",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Anunciante+CRO-BA+%E2%80%94+substitui%C3%A7%C3%A3o+tempor%C3%A1ria+%2804+a+09%2F01%2F2027%29+Salvador+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CRO-BA classificados (06/11/2026)",
+     "https://croba.org.br/classificados/vaga-de-substituicao/"
+    ]
+   ],
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
+   "cnpj": "",
+   "obs": "O texto do anúncio cita também o número (71) 99110-4618.",
+   "pts_modelo": 5,
+   "pts_expansao": 0,
+   "pts_facil": 5,
+   "estrutura": "indefinida",
+   "compat_nivel": "alta",
+   "pts_contato": 10,
+   "nome": "Anunciante CRO-BA — substituição temporária (04 a 09/01/2027)",
+   "cidade": "Salvador",
+   "categoria": "A",
+   "vaga_perfil": "parcial",
+   "perfil_equipe": "Não informado. Anúncio de um cirurgião-dentista buscando substituto.",
+   "oportunidade": "VAGA CONFIRMADA (temporária): cirurgião-dentista para substituição de 04/01/2027 a 09/01/2027 no bairro Tancredo Neves, Salvador. Trabalho de uma semana — pode abrir porta para parceria.",
+   "compat": "Alta para clínica geral; exige uma semana inteira em Salvador (inclui sábado — conciliar com a Mais Sorriso).",
+   "abordagem": "Contato pelo telefone do anúncio perguntando perfil dos atendimentos e remuneração. Só faz sentido se você puder ficar a semana em Salvador.",
+   "dist_km": 190,
+   "situacao": "A — Vaga confirmada",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Anunciante+CRO-BA+%E2%80%94+substitui%C3%A7%C3%A3o+tempor%C3%A1ria+%2804+a+09%2F01%2F2027%29+Salvador+BA+odontologia",
+   "pontuacao": 64,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 24,
+    "Proximidade de São Felipe (0–20)": 3,
+    "Estrutura da clínica (0–15)": 7,
+    "Compatibilidade com clínico geral (0–10)": 10,
+    "Contato direto (0–10)": 10,
+    "Diária/turno/produção (0–5)": 5,
+    "Indícios de expansão (0–5)": 0,
+    "Facilidade de envio do currículo (0–5)": 5
+   },
+   "ranking": 8
+  },
+  {
+   "rede": "Clidonto (grupo regional — SAJ, Nazaré e Amargosa)",
+   "endereco": "Av. Dom Pedro II, 12 — Centro",
+   "site": "Não localizado",
+   "instagram": "https://www.instagram.com/clidonto",
+   "n_unidades": "3 (Santo Antônio de Jesus — sede, Nazaré e Amargosa, segundo a Agência Sebrae)",
    "data_vaga": "—",
    "socios": "Everton Miguel Ferreira Pereira; José Luiz Ollero Speggiorin",
    "gestor": "Não identificado",
@@ -366,51 +519,62 @@
    "outros": [
     [
      "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Clidonto+Santo+Ant%C3%B4nio+de+Jesus+BA"
+     "https://www.google.com/maps/search/?api=1&query=Clidonto+Nazar%C3%A9+BA"
     ]
    ],
    "fontes": [
     [
      "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928707158459"
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2922500511188"
     ],
     [
      "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/09190495000133"
+     "https://cnpja.com/office/58357329000194"
+    ],
+    [
+     "Agência Sebrae — unidades em SAJ, Nazaré e Amargosa",
+     "https://ba.agenciasebrae.com.br/cultura-empreendedora/acoes-do-sebrae-contribuem-para-desenvolvimento-de-clinica-odontologica-em-saj/"
+    ],
+    [
+     "Blog do Valente (05/2025) — prêmio Melhores do Ano",
+     "https://blogdovalente.com.br/noticias/saj/2025/05/clidonto-e-eleita-melhor-clinica-odontologica-e-melhor-clinica-ortodontica-no-premio-melhores-do-ano/"
+    ],
+    [
+     "Diretório AppLocal — telefones",
+     "https://applocal.com.br/empresa/clidonto-clinica-odontologica/santo-antonio-de-jesus/ba/9004480"
     ]
    ],
-   "verificado": "16/11/2026",
-   "cnpj": "09190495000133",
-   "obs": "",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
+   "cnpj": "58357329000194",
+   "obs": "Instagram @clidonto: mesmo nome de usuário do perfil da clínica no Threads (conferir). Eleita melhor clínica odontológica de SAJ em 2023 e 2025 (Blog do Valente). Telefone próprio da unidade de Nazaré não confirmado — usar os contatos da sede em SAJ.",
    "pts_modelo": 0,
    "pts_expansao": 5,
-   "pts_facil": 1,
+   "pts_facil": 2,
    "estrutura": "clinica",
    "compat_nivel": "media",
-   "pts_contato": 6,
+   "pts_contato": 8,
    "nome": "Clidonto",
-   "cidade": "Santo Antônio de Jesus",
+   "cidade": "Nazaré",
    "categoria": "B",
    "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
    "oportunidade": "Sem vaga anunciada, mas há expansão comprovada: os mesmos sócios da unidade de SAJ (2007) abriram a unidade de Nazaré em 2024 (Receita Federal). Grupo em crescimento tende a precisar de clínico geral para cobrir duas cidades.",
    "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
    "abordagem": "Abordar os sócios apresentando-se como clínico geral residente em São Felipe, a ~30 km de SAJ e ~42 km de Nazaré, disponível de segunda a sexta para atender nas duas unidades.",
-   "dist_km": 30,
+   "dist_km": 42,
    "situacao": "B — Indício forte de contratação",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Clidonto+Santo+Ant%C3%B4nio+de+Jesus+BA+odontologia",
    "linkedin_tipo": "busca",
    "pontuacao": 64,
    "pontuacao_detalhe": {
     "Vaga/sinal de contratação (0–30)": 15,
-    "Proximidade de São Felipe (0–20)": 18,
+    "Proximidade de São Felipe (0–20)": 15,
     "Estrutura da clínica (0–15)": 11,
     "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
+    "Contato direto (0–10)": 8,
     "Diária/turno/produção (0–5)": 0,
     "Indícios de expansão (0–5)": 5,
-    "Facilidade de envio do currículo (0–5)": 1
+    "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 7
+   "ranking": 9
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -449,7 +613,7 @@
      "https://cnpja.com/office/37923636000115"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "37923636000115",
    "obs": "Mesmo grupo franqueado opera SAJ, Cruz das Almas e Feira de Santana (sócios em comum na Receita Federal) — um contato pode abrir as três unidades.",
    "pts_modelo": 2,
@@ -479,7 +643,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 8
+   "ranking": 10
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -488,7 +652,7 @@
    "instagram": "https://www.instagram.com/amorsaudebrasil",
    "n_unidades": "33 unidades na Bahia (site oficial); 3 no Recôncavo/Baixo Sul (SAJ, Cruz das Almas, Valença)",
    "data_vaga": "—",
-   "socios": "Alex Alvares Pimentel Maciel; Altair de Jesus Vilar Guimaraes; Mara Investimentos e Participacoes LTDA; Valdiria Alves Ferreira",
+   "socios": "Alex Alvares Pimentel Maciel; Valdiria Alves Ferreira; Altair de Jesus Vilar Guimaraes (administrador); Mara Investimentos e Participações Ltda",
    "gestor": "Não identificado",
    "linkedin": "https://www.linkedin.com/company/amorsaudebrasil/",
    "whatsapp": "",
@@ -518,7 +682,7 @@
      "https://cnpja.com/office/43084172000101"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "43084172000101",
    "obs": "Mesmo grupo franqueado opera SAJ, Cruz das Almas e Feira de Santana (sócios em comum na Receita Federal) — um contato pode abrir as três unidades.",
    "pts_modelo": 2,
@@ -548,7 +712,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 9
+   "ranking": 11
   },
   {
    "rede": "Independente",
@@ -575,7 +739,7 @@
      "https://croba.org.br/classificados/vaga-para-clinico-geral-com-experiencia-em-orcamento/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 0,
@@ -605,69 +769,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 10
-  },
-  {
-   "rede": "Clidonto (grupo regional — mesmos sócios em SAJ e Nazaré)",
-   "endereco": "Av. Dom Pedro II, 12 — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "2 (Santo Antônio de Jesus e Nazaré)",
-   "data_vaga": "—",
-   "socios": "Everton Miguel Ferreira Pereira; José Luiz Ollero Speggiorin",
-   "gestor": "Não identificado",
-   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Everton+Miguel+Ferreira+Pereira+odontologia",
-   "whatsapp": "",
-   "email": "",
-   "telefone": "",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Clidonto+Nazar%C3%A9+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2922500511188"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/58357329000194"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "58357329000194",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 5,
-   "pts_facil": 1,
-   "estrutura": "clinica",
-   "compat_nivel": "media",
-   "pts_contato": 6,
-   "nome": "Clidonto",
-   "cidade": "Nazaré",
-   "categoria": "B",
-   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
-   "oportunidade": "Sem vaga anunciada, mas há expansão comprovada: os mesmos sócios da unidade de SAJ (2007) abriram a unidade de Nazaré em 2024 (Receita Federal). Grupo em crescimento tende a precisar de clínico geral para cobrir duas cidades.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Abordar os sócios apresentando-se como clínico geral residente em São Felipe, a ~30 km de SAJ e ~42 km de Nazaré, disponível de segunda a sexta para atender nas duas unidades.",
-   "dist_km": 42,
-   "situacao": "B — Indício forte de contratação",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Clidonto+Nazar%C3%A9+BA+odontologia",
-   "linkedin_tipo": "busca",
-   "pontuacao": 61,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 15,
-    "Proximidade de São Felipe (0–20)": 15,
-    "Estrutura da clínica (0–15)": 11,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 5,
-    "Facilidade de envio do currículo (0–5)": 1
-   },
-   "ranking": 11
+   "ranking": 12
   },
   {
    "rede": "Independente",
@@ -689,7 +791,7 @@
      "https://croba.org.br/classificados/uma-vaga-para-dentista-avaliador-e-uma-vaga-para-ortodontista/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 3,
@@ -720,7 +822,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 12
+   "ranking": 13
   },
   {
    "rede": "Independente",
@@ -747,7 +849,7 @@
      "https://croba.org.br/classificados/vaga-para-clinico-geral-santo-amaro/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 5,
@@ -777,7 +879,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 13
+   "ranking": 14
   },
   {
    "rede": "Independente",
@@ -839,7 +941,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 14
+   "ranking": 15
   },
   {
    "rede": "Independente",
@@ -901,7 +1003,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 15
+   "ranking": 16
   },
   {
    "rede": "Independente",
@@ -963,7 +1065,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 16
+   "ranking": 17
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -1025,7 +1127,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 17
+   "ranking": 18
   },
   {
    "rede": "Independente",
@@ -1039,7 +1141,7 @@
    "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Jos%C3%A9+Jorge+Freire+dos+Santos+odontologia",
    "whatsapp": "(75) 98223-9526",
    "email": "consultoriokeila2023@gmail.com",
-   "telefone": "(71) 99977-9578",
+   "telefone": "",
    "outros": [
     [
      "Google Maps",
@@ -1060,7 +1162,7 @@
      "https://croba.org.br/classificados/precisa-se-de-dentista-clinico-exodontia-em-saj-ba/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "43350845000110",
    "obs": "Histórico de contratação: anúncio no CRO-BA em 25/08/2023 buscando dentista (particular e convênio). Anúncio antigo — NÃO é vaga atual.",
    "pts_modelo": 0,
@@ -1091,7 +1193,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 18
+   "ranking": 19
   },
   {
    "rede": "Independente",
@@ -1153,7 +1255,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 19
+   "ranking": 20
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -1215,7 +1317,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 20
+   "ranking": 21
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -1277,7 +1379,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 21
+   "ranking": 22
   },
   {
    "rede": "Independente",
@@ -1299,7 +1401,7 @@
      "https://croba.org.br/classificados/%f0%9f%a6%b7-vaga-para-cirurgiao-dentista-clinico-geral/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 5,
@@ -1329,7 +1431,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 22
+   "ranking": 23
   },
   {
    "rede": "Independente",
@@ -1391,7 +1493,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 23
+   "ranking": 24
   },
   {
    "rede": "Independente",
@@ -1453,7 +1555,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 24
+   "ranking": 25
   },
   {
    "rede": "Independente",
@@ -1515,7 +1617,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 25
+   "ranking": 26
   },
   {
    "rede": "Independente",
@@ -1577,7 +1679,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 26
+   "ranking": 27
   },
   {
    "rede": "Independente",
@@ -1639,7 +1741,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 27
+   "ranking": 28
   },
   {
    "rede": "Independente",
@@ -1701,7 +1803,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 28
+   "ranking": 29
   },
   {
    "rede": "Independente",
@@ -1763,7 +1865,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 29
+   "ranking": 30
   },
   {
    "rede": "Independente",
@@ -1825,7 +1927,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 30
+   "ranking": 31
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -1894,7 +1996,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 31
+   "ranking": 32
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -1959,7 +2061,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 32
+   "ranking": 33
   },
   {
    "rede": "Independente",
@@ -2021,7 +2123,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 33
+   "ranking": 34
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -2086,7 +2188,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 34
+   "ranking": 35
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -2147,7 +2249,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 35
+   "ranking": 36
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -2212,7 +2314,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 36
+   "ranking": 37
   },
   {
    "rede": "Independente",
@@ -2274,7 +2376,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 37
+   "ranking": 38
   },
   {
    "rede": "Independente",
@@ -2336,7 +2438,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 38
+   "ranking": 39
   },
   {
    "rede": "IOB — Instituto de Ortodontia Barison",
@@ -2398,7 +2500,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 39
+   "ranking": 40
   },
   {
    "rede": "Independente",
@@ -2460,7 +2562,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 40
+   "ranking": 41
   },
   {
    "rede": "Independente",
@@ -2522,7 +2624,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 41
+   "ranking": 42
   },
   {
    "rede": "Independente",
@@ -2584,7 +2686,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 42
+   "ranking": 43
   },
   {
    "rede": "Independente",
@@ -2646,7 +2748,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 43
+   "ranking": 44
   },
   {
    "rede": "Independente",
@@ -2708,7 +2810,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 44
+   "ranking": 45
   },
   {
    "rede": "Independente",
@@ -2770,7 +2872,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 45
+   "ranking": 46
   },
   {
    "rede": "Independente",
@@ -2832,7 +2934,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 46
+   "ranking": 47
   },
   {
    "rede": "Independente",
@@ -2894,7 +2996,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 47
+   "ranking": 48
   },
   {
    "rede": "Independente",
@@ -2956,7 +3058,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 48
+   "ranking": 49
   },
   {
    "rede": "Independente",
@@ -2983,7 +3085,7 @@
      "https://croba.org.br/classificados/vaga-para-clinico-geral-66/"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "",
    "obs": "",
    "pts_modelo": 0,
@@ -3013,7 +3115,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 49
+   "ranking": 50
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -3075,7 +3177,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 50
+   "ranking": 51
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3136,7 +3238,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 51
+   "ranking": 52
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3197,7 +3299,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 52
+   "ranking": 53
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3258,7 +3360,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 53
+   "ranking": 54
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3319,7 +3421,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 54
+   "ranking": 55
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3380,7 +3482,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 55
+   "ranking": 56
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3441,7 +3543,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 56
+   "ranking": 57
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3502,7 +3604,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 57
+   "ranking": 58
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3563,7 +3665,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 58
+   "ranking": 59
   },
   {
    "rede": "Odonto Excellence — franquia",
@@ -3624,7 +3726,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 59
+   "ranking": 60
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3689,7 +3791,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 60
+   "ranking": 61
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3754,7 +3856,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 61
+   "ranking": 62
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3819,7 +3921,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 62
+   "ranking": 63
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3884,7 +3986,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 63
+   "ranking": 64
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3949,7 +4051,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 64
+   "ranking": 65
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4014,7 +4116,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 65
+   "ranking": 66
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4079,7 +4181,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 66
+   "ranking": 67
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4144,7 +4246,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 67
+   "ranking": 68
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -4205,7 +4307,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 68
+   "ranking": 69
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4270,7 +4372,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 69
+   "ranking": 70
   },
   {
    "rede": "Independente",
@@ -4301,7 +4403,7 @@
      "https://cnpja.com/office/39233346000175"
     ]
    ],
-   "verificado": "16/11/2026",
+   "verificado": "16/11/2026 (reconferido às 02:26 UTC)",
    "cnpj": "39233346000175",
    "obs": "",
    "pts_modelo": 0,
@@ -4332,7 +4434,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 70
+   "ranking": 71
   },
   {
    "rede": "Independente",
@@ -4394,7 +4496,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 71
+   "ranking": 72
   },
   {
    "rede": "Independente",
@@ -4456,7 +4558,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 72
+   "ranking": 73
   },
   {
    "rede": "Independente",
@@ -4518,7 +4620,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 73
+   "ranking": 74
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4584,7 +4686,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 74
+   "ranking": 75
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4650,7 +4752,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 75
+   "ranking": 76
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4716,7 +4818,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 76
+   "ranking": 77
   },
   {
    "rede": "Independente",
@@ -4778,7 +4880,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 77
+   "ranking": 78
   },
   {
    "rede": "Meu Dente — rede local de Feira de Santana",
@@ -4840,7 +4942,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 78
+   "ranking": 79
   },
   {
    "rede": "Meu Dente — rede local de Feira de Santana",
@@ -4902,7 +5004,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 79
+   "ranking": 80
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4968,7 +5070,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 80
+   "ranking": 81
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5034,7 +5136,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 81
+   "ranking": 82
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5100,7 +5202,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 82
+   "ranking": 83
   },
   {
    "rede": "Independente",
@@ -5161,7 +5263,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 83
+   "ranking": 84
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5223,7 +5325,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 84
+   "ranking": 85
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5285,7 +5387,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 85
+   "ranking": 86
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5347,7 +5449,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 86
+   "ranking": 87
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5409,7 +5511,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 87
+   "ranking": 88
   },
   {
    "rede": "Independente",
@@ -5471,7 +5573,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 88
+   "ranking": 89
   },
   {
    "rede": "Independente",
@@ -5533,7 +5635,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 89
+   "ranking": 90
   },
   {
    "rede": "Independente",
@@ -5595,7 +5697,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 90
+   "ranking": 91
   },
   {
    "rede": "Independente",
@@ -5657,7 +5759,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 91
+   "ranking": 92
   },
   {
    "rede": "Rizzo Odontologia",
@@ -5719,7 +5821,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 92
+   "ranking": 93
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5781,7 +5883,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 93
+   "ranking": 94
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5843,7 +5945,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 94
+   "ranking": 95
   },
   {
    "rede": "Independente",
@@ -5900,68 +6002,6 @@
     "Estrutura da clínica (0–15)": 7,
     "Compatibilidade com clínico geral (0–10)": 8,
     "Contato direto (0–10)": 6,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 2
-   },
-   "ranking": 95
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Vereador João Delfino, 76 — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Camila Alves Oliveira Souza",
-   "gestor": "Não identificado",
-   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Camila+Alves+Oliveira+Souza+odontologia",
-   "whatsapp": "",
-   "email": "",
-   "telefone": "(71) 99972-0940",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Revitalle+Santo+Ant%C3%B4nio+de+Jesus+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928704245741"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/50728945000100"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "50728945000100",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 0,
-   "pts_facil": 2,
-   "estrutura": "pequena",
-   "compat_nivel": "media",
-   "pts_contato": 8,
-   "nome": "Revitalle",
-   "cidade": "Santo Antônio de Jesus",
-   "categoria": "D",
-   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
-   "oportunidade": "Consultório individual, sem evidência de equipe ou contratação. Incluído por estar em cidade de prioridade máxima.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Baixa prioridade: consultório individual. Abordar apenas para parceria por turno/diária ou cobertura de férias.",
-   "dist_km": 30,
-   "situacao": "D — Baixa prioridade",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Revitalle+Santo+Ant%C3%B4nio+de+Jesus+BA+odontologia",
-   "linkedin_tipo": "busca",
-   "pontuacao": 43,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 0,
-    "Proximidade de São Felipe (0–20)": 18,
-    "Estrutura da clínica (0–15)": 7,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 8,
     "Diária/turno/produção (0–5)": 0,
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2

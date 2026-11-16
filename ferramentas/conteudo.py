@@ -101,7 +101,7 @@ REDES = [
      'form': 'https://sorridents.com.br/trabalhe-conosco/',
      'regional': 'Não publicado.',
      'como': 'Formulário da rede; conferir unidades em https://sorridents.com.br/unidades/ (selecionar BA).'},
-    {'rede': 'Redes regionais identificadas', 'ba': 'Clidonto (SAJ + Nazaré); Oral Centter (Espinosa-MG + Cruz das Almas); IOB — Instituto de Ortodontia Barison (SAJ + Feira); Meu Dente (3 endereços em Feira); Rizzo Odontologia (2 em Feira).',
+    {'rede': 'Redes regionais identificadas', 'ba': 'Clidonto (SAJ, Nazaré e Amargosa); Oral Centter (Espinosa-MG + Cruz das Almas); IOB — Instituto de Ortodontia Barison (SAJ + Feira); Meu Dente (3 endereços em Feira); Rizzo Odontologia (2 em Feira).',
      'cidades': 'Santo Antônio de Jesus, Nazaré, Cruz das Almas, Feira de Santana.',
      'reconcavo': 'Sim — Clidonto, Oral Centter e IOB.',
      'expansao': 'Clidonto abriu Nazaré em 2024 com os mesmos sócios de SAJ; Oral Centter foi aberta em 03/2025 e já opera em Cruz das Almas.',
@@ -174,7 +174,7 @@ PERSONALIZACAO = [
 
 PLANO = [
     ('Hoje e amanhã (dias 1–2)', [
-        'Responder às 5 vagas confirmadas (categoria A): clínica em Brotas, "clínico que faça exodontia", anúncio das 3 vagas, "dias para clínico geral" e Clioral. Usar a mensagem "resposta a anúncio".',
+        'Responder às vagas confirmadas (categoria A): Orthos Prime (3 vagas), clínica em Brotas, "clínico que faça exodontia", anunciante das extrações às terças/clínico geral e Clioral; avaliar a substituição temporária de janeiro. As mensagens individuais estão na aba "PRIMEIROS 15 — APROVAÇÃO" da planilha.',
         'Preencher as pendências do perfil: WhatsApp nas mensagens e currículo em PDF de uma página (CRO-BA 32800, UNIME, cursos de Cirurgia Oral Menor e Dentística, experiência na Mais Sorriso).',
     ]),
     ('Primeira semana (dias 3–7) — Recôncavo', [
@@ -221,7 +221,7 @@ LIMITACOES = [
     'Distâncias são estimativas rodoviárias a partir de São Felipe; confirmar no mapa.',
     'Indeed, TrabalhaBrasil e Blog do Valente bloquearam a leitura automatizada; as informações desses portais vêm de resultados de busca e estão sinalizadas.',
     'Sapeaçu, Governador Mangabeira, Dom Macedo Costa, Muniz Ferreira, São Félix, Maragogipe e Castro Alves foram pesquisados no CNES, mas só apresentaram serviços públicos (CEO/USF), consultórios individuais sem CNPJ ou empresas inaptas — por isso não aparecem no ranking.',
-    'Foram verificados 131 estabelecimentos; o ranking traz os 100 de maior pontuação, preservando todas as vagas (A/B) e as cidades de São Felipe e Conceição do Almeida.',
+    'Foram verificados cerca de 130 estabelecimentos; o ranking traz os 100 de maior pontuação, preservando todas as vagas (A/B) e as cidades de São Felipe e Conceição do Almeida.',
 ]
 
 CRITERIOS = [

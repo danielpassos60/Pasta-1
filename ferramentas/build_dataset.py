@@ -568,8 +568,69 @@ def feira_records():
             fontes=[('CNES/DataSUS — consulta de estabelecimentos', 'https://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp'), ('Receita Federal (CNPJ/QSA)', f'https://cnpja.com/office/{cnpj}')])
 
 
+
+# ---------------------------------------------------------------- Reconferência (16/11/2026, 02:26 UTC)
+RECONF = '16/11/2026 (reconferido às 02:26 UTC)'
+
+
+def reconferencia():
+    """Correções e complementos obtidos na reconferência dos dados antes da montagem do CRM."""
+    def achar(trecho, cidade=None):
+        return [r for r in RECS if trecho in r['nome'] and (cidade is None or r['cidade'] == cidade)]
+
+    for r in achar('3 vagas'):
+        r.update(nome='Orthos Prime (anúncio CRO-BA — 3 vagas: clínico geral, protesista e cirurgião)', cidade='Salvador', dist_km=DIST['Salvador'],
+                 endereco='Rua Thomaz Gonzaga, 121, salas 201 e 202, Pernambués (endereço do CNPJ)', cnpj='26461678000165',
+                 socios='Rebeca Alves de Almeida', telefone='(71) 3359-6479', estrutura='clinica',
+                 obs='Clínica identificada pelo e-mail do anúncio (orthosprime.doc@outlook.com) e pelo CNPJ da Orthos Prime LTDA em Salvador; o anúncio não cita o nome — confirmar no primeiro contato. Telefone fixo é o do cadastro da Receita Federal.')
+        r['outros'] = [('Facebook da clínica', 'https://www.facebook.com/clinicaorthosprime'), ('Google Maps', maps('Orthos Prime Odontologia Pernambués', 'Salvador'))]
+        r['fontes'].append(('Receita Federal (CNPJ/QSA)', 'https://cnpja.com/office/26461678000165'))
+        r['linkedin'] = linkedin_busca('Rebeca Alves de Almeida odontologia'); r['linkedin_tipo'] = 'busca'
+    for r in achar('Dias para clínico geral'):
+        r.update(nome='Anunciante CRO-BA — extrações às terças e dias para clínico geral', data_vaga='10/11/2026 (e 27/10/2026)', pts_expansao=5,
+                 perfil_equipe='Clínica/consultório com atendimento particular e por plano odontológico (texto do anúncio de 27/10). Anunciante não identifica a clínica.',
+                 oportunidade='VAGA CONFIRMADA (dois anúncios do mesmo contato): em 27/10/2026, "dentista que tenha curso de cirurgia ou seja bucomaxilo", para extrações às terças-feiras, particular e plano; em 10/11/2026, "vaga para clínico geral" com dias disponíveis. Sem local nem remuneração informados.',
+                 compat='Alta — o anúncio de 27/10 pede curso de cirurgia, e você tem formação complementar em Cirurgia Oral Menor; o de 10/11 pede clínico geral.',
+                 abordagem='Mensagem ao contato citando os dois anúncios: curso de Cirurgia Oral Menor para as terças e disponibilidade como clínico geral nos demais dias. Perguntar cidade/bairro e remuneração.')
+        r['fontes'].append(('CRO-BA classificados (27/10/2026)', CRO + 'vaga-para-quem-faz-extracao-dia-terca-feira/'))
+    for r in achar('Oral Centter'):
+        r.update(endereco='Rua 15 de Novembro, 68, Centro (confirmado em notícia local de 07/2026)', whatsapp='(75) 98168-9393', pts_contato=8, pts_facil=2,
+                 obs='WhatsApp (75) 98168-9393 divulgado pela clínica para agendamento de pacientes (Portal Cruzalmense, 07/2026) — não é canal de recrutamento. Os outros telefones de diretórios seguem não confirmados.',
+                 abordagem='Mensagem ao WhatsApp de agendamento pedindo o contato da coordenação clínica/gerência; em seguida, visita à unidade (38 km de São Felipe). Citar a vaga de dentista avaliador e a experiência em clínica popular.')
+        r['fontes'].append(('Portal Cruzalmense (07/2026) — endereço e WhatsApp', 'http://www.portalcruzalmense.com.br/2026/07/oral-centter-lanca-promocao-com-50-de.html'))
+    for r in achar('Clidonto'):
+        if r['nome'] != 'Clidonto':
+            continue
+        r.update(instagram='https://www.instagram.com/clidonto', n_unidades='3 (Santo Antônio de Jesus — sede, Nazaré e Amargosa, segundo a Agência Sebrae)',
+                 rede='Clidonto (grupo regional — SAJ, Nazaré e Amargosa)', pts_contato=8, pts_facil=2)
+        r.pop('instagram_busca', None)
+        r['obs'] = ('Instagram @clidonto: mesmo nome de usuário do perfil da clínica no Threads (conferir). Eleita melhor clínica odontológica de SAJ em 2023 e 2025 (Blog do Valente). '
+                    + ('Telefones da sede: (75) 3631-5435 e (75) 3632-1891; celular (75) 99956-9898 aparece como WhatsApp em diretório (não oficial).' if r['cidade'] == 'Santo Antônio de Jesus'
+                       else 'Telefone próprio da unidade de Nazaré não confirmado — usar os contatos da sede em SAJ.'))
+        if r['cidade'] == 'Santo Antônio de Jesus':
+            r.update(telefone='(75) 3631-5435', whatsapp='(75) 99956-9898')
+        r['fontes'] += [('Agência Sebrae — unidades em SAJ, Nazaré e Amargosa', 'https://ba.agenciasebrae.com.br/cultura-empreendedora/acoes-do-sebrae-contribuem-para-desenvolvimento-de-clinica-odontologica-em-saj/'),
+                        ('Blog do Valente (05/2025) — prêmio Melhores do Ano', 'https://blogdovalente.com.br/noticias/saj/2025/05/clidonto-e-eleita-melhor-clinica-odontologica-e-melhor-clinica-ortodontica-no-premio-melhores-do-ano/'),
+                        ('Diretório AppLocal — telefones', 'https://applocal.com.br/empresa/clidonto-clinica-odontologica/santo-antonio-de-jesus/ba/9004480')]
+    for r in achar('Keila'):
+        r.update(telefone='')  # o telefone do CNES/Receita é de terceiros (contabilidade); manter só o WhatsApp do anúncio
+    for r in achar('AmorSaúde Cruz das Almas'):
+        r['socios'] = 'Alex Alvares Pimentel Maciel; Valdiria Alves Ferreira; Altair de Jesus Vilar Guimaraes (administrador); Mara Investimentos e Participações Ltda'
+    # nova vaga localizada na reconferência
+    rec(nome='Anunciante CRO-BA — substituição temporária (04 a 09/01/2027)', cidade='Salvador', endereco='Tancredo Neves, Salvador (clínica não identificada no anúncio)',
+        categoria='A', vaga_perfil='parcial', estrutura='indefinida', compat_nivel='alta', data_vaga='06/11/2026', telefone='(71) 99208-2650', email='dralexandre.nogueira23@gmail.com',
+        pts_contato=10, pts_modelo=5, pts_facil=5, perfil_equipe='Não informado. Anúncio de um cirurgião-dentista buscando substituto.',
+        oportunidade='VAGA CONFIRMADA (temporária): cirurgião-dentista para substituição de 04/01/2027 a 09/01/2027 no bairro Tancredo Neves, Salvador. Trabalho de uma semana — pode abrir porta para parceria.',
+        compat='Alta para clínica geral; exige uma semana inteira em Salvador (inclui sábado — conciliar com a Mais Sorriso).',
+        abordagem='Contato pelo telefone do anúncio perguntando perfil dos atendimentos e remuneração. Só faz sentido se você puder ficar a semana em Salvador.',
+        obs='O texto do anúncio cita também o número (71) 99110-4618.', fontes=[('CRO-BA classificados (06/11/2026)', CRO + 'vaga-de-substituicao/')])
+    for r in RECS:
+        if r['categoria'] in 'AB' or any(k in r['nome'] for k in ('Clidonto', 'Oral Centter', 'Keila')) or r['nome'].startswith(('AmorSaúde Santo', 'AmorSaúde Cruz')):
+            r['verificado'] = RECONF
+        pontuar(r)
+
 def main():
-    cnes_records(); oc_records(); amor_records(); vs_records(); outras_redes(); vagas(); feira_records()
+    cnes_records(); oc_records(); amor_records(); vs_records(); outras_redes(); vagas(); feira_records(); reconferencia()
     # deduplicação por nome+cidade
     seen, recs = set(), []
     for r in RECS:
