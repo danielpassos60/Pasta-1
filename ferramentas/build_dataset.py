@@ -134,8 +134,11 @@ def email_ok(email, *nomes):
             w = re.sub(r'[^a-z]', '', w.translate(str.maketrans('áàâãéêíóôõúç', 'aaaaeeiooouc')))
             if w and w not in GEN:
                 toks.add(w)
-    if any(t in local for t in toks) or re.search(r'odonto|dent|sorri|oral|clin', local) or 'amorsaude' in e or 'odontocompany' in e:
+    livre = re.search(r'@(gmail|hotmail|yahoo|outlook|live|icloud|bol|uol|ig|msn|superig)\.', e)
+    if re.search(r'odonto|dent|sorri|oral|clin|consult|institut', local) or 'amorsaude' in e or 'odontocompany' in e:
         return e
+    if not livre and any(t in local for t in toks):
+        return e  # domínio próprio com o nome da clínica
     return ''
 
 
@@ -201,7 +204,7 @@ def load_cnes():
     return rows
 
 
-RX = re.compile(r'(ODONT|DENT|SORRI|ORAL|ORTO|IMPLANT|BUCAL|SMILE|TOOTH|AMOR SAUDE|AMOR E SAUDE|ARMOS|COMEDE|CLIMOD|PRO SAUDE)', re.I)
+RX = re.compile(r'(ODONT|DENT|SORRI|ORAL|ORTO|IMPLANT|BUCAL|SMILE|TOOTH|AMOR SAUDE|AMOR E SAUDE)', re.I)
 EXCL = re.compile(r'MUNICIPIO|PREFEITURA|FUNDO MUN|LABORAT|PROTESE|PROTESES|ORTOP|FISIO|JOELHO|OFTALMO|USEMED|CRISTO REDENTOR|'
                   r'GIRO 3D|ARTE DE SORRIR|ORTOCRUZ|ODONTO QUALI|^CEO |USF |UBS ', re.I)
 SEM_CNPJ_OK = {510289, 6393136, 6003257, 9690506}  # consultórios de São Felipe e Conceição do Almeida (cidades de prioridade máxima)
@@ -241,7 +244,7 @@ def cnes_records():
         nome = titulo(fant)
         end = f"{titulo(e.get('endereco_estabelecimento'))}, {e.get('numero_estabelecimento')} — {titulo(e.get('bairro_estabelecimento'))}"
         tel = fmt_tel(e.get('numero_telefone_estabelecimento'))
-        mail = email_ok(e.get('endereco_email_estabelecimento'), fant, raz) or email_ok(d.get('email'), fant, raz)
+        mail = email_ok(e.get('endereco_email_estabelecimento'), fant) or email_ok(d.get('email'), fant)
         fontes = [('CNES/DataSUS — ficha do estabelecimento', f"https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade={e.get('codigo_estabelecimento_saude')}")]
         if cnpj:
             fontes.append(('Receita Federal (CNPJ/QSA)', f'https://cnpja.com/office/{cnpj}'))

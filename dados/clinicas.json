@@ -1,6 +1,6 @@
 {
  "verificado_em": "16/11/2026",
- "total_verificadas": 131,
+ "total_verificadas": 129,
  "clinicas": [
   {
    "rede": "Independente",
@@ -905,68 +905,6 @@
   },
   {
    "rede": "Independente",
-   "endereco": "Landulfo Alves, 186 — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Luciana Marques Silva",
-   "gestor": "Não identificado",
-   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Luciana+Marques+Silva+odontologia",
-   "whatsapp": "",
-   "email": "luciana.marques0322@hotmail.com",
-   "telefone": "(75) 3631-6084",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Luciana+Marques+Odontologia+Santo+Ant%C3%B4nio+de+Jesus+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928708167664"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/58476150000156"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "58476150000156",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 5,
-   "pts_facil": 3,
-   "estrutura": "clinica",
-   "compat_nivel": "media",
-   "pts_contato": 8,
-   "nome": "Luciana Marques Odontologia",
-   "cidade": "Santo Antônio de Jesus",
-   "categoria": "C",
-   "perfil_equipe": "Clínica/centro de especialidades (classificação CNES) — estrutura para mais de um profissional; nº de dentistas não confirmado.",
-   "oportunidade": "Sem vaga anunciada. Empresa aberta em 2024 (Receita Federal) — clínica nova, em fase de formação de equipe. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Contato direto com Luciana Marques Silva (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
-   "dist_km": 30,
-   "situacao": "C — Prospecção estratégica",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Luciana+Marques+Odontologia+Santo+Ant%C3%B4nio+de+Jesus+BA+odontologia",
-   "linkedin_tipo": "busca",
-   "pontuacao": 59,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 6,
-    "Proximidade de São Felipe (0–20)": 18,
-    "Estrutura da clínica (0–15)": 11,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 8,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 5,
-    "Facilidade de envio do currículo (0–5)": 3
-   },
-   "ranking": 16
-  },
-  {
-   "rede": "Independente",
    "endereco": "Maceió, 420 — Sobradinho",
    "site": "Não localizado",
    "instagram": "Não localizado",
@@ -1025,7 +963,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 17
+   "ranking": 16
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -1087,7 +1025,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 18
+   "ranking": 17
   },
   {
    "rede": "Independente",
@@ -1152,6 +1090,68 @@
     "Diária/turno/produção (0–5)": 0,
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
+   },
+   "ranking": 18
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Landulfo Alves, 186 — Centro",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "—",
+   "socios": "Luciana Marques Silva",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Luciana+Marques+Silva+odontologia",
+   "whatsapp": "",
+   "email": "",
+   "telefone": "(75) 3631-6084",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Luciana+Marques+Odontologia+Santo+Ant%C3%B4nio+de+Jesus+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CNES/DataSUS — ficha do estabelecimento",
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928708167664"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/58476150000156"
+    ]
+   ],
+   "verificado": "16/11/2026",
+   "cnpj": "58476150000156",
+   "obs": "",
+   "pts_modelo": 0,
+   "pts_expansao": 5,
+   "pts_facil": 2,
+   "estrutura": "clinica",
+   "compat_nivel": "media",
+   "pts_contato": 8,
+   "nome": "Luciana Marques Odontologia",
+   "cidade": "Santo Antônio de Jesus",
+   "categoria": "C",
+   "perfil_equipe": "Clínica/centro de especialidades (classificação CNES) — estrutura para mais de um profissional; nº de dentistas não confirmado.",
+   "oportunidade": "Sem vaga anunciada. Empresa aberta em 2024 (Receita Federal) — clínica nova, em fase de formação de equipe. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
+   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
+   "abordagem": "Contato direto com Luciana Marques Silva (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
+   "dist_km": 30,
+   "situacao": "C — Prospecção estratégica",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Luciana+Marques+Odontologia+Santo+Ant%C3%B4nio+de+Jesus+BA+odontologia",
+   "linkedin_tipo": "busca",
+   "pontuacao": 58,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 6,
+    "Proximidade de São Felipe (0–20)": 18,
+    "Estrutura da clínica (0–15)": 11,
+    "Compatibilidade com clínico geral (0–10)": 8,
+    "Contato direto (0–10)": 8,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 5,
+    "Facilidade de envio do currículo (0–5)": 2
    },
    "ranking": 19
   },
@@ -1766,6 +1766,68 @@
    "ranking": 29
   },
   {
+   "rede": "Independente",
+   "endereco": "Do Lavrador, 230 — Centro",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "—",
+   "socios": "Carolina Santos Costa",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Carolina+Santos+Costa+odontologia",
+   "whatsapp": "",
+   "email": "",
+   "telefone": "(75) 98298-5123",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Pr%C3%B3+Sa%C3%BAde+Cruz+das+Almas+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CNES/DataSUS — ficha do estabelecimento",
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2909802838397"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/42296105000180"
+    ]
+   ],
+   "verificado": "16/11/2026",
+   "cnpj": "42296105000180",
+   "obs": "",
+   "pts_modelo": 0,
+   "pts_expansao": 0,
+   "pts_facil": 2,
+   "estrutura": "clinica",
+   "compat_nivel": "media",
+   "pts_contato": 8,
+   "nome": "Pró Saúde",
+   "cidade": "Cruz das Almas",
+   "categoria": "C",
+   "perfil_equipe": "Clínica/centro de especialidades (classificação CNES) — estrutura para mais de um profissional; nº de dentistas não confirmado.",
+   "oportunidade": "Sem vaga anunciada. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
+   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
+   "abordagem": "Contato direto com Carolina Santos Costa (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
+   "dist_km": 38,
+   "situacao": "C — Prospecção estratégica",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Pr%C3%B3+Sa%C3%BAde+Cruz+das+Almas+BA+odontologia",
+   "linkedin_tipo": "busca",
+   "pontuacao": 53,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 6,
+    "Proximidade de São Felipe (0–20)": 18,
+    "Estrutura da clínica (0–15)": 11,
+    "Compatibilidade com clínico geral (0–10)": 8,
+    "Contato direto (0–10)": 8,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 0,
+    "Facilidade de envio do currículo (0–5)": 2
+   },
+   "ranking": 30
+  },
+  {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
    "endereco": "Avenida Maçônica, 75, Graça — CEP 45400-000",
    "site": "https://www.amorsaude.com.br/unidades/",
@@ -1832,7 +1894,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 30
+   "ranking": 31
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -1896,67 +1958,6 @@
     "Diária/turno/produção (0–5)": 2,
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
-   },
-   "ranking": 31
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Crisogno José Fernandes, S/N — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Não localizado",
-   "gestor": "Não identificado",
-   "linkedin": "",
-   "whatsapp": "",
-   "email": "",
-   "telefone": "(75) 98202-1818",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Pr%C3%B3+Sa%C3%BAde+Cruz+das+Almas+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2909808544743"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/51120711000130"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "51120711000130",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 0,
-   "pts_facil": 2,
-   "estrutura": "clinica",
-   "compat_nivel": "media",
-   "pts_contato": 6,
-   "nome": "Pró Saúde",
-   "cidade": "Cruz das Almas",
-   "categoria": "C",
-   "perfil_equipe": "Clínica/centro de especialidades (classificação CNES) — estrutura para mais de um profissional; nº de dentistas não confirmado.",
-   "oportunidade": "Sem vaga anunciada. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Contato direto com o(a) responsável (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
-   "dist_km": 38,
-   "situacao": "C — Prospecção estratégica",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Pr%C3%B3+Sa%C3%BAde+Cruz+das+Almas+BA+odontologia",
-   "pontuacao": 51,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 6,
-    "Proximidade de São Felipe (0–20)": 18,
-    "Estrutura da clínica (0–15)": 11,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 2
    },
    "ranking": 32
   },
@@ -2897,67 +2898,6 @@
   },
   {
    "rede": "Independente",
-   "endereco": "Travessa Placido Pita, 050 — Capoeirucu",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Não localizado",
-   "gestor": "Não identificado",
-   "linkedin": "",
-   "whatsapp": "",
-   "email": "edsonoliveira01@yahoo.com.br",
-   "telefone": "",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Pr%C3%B3+Sa%C3%BAde+Integral+Cachoeira+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2904907242212"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/07222869000120"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "07222869000120",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 0,
-   "pts_facil": 3,
-   "estrutura": "clinica",
-   "compat_nivel": "media",
-   "pts_contato": 6,
-   "nome": "Pró Saúde Integral",
-   "cidade": "Cachoeira",
-   "categoria": "C",
-   "perfil_equipe": "Clínica/centro de especialidades (classificação CNES) — estrutura para mais de um profissional; nº de dentistas não confirmado.",
-   "oportunidade": "Sem vaga anunciada. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Contato direto com o(a) responsável (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
-   "dist_km": 57,
-   "situacao": "C — Prospecção estratégica",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Pr%C3%B3+Sa%C3%BAde+Integral+Cachoeira+BA+odontologia",
-   "pontuacao": 49,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 6,
-    "Proximidade de São Felipe (0–20)": 15,
-    "Estrutura da clínica (0–15)": 11,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 3
-   },
-   "ranking": 48
-  },
-  {
-   "rede": "Independente",
    "endereco": "Senador Themístocles, 502 — Centro",
    "site": "Não localizado",
    "instagram": "Não localizado",
@@ -3016,7 +2956,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 49
+   "ranking": 48
   },
   {
    "rede": "Independente",
@@ -3073,7 +3013,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 50
+   "ranking": 49
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -3135,7 +3075,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 51
+   "ranking": 50
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3196,7 +3136,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 52
+   "ranking": 51
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3257,7 +3197,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 53
+   "ranking": 52
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3318,7 +3258,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 54
+   "ranking": 53
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3379,7 +3319,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 55
+   "ranking": 54
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3440,7 +3380,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 56
+   "ranking": 55
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3501,7 +3441,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 57
+   "ranking": 56
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3562,7 +3502,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 58
+   "ranking": 57
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -3623,7 +3563,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 59
+   "ranking": 58
   },
   {
    "rede": "Odonto Excellence — franquia",
@@ -3684,7 +3624,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 60
+   "ranking": 59
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3749,7 +3689,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 61
+   "ranking": 60
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3814,7 +3754,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 62
+   "ranking": 61
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3879,7 +3819,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 63
+   "ranking": 62
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -3944,7 +3884,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 64
+   "ranking": 63
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4009,7 +3949,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 65
+   "ranking": 64
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4074,7 +4014,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 66
+   "ranking": 65
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4139,7 +4079,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 67
+   "ranking": 66
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4204,7 +4144,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 68
+   "ranking": 67
   },
   {
    "rede": "AmorSaúde (Cartão de TODOS) — franquia",
@@ -4265,7 +4205,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 5
    },
-   "ranking": 69
+   "ranking": 68
   },
   {
    "rede": "OdontoCompany — franquia",
@@ -4330,7 +4270,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 70
+   "ranking": 69
   },
   {
    "rede": "Independente",
@@ -4392,7 +4332,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 71
+   "ranking": 70
   },
   {
    "rede": "Independente",
@@ -4454,7 +4394,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 72
+   "ranking": 71
   },
   {
    "rede": "Independente",
@@ -4516,7 +4456,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 73
+   "ranking": 72
   },
   {
    "rede": "Independente",
@@ -4578,7 +4518,7 @@
     "Indícios de expansão (0–5)": 5,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 74
+   "ranking": 73
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4644,7 +4584,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 75
+   "ranking": 74
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4710,7 +4650,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 76
+   "ranking": 75
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -4776,7 +4716,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 77
+   "ranking": 76
   },
   {
    "rede": "Independente",
@@ -4838,7 +4778,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 78
+   "ranking": 77
   },
   {
    "rede": "Meu Dente — rede local de Feira de Santana",
@@ -4900,7 +4840,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 79
+   "ranking": 78
   },
   {
    "rede": "Meu Dente — rede local de Feira de Santana",
@@ -4962,7 +4902,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 80
+   "ranking": 79
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5028,7 +4968,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 81
+   "ranking": 80
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5094,7 +5034,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 82
+   "ranking": 81
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5160,7 +5100,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 83
+   "ranking": 82
   },
   {
    "rede": "Independente",
@@ -5221,7 +5161,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 84
+   "ranking": 83
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5283,7 +5223,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 85
+   "ranking": 84
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5345,7 +5285,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 86
+   "ranking": 85
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5407,7 +5347,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 87
+   "ranking": 86
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5469,68 +5409,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 88
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Cônego José Lourenço, S/N — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Não localizado",
-   "gestor": "Não identificado",
-   "linkedin": "",
-   "whatsapp": "",
-   "email": "loly-ribeiro@hotmail.com",
-   "telefone": "(75) 98808-6659",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Consult%C3%B3rio+Odontol%C3%B3gico+Dr+Carolina+Ribeiro+S%C3%A3o+Felipe+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2929100055646"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/21214372000190"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "21214372000190",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 0,
-   "pts_facil": 3,
-   "estrutura": "pequena",
-   "compat_nivel": "media",
-   "pts_contato": 6,
-   "nome": "Consultório Odontológico Dr Carolina Ribeiro",
-   "cidade": "São Felipe",
-   "categoria": "D",
-   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
-   "oportunidade": "Consultório individual, sem evidência de equipe ou contratação. Incluído por estar em cidade de prioridade máxima.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Baixa prioridade: consultório individual. Abordar apenas para parceria por turno/diária ou cobertura de férias.",
-   "dist_km": 0,
-   "situacao": "D — Baixa prioridade",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Consult%C3%B3rio+Odontol%C3%B3gico+Dr+Carolina+Ribeiro+S%C3%A3o+Felipe+BA+odontologia",
-   "pontuacao": 44,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 0,
-    "Proximidade de São Felipe (0–20)": 20,
-    "Estrutura da clínica (0–15)": 7,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 6,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 3
-   },
-   "ranking": 89
+   "ranking": 87
   },
   {
    "rede": "Independente",
@@ -5592,7 +5471,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 90
+   "ranking": 88
   },
   {
    "rede": "Independente",
@@ -5654,7 +5533,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 91
+   "ranking": 89
   },
   {
    "rede": "Independente",
@@ -5716,7 +5595,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 92
+   "ranking": 90
   },
   {
    "rede": "Independente",
@@ -5778,69 +5657,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 3
    },
-   "ranking": 93
-  },
-  {
-   "rede": "Independente",
-   "endereco": "Antônio Edson Sampaio, 16 — Centro",
-   "site": "Não localizado",
-   "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
-   "data_vaga": "—",
-   "socios": "Bruno Ferreira Maia; Thatiana de Paula Miranda",
-   "gestor": "Não identificado",
-   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Bruno+Ferreira+Maia+odontologia",
-   "whatsapp": "",
-   "email": "bfmaia@icloud.com",
-   "telefone": "(75) 99240-7326",
-   "outros": [
-    [
-     "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Odonto+Vitta+Amargosa+BA"
-    ]
-   ],
-   "fontes": [
-    [
-     "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2901000505285"
-    ],
-    [
-     "Receita Federal (CNPJ/QSA)",
-     "https://cnpja.com/office/23589236000100"
-    ]
-   ],
-   "verificado": "16/11/2026",
-   "cnpj": "23589236000100",
-   "obs": "",
-   "pts_modelo": 0,
-   "pts_expansao": 0,
-   "pts_facil": 3,
-   "estrutura": "pequena",
-   "compat_nivel": "media",
-   "pts_contato": 8,
-   "nome": "Odonto Vitta",
-   "cidade": "Amargosa",
-   "categoria": "C",
-   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
-   "oportunidade": "Sem vaga anunciada. Candidatura espontânea para clínica geral/exodontias em dias fixos ou por produção. Hipótese de prospecção.",
-   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
-   "abordagem": "Contato direto com Bruno Ferreira Maia (sócio(a) na Receita Federal) por WhatsApp/telefone da clínica; se não houver resposta, visita em horário de baixo movimento com currículo impresso. Oferecer dias fixos de segunda a sexta e cobertura de férias/licenças.",
-   "dist_km": 82,
-   "situacao": "C — Prospecção estratégica",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Odonto+Vitta+Amargosa+BA+odontologia",
-   "linkedin_tipo": "busca",
-   "pontuacao": 43,
-   "pontuacao_detalhe": {
-    "Vaga/sinal de contratação (0–30)": 6,
-    "Proximidade de São Felipe (0–20)": 11,
-    "Estrutura da clínica (0–15)": 7,
-    "Compatibilidade com clínico geral (0–10)": 8,
-    "Contato direto (0–10)": 8,
-    "Diária/turno/produção (0–5)": 0,
-    "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 3
-   },
-   "ranking": 94
+   "ranking": 91
   },
   {
    "rede": "Rizzo Odontologia",
@@ -5902,7 +5719,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 95
+   "ranking": 92
   },
   {
    "rede": "Vamos Sorrir Odontologia — rede popular",
@@ -5964,65 +5781,192 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 1
    },
-   "ranking": 96
+   "ranking": 93
   },
   {
-   "rede": "Independente",
-   "endereco": "Rua Antenogenes Melo, S/N — Centro",
-   "site": "Não localizado",
+   "rede": "Vamos Sorrir Odontologia — rede popular",
+   "endereco": "Rua Bahia, 89, Tancredo Neves",
+   "site": "https://vamossorrir.com.br/clinicas/?estado=BA",
    "instagram": "Não localizado",
-   "n_unidades": "1 (sem outras unidades identificadas)",
+   "n_unidades": "\"Mais de 90 unidades no Brasil\" (site oficial); na Bahia ao menos 20, incluindo 2 em SAJ, 1 em Cruz das Almas e 1 em Valença",
    "data_vaga": "—",
-   "socios": "Titular (pessoa física no CNES): Crislene Andrade Borges Ambrosi",
+   "socios": "Não localizado para esta unidade. Nas unidades de Salvador/Lauro os sócios registrados são: Felipe Gallego; Lucas de Abreu Campos Carvalho; Philipe Moraes de Gouvea; Vandeir José de Oliveira Junior",
    "gestor": "Não identificado",
-   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Titular+odontologia",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=N%C3%A3o+localizado+para+esta+unidade.+Nas+unidades+de+Salvador%2FLauro+os+s%C3%B3cios+registrados+s%C3%A3o%3A+Felipe+Gallego+odontologia",
    "whatsapp": "",
-   "email": "crisambrosi@hotmail.com",
+   "email": "",
    "telefone": "",
    "outros": [
     [
      "Google Maps",
-     "https://www.google.com/maps/search/?api=1&query=Sorriso+Clin+Concei%C3%A7%C3%A3o+do+Almeida+BA"
+     "https://www.google.com/maps/search/?api=1&query=Vamos+Sorrir+Tancredo+Neves+Salvador+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "Site oficial — unidades na Bahia (dados obtidos via busca; site inacessível para leitura direta em 16/11/2026)",
+     "https://vamossorrir.com.br/clinicas/?estado=BA"
+    ],
+    [
+     "InfoJobs — avaliações de funcionários",
+     "https://www.infojobs.com.br/availacoes-vamos-sorrir__-753038.aspx"
+    ]
+   ],
+   "verificado": "16/11/2026",
+   "cnpj": "",
+   "obs": "Telefones divergem entre páginas do próprio site para algumas unidades; confirmar antes de ligar.",
+   "pts_modelo": 2,
+   "pts_expansao": 0,
+   "pts_facil": 1,
+   "estrutura": "rede",
+   "compat_nivel": "alta",
+   "pts_contato": 6,
+   "nome": "Vamos Sorrir Tancredo Neves",
+   "cidade": "Salvador",
+   "perfil_equipe": "Rede de clínicas populares de alto fluxo, com vários dentistas por unidade (avaliações de funcionários no InfoJobs descrevem \"clínica popular com alto fluxo e grande demanda\").",
+   "categoria": "C",
+   "oportunidade": "Sem vaga de dentista localizada na data da verificação. Rede citada por você como referência; modelo de alto volume costuma ter reposição frequente de clínicos. Hipótese de prospecção, não vaga.",
+   "compat": "Alta — mesmo segmento da Mais Sorriso (clínica popular, clínico geral, exodontias, dentística).",
+   "abordagem": "Procurar a gerência/coordenação clínica da unidade (telefone fixo) pedindo o contato de quem seleciona dentistas; em paralelo, tentar os sócios do grupo via LinkedIn. Mencionar que já atua em clínica popular em Salvador.",
+   "dist_km": 190,
+   "situacao": "C — Prospecção estratégica",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Vamos+Sorrir+Tancredo+Neves+Salvador+BA+odontologia",
+   "linkedin_tipo": "busca",
+   "pontuacao": 43,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 6,
+    "Proximidade de São Felipe (0–20)": 3,
+    "Estrutura da clínica (0–15)": 15,
+    "Compatibilidade com clínico geral (0–10)": 10,
+    "Contato direto (0–10)": 6,
+    "Diária/turno/produção (0–5)": 2,
+    "Indícios de expansão (0–5)": 0,
+    "Facilidade de envio do currículo (0–5)": 1
+   },
+   "ranking": 94
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Cônego José Lourenço, S/N — Centro",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "—",
+   "socios": "Não localizado",
+   "gestor": "Não identificado",
+   "linkedin": "",
+   "whatsapp": "",
+   "email": "",
+   "telefone": "(75) 98808-6659",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Consult%C3%B3rio+Odontol%C3%B3gico+Dr+Carolina+Ribeiro+S%C3%A3o+Felipe+BA"
     ]
    ],
    "fontes": [
     [
      "CNES/DataSUS — ficha do estabelecimento",
-     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2908309690506"
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2929100055646"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/21214372000190"
     ]
    ],
    "verificado": "16/11/2026",
-   "cnpj": "",
+   "cnpj": "21214372000190",
    "obs": "",
    "pts_modelo": 0,
    "pts_expansao": 0,
-   "pts_facil": 3,
-   "estrutura": "consultorio",
+   "pts_facil": 2,
+   "estrutura": "pequena",
    "compat_nivel": "media",
    "pts_contato": 6,
-   "nome": "Sorriso Clin",
-   "cidade": "Conceição do Almeida",
+   "nome": "Consultório Odontológico Dr Carolina Ribeiro",
+   "cidade": "São Felipe",
    "categoria": "D",
    "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
    "oportunidade": "Consultório individual, sem evidência de equipe ou contratação. Incluído por estar em cidade de prioridade máxima.",
    "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
    "abordagem": "Baixa prioridade: consultório individual. Abordar apenas para parceria por turno/diária ou cobertura de férias.",
-   "dist_km": 13,
+   "dist_km": 0,
    "situacao": "D — Baixa prioridade",
-   "instagram_busca": "https://www.google.com/search?q=instagram+Sorriso+Clin+Concei%C3%A7%C3%A3o+do+Almeida+BA+odontologia",
-   "linkedin_tipo": "busca",
-   "pontuacao": 40,
+   "instagram_busca": "https://www.google.com/search?q=instagram+Consult%C3%B3rio+Odontol%C3%B3gico+Dr+Carolina+Ribeiro+S%C3%A3o+Felipe+BA+odontologia",
+   "pontuacao": 43,
    "pontuacao_detalhe": {
     "Vaga/sinal de contratação (0–30)": 0,
     "Proximidade de São Felipe (0–20)": 20,
-    "Estrutura da clínica (0–15)": 3,
+    "Estrutura da clínica (0–15)": 7,
     "Compatibilidade com clínico geral (0–10)": 8,
     "Contato direto (0–10)": 6,
     "Diária/turno/produção (0–5)": 0,
     "Indícios de expansão (0–5)": 0,
-    "Facilidade de envio do currículo (0–5)": 3
+    "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 97
+   "ranking": 95
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Vereador João Delfino, 76 — Centro",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "—",
+   "socios": "Camila Alves Oliveira Souza",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Camila+Alves+Oliveira+Souza+odontologia",
+   "whatsapp": "",
+   "email": "",
+   "telefone": "(71) 99972-0940",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Revitalle+Santo+Ant%C3%B4nio+de+Jesus+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CNES/DataSUS — ficha do estabelecimento",
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2928704245741"
+    ],
+    [
+     "Receita Federal (CNPJ/QSA)",
+     "https://cnpja.com/office/50728945000100"
+    ]
+   ],
+   "verificado": "16/11/2026",
+   "cnpj": "50728945000100",
+   "obs": "",
+   "pts_modelo": 0,
+   "pts_expansao": 0,
+   "pts_facil": 2,
+   "estrutura": "pequena",
+   "compat_nivel": "media",
+   "pts_contato": 8,
+   "nome": "Revitalle",
+   "cidade": "Santo Antônio de Jesus",
+   "categoria": "D",
+   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
+   "oportunidade": "Consultório individual, sem evidência de equipe ou contratação. Incluído por estar em cidade de prioridade máxima.",
+   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
+   "abordagem": "Baixa prioridade: consultório individual. Abordar apenas para parceria por turno/diária ou cobertura de férias.",
+   "dist_km": 30,
+   "situacao": "D — Baixa prioridade",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Revitalle+Santo+Ant%C3%B4nio+de+Jesus+BA+odontologia",
+   "linkedin_tipo": "busca",
+   "pontuacao": 43,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 0,
+    "Proximidade de São Felipe (0–20)": 18,
+    "Estrutura da clínica (0–15)": 7,
+    "Compatibilidade com clínico geral (0–10)": 8,
+    "Contato direto (0–10)": 8,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 0,
+    "Facilidade de envio do currículo (0–5)": 2
+   },
+   "ranking": 96
   },
   {
    "rede": "Independente",
@@ -6080,7 +6024,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 98
+   "ranking": 97
   },
   {
    "rede": "Independente",
@@ -6138,7 +6082,7 @@
     "Indícios de expansão (0–5)": 0,
     "Facilidade de envio do currículo (0–5)": 2
    },
-   "ranking": 99
+   "ranking": 98
   },
   {
    "rede": "Independente",
@@ -6184,6 +6128,64 @@
    "dist_km": 0,
    "situacao": "D — Baixa prioridade",
    "instagram_busca": "https://www.google.com/search?q=instagram+Consult%C3%B3rio+Odontol%C3%B3gico+S%C3%A3o+Felipe+S%C3%A3o+Felipe+BA+odontologia",
+   "linkedin_tipo": "busca",
+   "pontuacao": 34,
+   "pontuacao_detalhe": {
+    "Vaga/sinal de contratação (0–30)": 0,
+    "Proximidade de São Felipe (0–20)": 20,
+    "Estrutura da clínica (0–15)": 3,
+    "Compatibilidade com clínico geral (0–10)": 8,
+    "Contato direto (0–10)": 2,
+    "Diária/turno/produção (0–5)": 0,
+    "Indícios de expansão (0–5)": 0,
+    "Facilidade de envio do currículo (0–5)": 1
+   },
+   "ranking": 99
+  },
+  {
+   "rede": "Independente",
+   "endereco": "Rua Antenogenes Melo, S/N — Centro",
+   "site": "Não localizado",
+   "instagram": "Não localizado",
+   "n_unidades": "1 (sem outras unidades identificadas)",
+   "data_vaga": "—",
+   "socios": "Titular (pessoa física no CNES): Crislene Andrade Borges Ambrosi",
+   "gestor": "Não identificado",
+   "linkedin": "https://www.linkedin.com/search/results/all/?keywords=Titular+odontologia",
+   "whatsapp": "",
+   "email": "",
+   "telefone": "",
+   "outros": [
+    [
+     "Google Maps",
+     "https://www.google.com/maps/search/?api=1&query=Sorriso+Clin+Concei%C3%A7%C3%A3o+do+Almeida+BA"
+    ]
+   ],
+   "fontes": [
+    [
+     "CNES/DataSUS — ficha do estabelecimento",
+     "https://cnes.datasus.gov.br/pages/estabelecimentos/ficha/index.jsp?coUnidade=2908309690506"
+    ]
+   ],
+   "verificado": "16/11/2026",
+   "cnpj": "",
+   "obs": "",
+   "pts_modelo": 0,
+   "pts_expansao": 0,
+   "pts_facil": 1,
+   "estrutura": "consultorio",
+   "compat_nivel": "media",
+   "pts_contato": 2,
+   "nome": "Sorriso Clin",
+   "cidade": "Conceição do Almeida",
+   "categoria": "D",
+   "perfil_equipe": "Consultório/clínica de pequeno porte (classificação CNES); nº de dentistas não confirmado.",
+   "oportunidade": "Consultório individual, sem evidência de equipe ou contratação. Incluído por estar em cidade de prioridade máxima.",
+   "compat": "Média — clínica local; clínico geral com exodontia e dentística atende a demanda típica.",
+   "abordagem": "Baixa prioridade: consultório individual. Abordar apenas para parceria por turno/diária ou cobertura de férias.",
+   "dist_km": 13,
+   "situacao": "D — Baixa prioridade",
+   "instagram_busca": "https://www.google.com/search?q=instagram+Sorriso+Clin+Concei%C3%A7%C3%A3o+do+Almeida+BA+odontologia",
    "linkedin_tipo": "busca",
    "pontuacao": 34,
    "pontuacao_detalhe": {
