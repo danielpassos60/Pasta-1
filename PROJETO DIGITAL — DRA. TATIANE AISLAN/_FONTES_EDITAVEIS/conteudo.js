@@ -937,6 +937,10 @@ const DESTAQUES = [
   { nome: 'Resultados', icone: 'resultados', conteudo: 'Casos reais com os elementos de antes e depois, SOMENTE com autorização escrita do paciente (CFO).' },
   { nome: 'Dúvidas', icone: 'duvidas', conteudo: 'Respostas da caixinha de perguntas (story 03), publicações 05, 10 e 15.' },
   { nome: 'Contato', icone: 'contato', conteudo: 'Story 10 (agendamento), endereço, horários e link do WhatsApp.' },
+  { nome: 'Facetas', icone: 'facetas', conteudo: 'Facetas em resina: como é o procedimento, cuidados e casos autorizados.' },
+  { nome: 'Cirurgias', icone: 'cirurgia', conteudo: 'Bastidores de cirurgias, orientações de pré e pós-operatório (publicações 10 e 20).' },
+  { nome: 'Siso', icone: 'siso', conteudo: 'Tudo sobre dentes do siso: quando extrair e cuidados (publicação 05).' },
+  { nome: 'Prevenção', icone: 'prevencao', conteudo: 'Dicas de escovação, fio dental, açúcar e autoexame (publicações 11, 17, 26 e 34).' },
 ];
 
 // ---------------------------------------------------------------------

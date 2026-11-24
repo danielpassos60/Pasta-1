@@ -211,6 +211,10 @@ const ICONES = {
   resultados: '<rect x="14" y="26" width="72" height="48" rx="2"/><path d="M50 26 L50 74"/><path d="M58 52 L64 58 L76 44"/>',
   duvidas: '<circle cx="50" cy="50" r="34"/><path d="M40 40 C40 32 46 28 51 28 C57 28 61 32 61 38 C61 46 51 46 51 56"/><circle cx="51" cy="66" r="1.6" fill="currentColor"/>',
   contato: '<path d="M18 26 L82 26 L82 66 L44 66 L30 78 L30 66 L18 66 Z"/><path d="M32 42 L68 42 M32 52 L56 52"/>',
+  facetas: '<path d="M30 40 C26 26 33 18 42 19 C46 20 48 22 50 22 C52 22 54 20 58 19 C67 18 74 26 70 40 C68 48 66 60 63 80 C61 84 57 82 56 76 C54 66 52 60 50 60 C48 60 46 66 44 76 C43 82 39 84 37 80 C34 60 32 48 30 40 Z"/><path d="M34 30 C40 24 60 24 66 30 C68 38 67 46 64 50 C56 54 44 54 36 50 C33 46 32 38 34 30 Z" stroke-dasharray="3 3"/>',
+  cirurgia: '<path d="M22 78 L60 40"/><path d="M60 40 L74 22 L80 28 L64 44 Z"/><path d="M28 72 L22 78 L20 84 L26 82 L32 76"/><path d="M56 70 L76 70 M66 60 L66 80" opacity=".6"/>',
+  siso: '<g transform="rotate(-32 50 50)"><path d="M32 44 C28 30 35 22 44 23 C48 24 50 26 51 26 C52 26 54 24 58 23 C67 22 74 30 70 44 C68 52 66 64 63 82 C62 86 58 85 57 80 C55 70 53 64 51 64 C49 64 47 70 45 80 C44 85 40 86 39 82 C36 64 34 52 32 44 Z"/></g><path d="M12 74 C34 66 66 66 88 74" stroke-dasharray="3 4"/>',
+  prevencao: '<path d="M50 14 L80 24 L80 48 C80 68 66 80 50 88 C34 80 20 68 20 48 L20 24 Z"/><path d="M38 44 C36 36 40 32 45 33 C47 33 49 35 50 35 C51 35 53 33 55 33 C60 32 64 36 62 44 C61 49 60 55 58 64 M38 44 C39 49 40 55 42 64"/>',
 };
 function destaque(d) {
   return htmlDoc(`<div style="width:1080px;height:1080px;background:${C.ardosia};display:flex;align-items:center;justify-content:center">
